@@ -1,0 +1,16 @@
+<div>
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <div style="display: flex; align-items:center; gap: 0.25rem;">
+
+    <a href="{{ .Get 1 }}" target="_blank" noreferrer noopener>   
+      {{ .Get 0 }}
+    </a>
+    <i data-feather="github"></i>
+  </div>
+
+  <script>
+    feather.replace({ 'width': 16, 'height': 16 })
+  </script>
+
+</div>

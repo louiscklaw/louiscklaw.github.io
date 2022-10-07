@@ -1,0 +1,21 @@
+@media (max-width: 2000px) {
+  .gdoc-columns {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .gdoc-columns__content {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .gdoc-columns {
+    display: block;
+    width: 100%;
+  }
+
+  .gdoc-columns__content {
+    width: 100%;
+  }
+}

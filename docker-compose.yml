@@ -1,0 +1,13 @@
+
+services:
+  hugo_dev:
+    image: logickee/hugo_dev
+    restart: always
+    volumes:
+      - $PWD:/app
+    working_dir: /app
+    ports:
+      - 1313:1313
+    user: 1000:1000
+    command: sleep infinity
+

@@ -1,0 +1,47 @@
+<div >
+    {{ $target_lang := .Get 0 }}
+
+    {{ $fa_documentation := "<i style=\"margin:0 5px 0 5px;\" class=\"fas fa-book\"></i>" }}
+    {{ $fa_link_outside := "<i style=\"margin:0 5px 0 5px;\" class=\"fas fa-external-link-alt\"></i>" }}
+
+    {{ $link_append_icons := printf "%s%s" $fa_documentation $fa_link_outside }}
+
+    {{ if eq $target_lang "kicad" }}
+        <img src="https://img.icons8.com/color/32/000000/circuit.png" style="box-shadow: 0 0px; margin-bottom: 0px; vertical-align: middle;">
+    {{ else }}
+        <img src="https://img.icons8.com/color/32/000000/{{ .Get 0}}.png" style="box-shadow: 0 0px; margin-bottom: 0px; vertical-align: middle;">
+
+    {{ end }}
+
+
+    {{ if eq $target_lang "python" }}
+        <a href="//www.python.org" target="_blank">python{{ $link_append_icons  |safeHTML }}</a>
+
+    {{else if eq $target_lang "perl"}}
+        <a href="//www.perl.org" target="_blank">perl{{ $link_append_icons  |safeHTML }}</a>
+
+    {{else if eq $target_lang "Jenkins"}}
+        <a href="//jenkins.io/doc" target="_blank">Jenkins{{ $link_append_icons  |safeHTML }}</a>
+
+    {{else if eq $target_lang "Docker"}}
+        <a href="//docs.docker.com" target="_blank">Docker{{ $link_append_icons  |safeHTML }}</a>
+
+    {{else if eq $target_lang "Slack"}}
+        <a href="//slack.com/intl/en-hk/features" target="_blank">Slack{{ $link_append_icons  |safeHTML }}</a>
+
+    {{else if eq $target_lang "raspberry-pi"}}
+        <a href="//www.raspberrypi.org/documentation/" target="_blank">raspberry-pi{{ $link_append_icons  |safeHTML }}</a>
+
+    {{else if eq $target_lang "kicad"}}
+        <a href="//docs.kicad-pcb.org/" target="_blank">kicad{{ $link_append_icons  |safeHTML }}</a>
+
+
+    {{else if eq $target_lang "ubuntu"}}
+        <a href="//ubuntu.com" target="_blank">ubuntu{{ $link_append_icons  |safeHTML }}</a>
+
+
+    {{ else }}
+        {{ errorf "Failed to handle page %q" $target_lang }}
+
+    {{ end }}
+</div>

@@ -1,0 +1,12 @@
+@media (max-width: 2000px) {
+  #menu {
+  }
+}
+
+@media (max-width: 400px) {
+  #menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

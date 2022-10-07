@@ -1,0 +1,31 @@
+@media (max-width: 2000px) {
+  .work-three-columns {
+    display: flex;
+    flex-flow: row;
+    padding: 1rem;
+  }
+
+  .work-three-columns__content {
+    flex-grow: 1;
+    padding: 1rem;
+    max-width: calc(100% / 3);
+  }
+
+  .work-three-columns__content:nth-child(1) {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .work-three-columns {
+    display: block;
+    width: 100%;
+  }
+
+  .work-three-columns__content {
+    max-width: 100%;
+    padding: 0;
+  }
+}

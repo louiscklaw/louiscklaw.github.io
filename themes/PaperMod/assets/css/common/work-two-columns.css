@@ -1,0 +1,30 @@
+@media (max-width: 2000px) {
+  .work-two-columns {
+    display: flex;
+    flex-flow: row;
+    padding: 1rem;
+  }
+
+  .work-two-columns__content {
+    flex-grow: 1;
+    padding: 1rem;
+    max-width: calc(100% / 2);
+  }
+
+  .work-two-columns__content:nth-child(1) {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .work-two-columns {
+    display: block;
+    width: 100%;
+  }
+
+  .work-two-columns__content {
+    max-width: 100%;
+  }
+}
