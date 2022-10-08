@@ -1,0 +1,4 @@
+.top-link {
+  background-color: gold;
+  left: calc((100vw - 42px) / 2);
+}

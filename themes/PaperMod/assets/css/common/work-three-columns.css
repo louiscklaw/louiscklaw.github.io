@@ -39,13 +39,33 @@
 }
 
 @media (max-width: 400px) {
+  article .breadcrumbs {
+    display: none;
+  }
+
   .work-three-columns {
     display: block;
     width: 100%;
   }
 
+  .work-three-columns h1 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
   .work-three-columns__content {
     max-width: 100%;
     padding: 0;
+    text-align: left;
+  }
+
+  .work-three-columns__content:nth-child(1) {
+    height: unset;
+    position: unset;
+    margin: 1rem 0;
+  }
+
+  .work-three-columns__content .post-description {
+    text-align: left;
   }
 }
