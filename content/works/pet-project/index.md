@@ -1,5 +1,5 @@
 ---
-title: opencv car counting
+title: pet project
 description: To count the number of cars passing by images only.
 date: '2019-05-02T19:47:09+02:00'
 jobDate: 2019
@@ -12,23 +12,19 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 
 {{< work-three-columns >}}
 
-### Purpose / description:
-
-    To count the number of cars passing by images only.
-    This project is craeted on top of the another github works work.
-
-### Technology :
-
-- python
-- docker
-- linux
-
-### repository :
-
-- https://github.com/louiscklaw/car_tracking_tryout
+![](./thumbnail.png)
 
 <---> <!-- magic separator, between columns -->
 
-{{< youtube 8P3VEGvMeTQ >}}
+### References / Repositories:
+
+louiscklaw/travis-playlist
+louiscklaw/gatsbyjs-playlist
+louiscklaw/python-playlist
+louiscklaw/firebase-playlist
+louiscklaw/docker-playlist
+louiscklaw/react-playlist
+louiscklaw/traefik-playlist
+louiscklaw/appium-playlist
 
 {{< /work-three-columns >}}
