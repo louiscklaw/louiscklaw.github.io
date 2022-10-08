@@ -104,6 +104,10 @@ body:not(.dark) #sun {
   .logo-left-spacer {
     display: none;
   }
+
+  .nav {
+    max-width: 95vw;
+  }
 }
 
 @media (max-width: 400px) {
@@ -112,9 +116,13 @@ body:not(.dark) #sun {
     display: flex;
     justify-content: space-between;
   }
+
   .left-logo-spacer {
     width: 24px;
     margin: auto 4px;
     display: block;
+  }
+
+  .nav {
   }
 }
