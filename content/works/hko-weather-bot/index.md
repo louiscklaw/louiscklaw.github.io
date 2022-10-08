@@ -12,7 +12,7 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 layout: works
 ---
 
-{{< work-three-columns >}}
+{{< short-work-three-columns >}}
 
 ![](./thumbnail.png)
 
@@ -30,4 +30,4 @@ References / Repositories:
 
 [Weather Information in eXtensible Markup Language (XML)](http://demo.xml.weather.gov.hk/V2/index.html)
 
-{{< /work-three-columns >}}
+{{< /short-work-three-columns >}}
