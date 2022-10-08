@@ -5,6 +5,21 @@
     padding: 1rem;
   }
 
+  .work-three-columns .first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .first-column .post-description {
+    text-align: center;
+  }
+
+  .first-column .post-meta {
+    display: block;
+    text-align: center;
+  }
+
   .work-three-columns__content {
     flex-grow: 1;
     padding: 1rem;
@@ -15,6 +30,11 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
+
+    height: 50vh;
+
+    position: sticky;
+    top: 10vh;
   }
 }
 

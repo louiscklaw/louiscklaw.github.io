@@ -8,6 +8,74 @@ techs: [appium, python, behave]
 thumbnail: android-testing-stack/android-testing-stack.svg
 projectUrl: https://www.sampleorganization.org
 draft: true
+layout: works
 ---
 
-### Testing pass sample
+{{< work-three-columns >}}
+
+### Purpose:
+
+to test mobile apps of hk observatory environment:
+
+- linux
+- appium
+- python 3.6.1, behave, python-appium-client
+
+### to setup:
+
+```bash
+$ pip install -r requirements.txt
+
+# to execute:
+
+$ virtualenv venv
+$ source venv/bin/activate
+```
+
+### install python libraries:
+
+```bash
+$ pip install -r requirements.txt
+
+# start appium -> connect to android / genymotion appium:
+
+$ python behave
+$ behave ./features/HKOApp_9DayForecast.feature
+```
+
+### stack on MAC machine:
+
+```bash
+$ brew cask install visual-studio-code
+$ brew install zsh-history-substring-search
+$ brew install zsh
+$ brew install zsh-lovers
+$ brew install zsh-autosuggestions
+$ brew install zsh-navigation-tools
+$ brew install zsh-completions
+$ brew install zsh-syntax-highlighting
+$ brew install zsh-git-prompt
+$ brew install zshdb
+$ brew install git-flow
+```
+
+<---> <!-- magic separator, between columns -->
+
+### Demo:
+
+##### passing example
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/Ce-v1zTHhwU" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+##### failing example
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uR8VLSwvf9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /work-three-columns >}}
