@@ -46,6 +46,7 @@
   .work-three-columns {
     display: block;
     width: 100%;
+    padding: 0 1rem;
   }
 
   .work-three-columns h1 {
