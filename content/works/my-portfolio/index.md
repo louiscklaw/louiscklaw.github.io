@@ -16,15 +16,37 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 
 <---> <!-- magic separator, between columns -->
 
+### Background information:
+
+This is my portfolio. This website contains my project information.
+
+
+### Build flow:
+
+explain development flow here Build -> Test -> Merge -> Deploy
+
+- Build
+- Test
+- visual regression test
+- Merge
+- Deploy
+
+```
+$ test/test.sh
+transverse to some key page of the site to get screenshot
+compare with the expected one(which is last accepted screenshot)
+if the error greater than threshold, regards as fail
+sample of visual regression test
+```
+
+### Some information:
+
+[https://louiscklaw.github.io/](https://louiscklaw.github.io/)
+
 ### References / Repositories:
 
-louiscklaw/travis-playlist
-louiscklaw/gatsbyjs-playlist
-louiscklaw/python-playlist
-louiscklaw/firebase-playlist
-louiscklaw/docker-playlist
-louiscklaw/react-playlist
-louiscklaw/traefik-playlist
-louiscklaw/appium-playlist
+[https://github.com/louiscklaw/portfolio-gatsby](https://github.com/louiscklaw/portfolio-gatsby)
+
+
 
 {{< /work-three-columns >}}
