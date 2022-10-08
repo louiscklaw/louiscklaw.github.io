@@ -10,6 +10,12 @@ thumbnail: linux-toolbox/Linux-Server-Toolbox-min.png
 projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 ---
 
+{{< work-three-columns >}}
+
+![](./thumbnail.png)
+
+<---> <!-- magic separator, between columns -->
+
 # linux toolbox
 
 - ack, entr, inotify-tools
@@ -18,4 +24,6 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 
 git@bitbucket.org:louiscklaw/linux_postinstall.git
 
-https://github.com/louiscklaw/archlinux_postinstall.git
+[https://github.com/louiscklaw/archlinux_postinstall.git](https://github.com/louiscklaw/archlinux_postinstall.git)
+
+{{< /work-three-columns >}}
