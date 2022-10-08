@@ -1,17 +1,21 @@
 ---
 title: Allwinner v3s tryout
-description: To count the number of cars passing by images only.
+description: This is a project of making embedded linux working on the double-layer pcb.
 date: 2019-05-02
 
 tags: ['opencv', 'python', 'docker']
 designs: [Photoshop]
 thumbnail: allwinner-v3s-tryout/IMG_20181226_162800.jpg
 projectUrl: https://github.com/louiscklaw/car_tracking_tryout
+
+layout: works
 ---
 
-This is a project of making embedded linux working on the double-layer pcb.
+{{< work-three-columns >}}
 
-<!-- more  -->
+![](./thumbnail.jpg)
+
+<---> <!-- magic separator, between columns -->
 
 ### this is a tryout of homemake embedded linux project using allwinner v3s chips inspired by
 
@@ -49,3 +53,5 @@ currently in progress, with the 2nd try
 ### Reference/Helpers
 
 - https://binefa.cat/blog/?p=80
+
+{{< /work-three-columns >}}
