@@ -1,7 +1,7 @@
 ---
 title: pet project
-description: To count the number of cars passing by images only.
-date: '2019-05-02T19:47:09+02:00'
+description: some pet project of me
+date: '2019-05-02'
 jobDate: 2019
 
 techs: [opencv, python, docker]
@@ -12,19 +12,16 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 
 {{< work-three-columns >}}
 
-![](./thumbnail.png)
-
-<---> <!-- magic separator, between columns -->
-
 ### References / Repositories:
 
-louiscklaw/travis-playlist
-louiscklaw/gatsbyjs-playlist
-louiscklaw/python-playlist
-louiscklaw/firebase-playlist
-louiscklaw/docker-playlist
-louiscklaw/react-playlist
-louiscklaw/traefik-playlist
-louiscklaw/appium-playlist
+[travis-playlist](https://github.com/louiscklaw/travis-playlist)
+[gatsbyjs-playlist](https://github.com/louiscklaw/gatsbyjs-playlist)
+[python-playlist](https://github.com/louiscklaw/python-playlist)
+[firebase-playlist](https://github.com/louiscklaw/firebase-playlist)
+[docker-playlist](https://github.com/louiscklaw/docker-playlist)
+[react-playlist](https://github.com/louiscklaw/react-playlist)
+[traefik-playlist](https://github.com/louiscklaw/traefik-playlist)
+[appium-playlist](https://github.com/louiscklaw/appium-playlist)
+[nextjs-playlist](https://github.com/louiscklaw/nextjs-playlist)
 
 {{< /work-three-columns >}}

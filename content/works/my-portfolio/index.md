@@ -1,13 +1,10 @@
 ---
-title: pet project
-description: To count the number of cars passing by images only.
-date: '2019-05-02T19:47:09+02:00'
+title: my portfolio
+description: To record the building of this portfolio
+date: '2019-05-02'
 jobDate: 2019
 
-techs: [opencv, python, docker]
-designs: [Photoshop]
-thumbnail: opencv-car-counting/hk_traffic.jpg
-projectUrl: https://github.com/louiscklaw/car_tracking_tryout
+tags: [react, javascript, portfolio]
 ---
 
 {{< work-three-columns >}}
@@ -19,7 +16,6 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 ### Background information:
 
 This is my portfolio. This website contains my project information.
-
 
 ### Build flow:
 
@@ -46,7 +42,5 @@ sample of visual regression test
 ### References / Repositories:
 
 [https://github.com/louiscklaw/portfolio-gatsby](https://github.com/louiscklaw/portfolio-gatsby)
-
-
 
 {{< /work-three-columns >}}
