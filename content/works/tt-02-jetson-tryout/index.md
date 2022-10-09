@@ -15,6 +15,6 @@ draft: true
 
 ### Notes:
 
-{{< github_link "github" "https://github.com/NVIDIA-AI-IOT/jetracer" >}}
+{{< github_link "https://github.com/NVIDIA-AI-IOT/jetracer"  "https://github.com/NVIDIA-AI-IOT/jetracer" >}}
 
 {{< /work-three-columns >}}
