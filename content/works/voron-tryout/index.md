@@ -1,9 +1,9 @@
 ---
-title: voron 3d printer tryout
-date: '2019-05-02T19:47:09+02:00'
+title: 3d printer tryout
+date: '2019-05-02'
 jobDate: 2019
 
-techs: [3d print, voron, makeing, maker]
+tags: [3d print, voron, makeing, maker]
 designs: [Photoshop]
 thumbnail: voron-tryout/IMG_20190207_220153.jpg
 projectUrl: https://github.com/louiscklaw/car_tracking_tryout
@@ -29,5 +29,11 @@ to build a opensource 3d printer named voron
 ### Parts library:
 
 [https://www.traceparts.com/](https://www.traceparts.com/)
+
+### Thanks to:
+
+lcd screen : [mainsail](https://github.com/mainsail-crew/mainsail)
+
+software [klipper](https://github.com/Klipper3d/klipper)
 
 {{< /work-three-columns >}}
