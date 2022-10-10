@@ -16,6 +16,11 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 
 <---> <!-- magic separator, between columns -->
 
+### 2022 update (using fedora)
+
+follow this list
+{{< github_link "https://github.com/louiscklaw/dotfiles/blob/test/linux/journals/install_fedora.md" "https://github.com/louiscklaw/dotfiles/blob/test/linux/journals/install_fedora.md">}}
+
 # linux toolbox
 
 - ack, entr, inotify-tools
