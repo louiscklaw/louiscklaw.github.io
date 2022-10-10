@@ -154,6 +154,11 @@ menu:
       url: /notes/
       weight: 40
 
+    - identifier: logseq
+      name: logseq
+      url: https://louiscklaw.github.io/logseq-helloworld/
+      weight: 50
+
     - identifier: search
       name: search
       url: /search/

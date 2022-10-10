@@ -13,7 +13,13 @@ draft: true
 
 <---> <!-- magic separator, between columns -->
 
-### BOM:
+### getting started
+
+#### jetson
+
+Getting Started with Jetson Nano Developer Kit
+
+### BOM/Resources:
 
 1. TT-02
 
