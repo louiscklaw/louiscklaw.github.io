@@ -19,7 +19,13 @@ draft: true
 
 1. nvidia jetson nano ?
 
+1. get TT-02 step file into repo
+
+1. get jetson step file into repo
+
 ### Notes:
+
+{{<  github_link "my_reo" "https://github.com/NVIDIA-AI-IOT/jetracer" >}}
 
 {{< github_link "https://github.com/NVIDIA-AI-IOT/jetracer"  "https://github.com/NVIDIA-AI-IOT/jetracer" >}}
 
