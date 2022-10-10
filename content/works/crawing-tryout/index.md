@@ -9,8 +9,6 @@ draft: true
 
 {{< work-three-columns >}}
 
-![](https://user-images.githubusercontent.com/4212806/67442981-ce459e00-f5b7-11e9-9c8a-14ab360decb8.gif)
-
 <---> <!-- magic separator, between columns -->
 
 ### BOM:
@@ -20,5 +18,7 @@ draft: true
 ### Notes:
 
 {{< github_link "github.com/louiscklaw/crawlee-playlist"  "github.com/louiscklaw/crawlee-playlist" >}}
+
+crawlab ?
 
 {{< /work-three-columns >}}

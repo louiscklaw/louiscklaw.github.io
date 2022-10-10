@@ -3,7 +3,7 @@ title: tt-02 jetson tryout / jetracer
 date: '2019-05-02'
 jobDate: 2019
 
-tags: [ai, nvidia, tamiya, tt-02, jetracer, AI, computer vision]
+tags: [ai, nvidia, tamiya, tt-02, jetracer, AI, computer vision, nvidia, 英伟达]
 draft: true
 ---
 
