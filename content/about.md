@@ -26,7 +26,6 @@ Cantonese, English, Mandarin, JavaScript
 - Web page scraping
 - github searching
 
-## this is louis
 
 <---> <!-- magic separator, between columns -->
 
