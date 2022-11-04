@@ -11,11 +11,6 @@ tags: ['portfolio']
 
 {{< work-three-columns >}}
 
-  <!-- begin columns block -->
-
-## this is louis
-
-<---> <!-- magic separator, between columns -->
 
 ### Languages
 
@@ -30,6 +25,11 @@ Cantonese, English, Mandarin, JavaScript
 - Some making/modeling
 - Web page scraping
 - github searching
+
+## this is louis
+
+<---> <!-- magic separator, between columns -->
+
 
 ### Other skills
 
