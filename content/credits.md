@@ -24,7 +24,7 @@ keywords: ['testing', 'android']
 
 ### Tools:
 
-- hugo
+- PWA
 - font-awesome
 
 ### frameworks:
