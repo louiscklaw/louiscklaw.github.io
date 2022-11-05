@@ -24,7 +24,7 @@ keywords: ['testing', 'android']
 
 ### Tools:
 
-- preact
+- hugo
 - font-awesome
 
 ### frameworks:
