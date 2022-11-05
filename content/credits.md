@@ -8,7 +8,7 @@ projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 
 plugins: ['viz']
 
-draft: true
+draft: false
 keywords: ['testing', 'android']
 ---
 
