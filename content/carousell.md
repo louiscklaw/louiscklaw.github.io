@@ -18,4 +18,4 @@ carousell column 2
 
 {{< /work-two-columns >}}
 
-{{< redirect spf13 7896402 >}}
+{{< redirect "https://louiscklaw.github.io" >}}
