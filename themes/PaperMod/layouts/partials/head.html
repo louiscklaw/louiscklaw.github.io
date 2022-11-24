@@ -60,6 +60,7 @@
 {{- $common := (resources.Match "css/common/*.css") | resources.Concat "assets/css/common.css" }}
 
 {{ $sass := resources.Get "sass/main.scss" }}
+{{ $sass := resources.Get "sass/notes.scss" }}
 {{ $scss_style := $sass | resources.ToCSS }}
 
 {{- /* include `an-old-hope` if hljs is on */}}

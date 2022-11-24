@@ -2,11 +2,18 @@
   .short-work {
     .work-three-columns__content:nth-child(2) {
       min-height: 50vh;
-
       display: flex;
       flex-direction: colum;
       justify-content: center;
       align-items: center;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .short-work {
+    .work-three-columns__content:nth-child(2) {
+      min-height: unset;
     }
   }
 }

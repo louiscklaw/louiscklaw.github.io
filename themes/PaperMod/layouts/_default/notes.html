@@ -1,67 +1,8 @@
 {{- define "main" }}
 
-<div style="
-  
-  display: flex;
-  flex-flow: row;
-  
-">
-  <div style="background-color: gold; width: 25%" >
-    {{ .Title }}
-    {{- if .Draft }}
-      <sup>
-        <span class="entry-isdraft">&nbsp;&nbsp;[draft]</span>
-      </sup>
-    {{- end }}
+<article class="post-single notes" >
+  <header class="post-header" >
 
-    {{- if .Description }}
-      <div class="post-description" >
-        {{ .Description }}
-      </div>
-    {{- end }}
-
-
-    <img src="https://img.kuizuo.cn/v2-45d641f2191559d4eff581d0607efd61_1440w.jpg" />
-  </div>
-
-  <div style=" width: 50%; opacity: 75%;" >
-    
-    {{- if .Content }}
-      <div class="post-content">
-        {{- if not (.Param "disableAnchoredHeadings") }}
-          {{- partial "anchored_headings.html" .Content -}}
-        {{- else }}
-          {{ .Content }}
-        {{ end }}
-      </div>
-    {{- end }}
-
-  
-  </div>
-
-  <div style="width: 25%" >
-
-  
-  </div>
-</div>
-
-<article class="post-single" >
-  <header class="post-header" 
-    style="
-      display: flex; 
-      flex-direction: column; 
-      justify-content: center;
-      align-items: center;
-    ">
-    {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title">
-      {{ .Title }}
-      {{- if .Draft }}
-        <sup>
-          <span class="entry-isdraft">&nbsp;&nbsp;[draft]</span>
-        </sup>
-      {{- end }}
-    </h1>
 
     {{- if .Description }}
       <div class="post-description" >
@@ -79,6 +20,7 @@
     {{- end }}
   </header>
 
+
   {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
   {{- if (.Param "ShowToc") }}
@@ -87,13 +29,59 @@
 
   {{- if .Content }}
     <div class="post-content">
-      {{- if not (.Param "disableAnchoredHeadings") }}
-        {{- partial "anchored_headings.html" .Content -}}
-      {{- else }}
-        {{ .Content }}
-      {{ end }}
+
+      <div class="notes" >
+
+        <div class="notes-left left" style="width: 25%" >
+          
+          <div class="left-elements">
+            {{ partial "breadcrumbs.html" . }}
+
+            <h1 class="post-title">
+              {{ .Title }}
+            </h1>
+            
+
+            {{- if .Description }}
+              <div class="post-description" >
+                {{ .Description }}
+              </div>
+            {{- end }}
+            
+            <img src="{{ .Params.banner }}" class="banner"/>
+          </div>  
+        </div>
+      
+        <div class="notes-mid mid" >
+          
+          
+          {{ partial "breadcrumbs.html" . }}
+
+          <h1 class="post-title">
+            {{ .Title }}
+          </h1>
+          
+
+
+          {{- if .Content }}
+              {{- if not (.Param "disableAnchoredHeadings") }}
+                {{- partial "anchored_headings.html" .Content -}}
+              {{- else }}
+                {{ .Content }}
+              {{ end }}
+          {{- end }}
+
+        </div>
+      
+        <div class="notes-right table-of-content right" >
+          <div class="title">Table of contents</div>
+          {{ .Page.TableOfContents }}
+        </div>
+      </div>
+
     </div>
   {{- end }}
+
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
