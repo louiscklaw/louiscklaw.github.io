@@ -53,15 +53,13 @@
         </div>
       
         <div class="notes-mid mid" >
-          
-          
+
+
           {{ partial "breadcrumbs.html" . }}
 
           <h1 class="post-title">
             {{ .Title }}
           </h1>
-          
-
 
           {{- if .Content }}
               {{- if not (.Param "disableAnchoredHeadings") }}

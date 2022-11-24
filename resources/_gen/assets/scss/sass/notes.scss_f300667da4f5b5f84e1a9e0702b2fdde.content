@@ -17,10 +17,15 @@
     display: flex;
     flex-flow: row;
     justify-content: space-between; }
+    .notes .left .left-elements {
+      position: sticky;
+      top: 10rem; }
     .notes .mid .post-title {
       display: none; }
     .notes .mid .breadcrumbs {
       display: none; }
+    .notes .mid .title-row {
+      background-color: green; }
   .notes-helloworld {
     background-color: gold; }
   .notes-left {
@@ -30,8 +35,6 @@
     opacity: 75%; }
     .notes-mid h1, .notes-mid h2, .notes-mid h3 {
       letter-spacing: 0.025rem; }
-    .notes-mid h1 {
-      background-color: gold; }
     .notes-mid h3 {
       padding-top: 1.5rem;
       padding-bottom: 0.5rem;
@@ -85,6 +88,10 @@
     .notes .mid {
       text-align: left;
       width: 100%; }
+      .notes .mid .post-title {
+        display: block; }
+      .notes .mid .breadcrumbs {
+        display: block; }
       .notes .mid h2 {
         text-align: left;
         padding-top: 2rem;

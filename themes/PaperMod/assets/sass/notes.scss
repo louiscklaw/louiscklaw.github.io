@@ -24,7 +24,11 @@
     display: flex; flex-flow: row; justify-content: space-between;
 
     .left {
-
+      .left-elements 
+      {
+        position: sticky;
+        top: 10rem;
+      }
 
     }
 
@@ -35,6 +39,10 @@
 
       .breadcrumbs {
         display: none;
+      }
+
+      .title-row{
+        background-color: green;
       }
     }
   }
@@ -54,13 +62,6 @@
     h1, h2, h3 {
 
       letter-spacing: 0.025rem;
-    }
-
-    h1 {
-      background-color: gold;
-    }
-
-    h2 {
     }
 
     h3 {
@@ -158,6 +159,14 @@
       text-align: left;
       width: 100%;
 
+
+      .post-title {
+        display:block;
+      }
+
+      .breadcrumbs {
+        display:block;
+      }
 
       h2 {
         text-align:left;
