@@ -149,10 +149,10 @@ menu:
       url: /credits/
       weight: 30
 
-    # - identifier: notes
-    #   name: notes
-    #   url: /notes/
-    #   weight: 40
+    - identifier: notes
+      name: notes
+      url: /notes/
+      weight: 40
 
     - identifier: logseq
       name: logseq
