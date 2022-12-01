@@ -193,3 +193,4 @@ security:
       - ^HUGO_
       - ^WC_
       - GITHUB_RUN_ID
+      - WHATSAPP_NUMBER
