@@ -18,5 +18,4 @@ helloworld
 
 {{< redir_whatsapp >}}
 
-<!-- {{< redirect "https://wa.me/85297307897?text=hi?" >}} -->
 
