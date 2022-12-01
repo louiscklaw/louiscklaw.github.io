@@ -22,6 +22,8 @@ jobs:
           # extended: true
 
       - name: Build
+        env: # Or as an environment variable
+          WHATSAPP_NUMBER: ${{ secrets.WHATSAPP_NUMBER }}
         run: hugo --minify
 
       - name: Deploy
