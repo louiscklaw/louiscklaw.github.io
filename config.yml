@@ -184,3 +184,12 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
+
+security:
+  funcs:
+    getenv:
+      - HOME
+      - HOSTNAME
+      - ^HUGO_
+      - ^WC_
+      - GITHUB_RUN_ID
