@@ -62,7 +62,9 @@
 {{ $sass := resources.Get "sass/main.scss" }}
 {{ $scss_style := $sass | resources.ToCSS }}
 
-{{ $sass := resources.Get "sass/notes.scss" }}
+{{ $sass_note := resources.Get "sass/notes.scss" }}
+{{ $scss_note_style := $sass_note | resources.ToCSS }}
+
 
 {{ $sass_about := resources.Get "sass/about.scss" }}
 {{ $scss_about_style := $sass_about | resources.ToCSS }}
@@ -82,6 +84,7 @@
   $includes_all 
   $scss_style
   $scss_about_style
+  $scss_note_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
