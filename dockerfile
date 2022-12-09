@@ -12,8 +12,8 @@ RUN apt update &&\
 # https://github.com/gohugoio/hugo/releases
 
 RUN cd /tmp &&\
-  wget https://github.com/gohugoio/hugo/releases/download/v0.103.1/hugo_0.103.1_linux-amd64.deb &&\
-  apt install -qyy ./hugo_0.103.1_linux-amd64.deb
+  wget https://github.com/gohugoio/hugo/releases/download/v0.103.1/hugo_extended_0.103.1_linux-amd64.deb  &&\
+  apt install -qyy ./hugo_extended_0.103.1_linux-amd64.deb 
 
 RUN apt update &&\
   apt-get install -qyy entr

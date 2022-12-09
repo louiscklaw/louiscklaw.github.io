@@ -60,10 +60,14 @@
 {{- $common := (resources.Match "css/common/*.css") | resources.Concat "assets/css/common.css" }}
 
 {{ $sass := resources.Get "sass/main.scss" }}
-{{ $sass := resources.Get "sass/notes.scss" }}
-{{ $sass := resources.Get "sass/about.scss" }}
-<!-- {{ $sass := resources.Get "sass/footer.scss" }} -->
 {{ $scss_style := $sass | resources.ToCSS }}
+
+{{ $sass := resources.Get "sass/notes.scss" }}
+
+{{ $sass_about := resources.Get "sass/about.scss" }}
+{{ $scss_about_style := $sass_about | resources.ToCSS }}
+
+<!-- {{ $sass := resources.Get "sass/footer.scss" }} -->
 
 {{- /* include `an-old-hope` if hljs is on */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default false) }}
@@ -77,6 +81,7 @@
   $hljs 
   $includes_all 
   $scss_style
+  $scss_about_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 

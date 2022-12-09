@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: colum;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+  .about_helloworld {
+    background-color: gold; } }
 
 @media (max-width: 1024px) {
   .short-work .work-three-columns__content:nth-child(2) {
@@ -12,4 +14,6 @@
 
 @media (max-width: 400px) {
   .short-work .work-three-columns__content:nth-child(2) {
-    min-height: unset; } }
+    min-height: unset; }
+  .about_helloworld {
+    background-color: red; } }
