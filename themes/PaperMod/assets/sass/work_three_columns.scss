@@ -36,13 +36,10 @@
     position: sticky;
     top: 10vh;
   }
+
 }
 
-@media (max-width: 400px) {
-  article .breadcrumbs {
-    display: none;
-  }
-
+@media (max-width: 450px) {
   .work-three-columns {
     display: block;
     width: 100%;
@@ -69,4 +66,9 @@
   .work-three-columns__content .post-description {
     text-align: left;
   }
+
+  article .breadcrumbs {
+    display: none;
+  }
+
 }

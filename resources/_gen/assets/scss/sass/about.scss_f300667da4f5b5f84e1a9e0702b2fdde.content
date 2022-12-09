@@ -1,7 +1,0 @@
-@media (max-width: 2000px) {
-  .about_helloworld {
-    background-color: gold; } }
-
-@media (max-width: 400px) {
-  .about_helloworld {
-    background-color: red; } }

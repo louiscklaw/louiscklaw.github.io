@@ -8,9 +8,6 @@
       align-items: center;
     }
   }
-  .about_helloworld {
-    background-color: gold;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -22,13 +19,10 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .short-work {
     .work-three-columns__content:nth-child(2) {
       min-height: unset;
     }
-  }
-  .about_helloworld {
-    background-color: red;
   }
 }

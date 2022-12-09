@@ -72,7 +72,7 @@
   .notes .table-of-content h3 {
     background-color: gold; } }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .post-header {
     padding-top: 1rem;
     display: flex;

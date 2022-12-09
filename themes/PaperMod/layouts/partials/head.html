@@ -65,9 +65,14 @@
 {{ $sass_note := resources.Get "sass/notes.scss" }}
 {{ $scss_note_style := $sass_note | resources.ToCSS }}
 
-
 {{ $sass_about := resources.Get "sass/about.scss" }}
 {{ $scss_about_style := $sass_about | resources.ToCSS }}
+
+{{ $sass_work_three_columns := resources.Get "sass/work_three_columns.scss" }}
+{{ $scss_work_three_columns_style := $sass_work_three_columns | resources.ToCSS }}
+
+{{ $sass_qr_img := resources.Get "sass/qr_img.scss" }}
+{{ $scss_qr_img_style := $sass_qr_img | resources.ToCSS }}
 
 <!-- {{ $sass := resources.Get "sass/footer.scss" }} -->
 
@@ -85,6 +90,8 @@
   $scss_style
   $scss_about_style
   $scss_note_style
+  $scss_work_three_columns_style
+  $scss_qr_img_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
