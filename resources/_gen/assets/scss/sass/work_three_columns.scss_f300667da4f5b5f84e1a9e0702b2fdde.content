@@ -22,9 +22,15 @@
     justify-content: center;
     height: 50vh;
     position: sticky;
-    top: 10vh; } }
+    top: 10vh; }
+  .pay .hide-from-mobile {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; } }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .work-three-columns {
     display: block;
     width: 100%;
