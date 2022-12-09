@@ -1,6 +1,7 @@
 services:
   hugo_dev:
-    image: logickee/hugo_dev
+    # image: logickee/hugo_dev
+    build: .
 
     restart: always
 

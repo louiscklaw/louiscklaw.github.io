@@ -8,7 +8,9 @@
       align-items: center;
     }
   }
-
+  .about_helloworld {
+    background-color: gold;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -17,6 +19,7 @@
       min-height: unset;
     }
   }
+
 }
 
 @media (max-width: 400px) {
@@ -25,5 +28,7 @@
       min-height: unset;
     }
   }
-
+  .about_helloworld {
+    background-color: red;
+  }
 }
