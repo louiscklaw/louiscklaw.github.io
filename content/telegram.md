@@ -1,7 +1,7 @@
 ---
-layout: 'about'
+layout: 'redirect_page'
 
-title: carousell landing page
+title: connect to telegram...
 date: '2019-05-02'
 jobDate: 2019
 
