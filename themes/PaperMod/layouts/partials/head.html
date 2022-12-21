@@ -74,6 +74,9 @@
 {{ $sass_qr_img := resources.Get "sass/qr_img.scss" }}
 {{ $scss_qr_img_style := $sass_qr_img | resources.ToCSS }}
 
+{{ $sass_connections := resources.Get "sass/connections.scss" }}
+{{ $scss_connections_style := $sass_connections | resources.ToCSS }}
+
 <!-- {{ $sass := resources.Get "sass/footer.scss" }} -->
 
 {{- /* include `an-old-hope` if hljs is on */}}
@@ -92,6 +95,7 @@
   $scss_note_style
   $scss_work_three_columns_style
   $scss_qr_img_style
+  $scss_connections_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 

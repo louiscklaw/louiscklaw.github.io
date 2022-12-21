@@ -10,8 +10,11 @@ draft: false
 
 connect with me ~
 
+<div>
+  <a href="/whatsapp">whatsapp</a>
+</div>
 
-[whatsapp](/whatsapp)
+
 [telegram](/telegram)
 [discord](/discord)
 

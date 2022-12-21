@@ -1,7 +1,7 @@
 {{- define "main" }}
 
 <article class="post-single">
-  <header class="post-header about_helloworld" 
+  <header class="post-header connections_helloworld" 
     style="
       display: flex; 
       flex-direction: column; 
@@ -15,7 +15,9 @@
       {{ .Title }}
       {{- if .Draft }}
         <sup>
-          <span class="entry-isdraft">&nbsp;&nbsp;[draft]</span>
+          <span class="entry-isdraft">
+            &nbsp;&nbsp;[draft]
+          </span>
         </sup>
       {{- end }}
     </h1>

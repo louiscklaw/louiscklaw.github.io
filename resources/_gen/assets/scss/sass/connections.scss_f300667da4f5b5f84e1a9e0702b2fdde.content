@@ -1,0 +1,11 @@
+@media (max-width: 2000px) {
+  .connections_helloworld {
+    background-color: gold; } }
+
+@media (max-width: 1024px) {
+  .connections_helloworld {
+    background-color: cyan; } }
+
+@media (max-width: 450px) {
+  .connections_helloworld {
+    background-color: red; } }
