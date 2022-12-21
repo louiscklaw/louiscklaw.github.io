@@ -6,9 +6,10 @@ draft: false
 layout: pay
 ---
 
-{{< work-three-columns >}}
 
-{{< hide_from_mobile >}}
+{{< pay-work-three-columns >}}
+
+{{< show_desktop >}}
 
   ## 真係非常多謝
 
@@ -18,24 +19,24 @@ layout: pay
 
   ## 非常感謝您
 
-{{< /hide_from_mobile >}}
+{{< /show_desktop >}}
 
-{{< show_from_mobile >}}
+{{< show_mobile >}}
 
   ## thank you very much
   ## 真係非常多謝
 
-{{< /show_from_mobile >}}
+{{< /show_mobile >}}
 
 <--->
 
-{{< hide_from_mobile >}}
-
+{{< show_desktop >}}
   <div class="qr-img" style="background-image: url('./paycode.jpg'); "></div>
 
-{{< /hide_from_mobile >}}
+{{< /show_desktop >}}
 
-{{< show_from_mobile >}}
+
+{{< show_mobile >}}
 
   <div id="payme-button" class="qr-img" style="background-image: url('./paycode.jpg'); "></div>
 
@@ -45,11 +46,10 @@ layout: pay
     });
   </script>
 
-{{< /show_from_mobile >}}
-
+{{< /show_mobile >}}
 
 <--->
 
 <div class="qr-img" style="background-image: url('./alipay.jpg'); "></div>
 
-{{< /work-three-columns >}}
+{{< /pay-work-three-columns >}}

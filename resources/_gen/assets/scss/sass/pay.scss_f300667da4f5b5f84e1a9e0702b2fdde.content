@@ -1,4 +1,12 @@
+@media (max-width: 2000px) {
+  .show-mobile {
+    display: none; } }
+
 @media (max-width: 450px) {
-  .hide-from-mobile {
-    background-color: gold;
-    display: none !important; } }
+  .show-desktop {
+    display: none; }
+  .show-mobile {
+    display: block; } }
+
+.qr-image {
+  width: auto; }

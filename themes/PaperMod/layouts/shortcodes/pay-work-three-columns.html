@@ -1,0 +1,10 @@
+<div  class="work-three-columns">
+  {{ range split .Inner "<--->" }}
+    <div 
+      class="work-three-columns__content" 
+      >
+      {{ . | $.Page.RenderString  }}
+    </div>
+  {{ end }}
+
+</div>
