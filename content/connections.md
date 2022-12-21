@@ -14,3 +14,5 @@ connect with me ~
 [whatsapp](/whatsapp)
 [telegram](/telegram)
 [discord](/discord)
+[skype](/skype)
+[google_meet](/google_meet)
