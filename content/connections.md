@@ -11,50 +11,29 @@ draft: false
 
 <div class="connection-list">
   <div>
-    <a class="listing-item connection-link" href="/whatsapp">
+    <a class="listing-item " href="/whatsapp">
       <div 
-        class="connection-icon" 
-        style="
-          background-image: url('/images/whatsapp.svg');
-          background-size: contain;
-          background-position: center;
-          background-repeat: no-repeat;
-          "
-        ></div>
-      <div>
+        class="connection-icon whatsapp-icon"></div>
+      <div class="connection-text">
         whatsapp
       </div>
     </a>
   </div>
   <div>
-    <a class="listing-item connection-link" href="/telegram">
+    <a class="listing-item " href="/telegram">
       <div 
-        class="connection-icon" 
-        style="
-          background-image: url('/images/telegram.svg');
-          background-size: contain;
-          background-position: center;
-          background-repeat: no-repeat;
-        "
-        ></div>
-      <div>
+        class="connection-icon telegram-icon"></div>
+      <div class="connection-text">
         telegram
       </div>
     </a>
   </div>
 
   <div>
-    <a class="listing-item connection-link" href="/discord">
+    <a class="listing-item " href="/discord">
       <div 
-        class="connection-icon" 
-        style="
-          background-image: url('/images/discord.svg');
-          background-size: contain;
-          background-position: center;
-          background-repeat: no-repeat;
-        "
-        ></div>
-      <div>
+        class="connection-icon discord-icon" ></div>
+      <div class="connection-text">
         discord
       </div>
     </a>
