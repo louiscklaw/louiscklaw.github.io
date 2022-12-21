@@ -1,5 +1,9 @@
 <script>
-  console.debug('themes/PaperMod/layouts/shortcodes/redirect.html')
   console.debug({o_location: window.location})
-  window.location.replace("{{ .Get 0 }}");
+
+  if ({{ .Get 0 }}){
+    window.location.replace("{{ .Get 0 }}");
+  } else{
+    console.error('redirect link is empty')
+  }
 </script>
