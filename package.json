@@ -8,7 +8,8 @@
     "docker_rebuild": "docker compose up -d",
     "into_docker": "docker compose exec -it hugo_dev bash",
     "clean": "rm -rf public .hugo_build.lock resources",
-    "prettier_file": "prettier --write ./content"
+    "prettier_file": "prettier --write ./content",
+    "goGithubRepo":"firefox https://github.com/louiscklaw/louiscklaw.github.io"
   },
   "keywords": [],
   "author": "",
