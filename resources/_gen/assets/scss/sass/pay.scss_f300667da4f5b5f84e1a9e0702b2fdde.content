@@ -1,0 +1,4 @@
+@media (max-width: 450px) {
+  .hide-from-mobile {
+    background-color: gold;
+    display: none !important; } }

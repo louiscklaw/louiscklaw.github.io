@@ -84,6 +84,9 @@
 {{ $sass_footer := resources.Get "sass/footer.scss" }}
 {{ $scss_footer_style := $sass_footer | resources.ToCSS }}
 
+{{ $sass_pay := resources.Get "sass/pay.scss" }}
+{{ $scss_pay_style := $sass_pay | resources.ToCSS }}
+
 
 {{- /* include `an-old-hope` if hljs is on */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default false) }}
@@ -104,6 +107,7 @@
   $scss_connections_style
   $scss_redirect_page_style
   $scss_footer_style
+  $scss_pay_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
