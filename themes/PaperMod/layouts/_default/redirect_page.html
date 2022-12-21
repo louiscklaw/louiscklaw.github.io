@@ -6,6 +6,8 @@
         <div>re-directing, </div><div>please wait....</div>
       </div>
     </div>
+
+    {{ .Content }}
   
     {{- if (.Param "comments") }}
       {{- partial "comments.html" . }}

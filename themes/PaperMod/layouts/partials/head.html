@@ -80,7 +80,10 @@
 {{ $sass_redirect_page := resources.Get "sass/redirect_page.scss" }}
 {{ $scss_redirect_page_style := $sass_redirect_page | resources.ToCSS }}
 
-<!-- {{ $sass := resources.Get "sass/footer.scss" }} -->
+
+{{ $sass_footer := resources.Get "sass/footer.scss" }}
+{{ $scss_footer_style := $sass_footer | resources.ToCSS }}
+
 
 {{- /* include `an-old-hope` if hljs is on */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default false) }}
@@ -100,6 +103,7 @@
   $scss_qr_img_style
   $scss_connections_style
   $scss_redirect_page_style
+  $scss_footer_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 

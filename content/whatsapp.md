@@ -10,4 +10,4 @@ draft: false
 
 redirecting you to whatsapp 
 
-<!-- {{< redirWhatsapp  >}} -->
+{{< redirWhatsapp  >}}

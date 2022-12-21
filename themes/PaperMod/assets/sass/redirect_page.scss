@@ -5,12 +5,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
-      
+
       .center-context {
-
         height: 100%;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -18,20 +15,16 @@
 
         .center-text {
           font-size: xx-large;
-          
           display: flex;
           flex-direction: row;
-          
+
           div:nth-child(2) {
             padding-left: 1rem;
           }
+
         }
-
-        
       }
-
   }
-
 }
 
 @media (max-width: 1024px) {
