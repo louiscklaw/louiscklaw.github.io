@@ -194,3 +194,5 @@ security:
       - ^WC_
       - GITHUB_RUN_ID
       - WHATSAPP_NUMBER
+      - TELEGRAM_LINK
+      - DISCORD_LINK
