@@ -1,3 +1,8 @@
 <script>
-  window.location.replace('{{ getenv "DISCORD_LINK" }}');
+  if ('{{ getenv "DISCORD_LINK" }}' != ''){
+
+    window.location.replace('{{ getenv "DISCORD_LINK" }}');
+  }else{
+    console.log('"DISCORD_LINK" is empty')
+  }
 </script>
