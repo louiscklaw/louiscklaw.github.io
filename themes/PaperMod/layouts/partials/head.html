@@ -77,6 +77,9 @@
 {{ $sass_connections := resources.Get "sass/connections.scss" }}
 {{ $scss_connections_style := $sass_connections | resources.ToCSS }}
 
+{{ $sass_redirect_page := resources.Get "sass/redirect_page.scss" }}
+{{ $scss_redirect_page_style := $sass_redirect_page | resources.ToCSS }}
+
 <!-- {{ $sass := resources.Get "sass/footer.scss" }} -->
 
 {{- /* include `an-old-hope` if hljs is on */}}
@@ -96,6 +99,7 @@
   $scss_work_three_columns_style
   $scss_qr_img_style
   $scss_connections_style
+  $scss_redirect_page_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
