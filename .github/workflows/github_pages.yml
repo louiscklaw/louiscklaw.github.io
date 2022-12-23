@@ -24,6 +24,8 @@ jobs:
       - name: Build
         env: # Or as an environment variable
           WHATSAPP_NUMBER: ${{ secrets.WHATSAPP_NUMBER }}
+          TELEGRAM_LINK: ${{ secrets.TELEGRAM_LINK }}
+          DISCORD_LINK: ${{ secrets.DISCORD_LINK }}
         run: hugo --minify
 
       - name: Deploy
