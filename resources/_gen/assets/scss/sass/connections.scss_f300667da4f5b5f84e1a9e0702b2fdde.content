@@ -67,3 +67,9 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
+
+.skype-icon {
+  background-image: url("/images/skype.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }

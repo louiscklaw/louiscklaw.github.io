@@ -26,6 +26,7 @@ jobs:
           WHATSAPP_NUMBER: ${{ secrets.WHATSAPP_NUMBER }}
           TELEGRAM_LINK: ${{ secrets.TELEGRAM_LINK }}
           DISCORD_LINK: ${{ secrets.DISCORD_LINK }}
+          SKYPE_LINK: ${{ secrets.SKYPE_LINK }}
         run: hugo --minify
 
       - name: Deploy

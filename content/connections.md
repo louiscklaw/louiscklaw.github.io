@@ -39,4 +39,14 @@ draft: false
     </a>
   </div>
 
+  <div>
+    <a class="listing-item " href="/skype">
+      <div 
+        class="connection-icon skype-icon" ></div>
+      <div class="connection-text">
+        discord
+      </div>
+    </a>
+  </div>
+
 </div>
