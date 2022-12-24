@@ -1,6 +1,7 @@
-const frame_rate = 1;
-const unitLength = 140;
-const img_length = 100;
+const frame_rate = 0.5;
+
+const img_length = 20 + (20 * getRandomInt(5));
+const unitLength = img_length + 10;
 
 let boxColor = 255;
 let strokeColor = 50;
@@ -96,11 +97,13 @@ function setup() {
   console.log("setup");
   frameRate(frame_rate);
 
-  const canvas = createCanvas(windowWidth, windowHeight);
+  const canvas = createCanvas(windowWidth + 600, windowHeight + 600);
   canvas.parent(document.querySelector("#canvas"));
 
-  columns = floor(width / unitLength) + 1;
-  rows = floor(height / unitLength) + 1;
+  columns = floor((width ) / unitLength) + 90;
+  rows = floor(height / unitLength) + 90;
+
+  console.log({setup:{columns, rows}})
 
   o_currentBoard = [];
   o_nextBoard = [];
@@ -120,6 +123,9 @@ function draw() {
   // background(255);
 
   generate();
+
+  console.log({draw:{columns, rows}})
+
   for (let i = 0; i < columns; i++) {
     for (let j = 0; j < rows; j++) {
       fill(boxColor);
