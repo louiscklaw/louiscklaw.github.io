@@ -2,20 +2,14 @@ services:
   hugo_dev:
     # image: logickee/hugo_dev
     build: .
-
     restart: always
-
     volumes:
       - .:/app
       - node_modules:/app/node_modules
-
     working_dir: /app
-
     ports:
       - 1313:1313
-
     # user: 1000:1000
-
     command: sleep infinity
 
 volumes:

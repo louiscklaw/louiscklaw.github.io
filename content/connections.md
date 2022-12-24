@@ -44,7 +44,7 @@ draft: false
       <div 
         class="connection-icon skype-icon" ></div>
       <div class="connection-text">
-        discord
+        skype
       </div>
     </a>
   </div>
