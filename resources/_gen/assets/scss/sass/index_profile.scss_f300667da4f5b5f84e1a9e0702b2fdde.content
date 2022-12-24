@@ -1,0 +1,11 @@
+@media (max-width: 2000px) {
+  .profile {
+    background-color: gold; } }
+
+@media (max-width: 1024px) {
+  .profile {
+    background-color: gold; } }
+
+@media (max-width: 450px) {
+  .profile {
+    background-color: gold; } }
