@@ -27,6 +27,7 @@ jobs:
           TELEGRAM_LINK: ${{ secrets.TELEGRAM_LINK }}
           DISCORD_LINK: ${{ secrets.DISCORD_LINK }}
           SKYPE_LINK: ${{ secrets.SKYPE_LINK }}
+          LINK_GITHUB: ${{ secrets.LINK_GITHUB }}
         run: hugo --minify
 
       - name: Deploy

@@ -1,21 +1,21 @@
 ---
 layout: 'redirect_page'
 
-title: connect to discord...
+title: connect to GITHUB...
 date: '2019-05-02'
 jobDate: 2019
 
 draft: false
 ---
 
-redirecting you to Skype 
+redirecting you to GITHUB 
 
 <script>
-  if ('{{ getenv "SKYPE_LINK" }}' != ''){
+  if ('{{ getenv "GITHUB_LINK" }}' != ''){
 
-    window.location.replace('{{ getenv "SKYPE_LINK" }}');
+    window.location.replace('{{ getenv "GITHUB_LINK" }}');
   }else{
-    console.log('"SKYPE_LINK" is empty')
+    console.log('"GITHUB_LINK" is empty')
   }
 </script>
 

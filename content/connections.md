@@ -49,4 +49,14 @@ draft: false
     </a>
   </div>
 
+  <div>
+    <a class="listing-item " href="/github">
+      <div 
+        class="connection-icon icon-settings github-icon" style="background-image: url('/images/github.svg')"></div>
+      <div class="connection-text">
+        github
+      </div>
+    </a>
+  </div>
+
 </div>
