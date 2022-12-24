@@ -12,8 +12,8 @@ draft: false
 <div class="connection-list">
   <div>
     <a class="listing-item " href="/whatsapp">
-      <div 
-        class="connection-icon whatsapp-icon"></div>
+      <div class="connection-icon icon-settings discord-icon" style="background-image: url('/images/whatsapp.svg')">
+      </div>
       <div class="connection-text">
         whatsapp
       </div>
@@ -21,8 +21,8 @@ draft: false
   </div>
   <div>
     <a class="listing-item " href="/telegram">
-      <div 
-        class="connection-icon telegram-icon"></div>
+      <div class="connection-icon icon-settings discord-icon" style="background-image: url('/images/telegram.svg')">
+      </div>
       <div class="connection-text">
         telegram
       </div>
@@ -31,8 +31,8 @@ draft: false
 
   <div>
     <a class="listing-item " href="/discord">
-      <div 
-        class="connection-icon discord-icon" ></div>
+      <div class="connection-icon icon-settings discord-icon" style="background-image: url('/images/discord.svg')">
+      </div>
       <div class="connection-text">
         discord
       </div>
@@ -42,7 +42,7 @@ draft: false
   <div>
     <a class="listing-item " href="/skype">
       <div 
-        class="connection-icon skype-icon" ></div>
+        class="connection-icon icon-settings github-icon" style="background-image: url('/images/skype.svg')"></div>
       <div class="connection-text">
         skype
       </div>
