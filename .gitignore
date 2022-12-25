@@ -1,5 +1,6 @@
 **/*.del
 public
+resources/_gen
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/node

@@ -90,6 +90,9 @@
 {{ $sass_baseof := resources.Get "sass/baseof.scss" }}
 {{ $scss_baseof_style := $sass_baseof | resources.ToCSS }}
 
+{{ $sass_header := resources.Get "sass/header.scss" }}
+{{ $scss_header_style := $sass_header | resources.ToCSS }}
+
 {{- /* include `an-old-hope` if hljs is on */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default false) }}
 {{- $hljs := (cond ($isHLJSdisabled) (".chroma { background-color: unset !important;}" | resources.FromString "assets/css/hljs-blank.css") (resources.Get "css/hljs/an-old-hope.min.css")) }}
@@ -111,6 +114,7 @@
   $scss_footer_style
   $scss_pay_style
   $scss_baseof_style
+  $scss_header_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
