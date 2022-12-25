@@ -96,26 +96,36 @@ function generate() {
 }
 
 function setup() {
-  console.log("setup");
-  frameRate(frame_rate);
+  console.log({ canvas_src: { windowWidth, windowHeight } });
 
-  const canvas = createCanvas(windowWidth + 600, windowHeight + 600);
-  canvas.parent(document.querySelector("#canvas"));
+  if (windowWidth > 400 && windowHeight > 900) {
+    // assume tablet or desktop
 
-  columns = floor((width ) / unitLength) + 90;
-  rows = floor(height / unitLength) + 90;
+    console.log('setup');
+    frameRate(frame_rate);
 
-  console.log({setup:{columns, rows}})
+    const canvas = createCanvas(windowWidth + 600, windowHeight + 600);
+    canvas.parent(document.querySelector('#canvas'));
 
-  o_currentBoard = [];
-  o_nextBoard = [];
+    columns = floor(width / unitLength) + 90;
+    rows = floor(height / unitLength) + 90;
 
-  for (let i = 0; i < columns; i++) {
-    o_currentBoard[i] = [];
-    o_nextBoard[i] = [];
+    console.log({ setup: { columns, rows } });
+
+    o_currentBoard = [];
+    o_nextBoard = [];
+
+    for (let i = 0; i < columns; i++) {
+      o_currentBoard[i] = [];
+      o_nextBoard[i] = [];
+    }
+
+    init(); // Set the initial values of the currentBoard and nextBoard
+  } else {
+    // assume mobile
+    frameRate(1 / 999999);
   }
 
-  init(); // Set the initial values of the currentBoard and nextBoard
 }
 
 let skip = 0;
