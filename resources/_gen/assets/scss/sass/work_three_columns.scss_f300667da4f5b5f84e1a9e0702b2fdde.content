@@ -20,9 +20,11 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
-    height: 50vh;
     position: sticky;
     top: 10vh; }
+  .work-three-columns__content:nth-child(2) {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .pay .hide-from-mobile {
     height: 100%;
     display: flex;

@@ -10,19 +10,19 @@ context('Actions', () => {
 
   it('portfolio-desktop-render', () => {
     cy.viewport(1920, 1080);
-    cy.wait(5 * 1000);
+    cy.wait(1 * 1000);
     cy.screenshot({ capture: 'runner', overwrite: true });
   });
 
   it('portfolio-tablet-render', () => {
     cy.viewport(810, 1080);
-    cy.wait(5 * 1000);
+    cy.wait(1 * 1000);
     cy.screenshot({ capture: 'runner', overwrite: true });
   });
 
   it('portfolio-mobile-render', () => {
     cy.viewport('iphone-x');
-    cy.wait(5 * 1000);
+     cy.wait(1 * 1000);
     cy.screenshot({ capture: 'viewport', overwrite: true });
   });
 });

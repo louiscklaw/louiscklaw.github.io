@@ -3,12 +3,16 @@
     display: flex;
     flex-flow: row;
     padding: 1rem;
+
+    
   }
 
   .work-three-columns .first-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    
   }
 
   .first-column .post-description {
@@ -24,6 +28,7 @@
     flex-grow: 1;
     padding: 1rem;
     max-width: calc(100% / 3);
+
   }
 
   .work-three-columns__content:nth-child(1) {
@@ -31,11 +36,17 @@
     flex-flow: column;
     justify-content: center;
 
-    height: 50vh;
+    // height: 50vh;
 
     position: sticky;
     top: 10vh;
   }
+
+  .work-three-columns__content:nth-child(2){
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
 
   .pay  {
     .hide-from-mobile {
