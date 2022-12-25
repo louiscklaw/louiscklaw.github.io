@@ -1,6 +1,7 @@
 services:
   hugo_dev:
     # image: logickee/hugo_dev
+    hostname: hugo_dev
     build: .
     restart: always
     volumes:
@@ -11,6 +12,23 @@ services:
       - 1313:1313
     # user: 1000:1000
     command: sleep infinity
+
+
+  cypress:
+    image: cypress/included:12.1.0
+    # build: tests/cypress/.
+    restart: always
+    volumes:
+      - $PWD/tests/cypress:/e2e
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    working_dir: /e2e
+    # ports:
+      # - 1313:1313
+    environment:
+      DISPLAY: :1
+    user: 1000:1000
+    entrypoint: cypress
+    command: open --project .
 
 volumes:
   node_modules:

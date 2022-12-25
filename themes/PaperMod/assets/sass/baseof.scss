@@ -17,14 +17,26 @@
 
 @media (max-width: 1024px) {
   .list {
-    background-color: cyan;
+  }
+
+  canvas {
+    z-index: -1;
+    transform: rotate(-10deg);
+    opacity: 0.1;
+  
+    position: fixed;
+    height: 150vh;
+    width: 150vw;
+    top: -15vh;
+    left: -15vw;
   }
 }
 
 @media (max-width: 450px) {
   .list {
-    background-color: red;
   }
 
-
+  canvas {
+    display: none;
+  }
 }
