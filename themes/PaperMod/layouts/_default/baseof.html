@@ -38,7 +38,14 @@
 
   {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 
-  <script src="//code.tidio.co/g862k4i2f5gw24jkgtjawoelu7ytyuih.js" async></script>
+  {{- if 
+    (or 
+      (eq .Layout `pay`)
+    ) -}}
+    {{- partial "connect_tg.html" . }}
+  {{- end -}}
+  
+
 
   <script 
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 

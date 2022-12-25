@@ -1,9 +1,10 @@
 ---
+layout: pay
+
 title: pay
 date: '2019-05-02'
 
 draft: false
-layout: pay
 ---
 
 
