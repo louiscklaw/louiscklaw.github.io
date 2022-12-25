@@ -98,7 +98,7 @@ function generate() {
 function setup() {
   console.log({ canvas_src: { windowWidth, windowHeight } });
 
-  if (windowWidth > 400 && windowHeight > 900) {
+  if (windowWidth > 501) {
     // assume tablet or desktop
 
     console.log('setup');
