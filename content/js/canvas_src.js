@@ -19,24 +19,25 @@ let img_dice;
 
 function preload() {
   img_dice = [
-    loadImage("canvas_img/appium.png"),
-    loadImage("canvas_img/cypress.png"),
-    loadImage("canvas_img/docker.png"),
-    loadImage("canvas_img/github.png"),
-    loadImage("canvas_img/jenkins.png"),
-    loadImage("canvas_img/js.svg"),
-    loadImage("canvas_img/jupyter.png"),
-    loadImage("canvas_img/kicad.png"),
-    loadImage("canvas_img/nestjs.png"),
-    loadImage("canvas_img/nextjs.png"),
-    loadImage("canvas_img/nodejs.png"),
-    loadImage("canvas_img/preact.png"),
-    loadImage("canvas_img/python.jpg"),
-    loadImage("canvas_img/react.png"),
-    loadImage("canvas_img/voron.png"),
-    loadImage("canvas_img/vscode.png"),
-    loadImage("canvas_img/vue.png"),
-  ]
+    loadImage('canvas_img/appium.png'),
+    loadImage('canvas_img/firebase.png'),
+    loadImage('canvas_img/cypress.png'),
+    loadImage('canvas_img/docker.png'),
+    loadImage('canvas_img/github.png'),
+    loadImage('canvas_img/jenkins.png'),
+    loadImage('canvas_img/js.svg'),
+    loadImage('canvas_img/jupyter.png'),
+    loadImage('canvas_img/kicad.png'),
+    loadImage('canvas_img/nestjs.png'),
+    loadImage('canvas_img/nextjs.png'),
+    loadImage('canvas_img/nodejs.png'),
+    loadImage('canvas_img/preact.png'),
+    loadImage('canvas_img/python.jpg'),
+    loadImage('canvas_img/react.png'),
+    loadImage('canvas_img/voron.png'),
+    loadImage('canvas_img/vscode.png'),
+    loadImage('canvas_img/vue.png'),
+  ];
   
 }
 
