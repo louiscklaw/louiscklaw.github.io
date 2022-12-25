@@ -1,6 +1,8 @@
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit('http://hugo_dev:1313');
+    cy.intercept('https://sentry.io/*', {});
+
+    cy.visit('http://hugo_dev:1313/about');
   });
 
   it('helloworld cypress', () => {

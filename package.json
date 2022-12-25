@@ -8,15 +8,15 @@
     "docker_rebuild": "docker compose up -d",
     "docker_down": "docker compose kill && docker compose down",
     "into_docker": "docker compose exec -it hugo_dev bash",
+    "restart_cypress": "docker compose kill cypress && docker compose up -d cypress",
     "clean": "rm -rf public .hugo_build.lock resources",
     "prettier_file": "prettier --write ./content",
-    "goGithubRepo":"firefox https://github.com/louiscklaw/louiscklaw.github.io"
+    "goGithubRepo": "firefox https://github.com/louiscklaw/louiscklaw.github.io"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prettier": "^2.7.1",
-    "sass": "^1.56.2"
+    "prettier": "^2.7.1"
   }
 }

@@ -28,4 +28,4 @@ docker run -it \
   -w /e2e \
   -e DISPLAY \
   --entrypoint cypress \
-  cypress/included:12.1.0 open --project .
+  cypress/included:11.2.0 open --project .

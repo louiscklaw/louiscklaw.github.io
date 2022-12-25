@@ -16,7 +16,6 @@ services:
 
   cypress:
     image: cypress/included:12.1.0
-    # build: tests/cypress/.
     restart: always
     volumes:
       - $PWD/tests/cypress:/e2e
