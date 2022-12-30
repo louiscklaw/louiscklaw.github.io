@@ -196,3 +196,4 @@ security:
       - WHATSAPP_NUMBER
       - TELEGRAM_LINK
       - DISCORD_LINK
+      - UPLOAD_LINK
