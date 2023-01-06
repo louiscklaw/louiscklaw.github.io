@@ -93,6 +93,9 @@
 {{ $sass_header := resources.Get "sass/header.scss" }}
 {{ $scss_header_style := $sass_header | resources.ToCSS }}
 
+{{ $sass_index_profile := resources.Get "sass/index_profile.scss" }}
+{{ $scss_index_profile_style := $sass_index_profile | resources.ToCSS }}
+
 {{- /* include `an-old-hope` if hljs is on */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default false) }}
 {{- $hljs := (cond ($isHLJSdisabled) (".chroma { background-color: unset !important;}" | resources.FromString "assets/css/hljs-blank.css") (resources.Get "css/hljs/an-old-hope.min.css")) }}
@@ -115,6 +118,7 @@
   $scss_pay_style
   $scss_baseof_style
   $scss_header_style
+  $scss_index_profile_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
@@ -217,6 +221,8 @@
     {{- end }}
 </noscript>
 
+<script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+
 {{- partial "extend_head.html" . -}}
 
 {{- /* Misc */}}
@@ -226,3 +232,4 @@
   {{- template "partials/templates/twitter_cards.html" . }}
   {{- template "partials/templates/schema_json.html" . }}
 {{- end -}}
+
