@@ -1,4 +1,4 @@
 ---
 title: works
-description: 'Some project listed'
+description: 'Some ideas listed'
 ---
