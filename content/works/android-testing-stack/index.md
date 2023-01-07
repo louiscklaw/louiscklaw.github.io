@@ -5,7 +5,8 @@ date: '2019-05-02T19:47:09+02:00'
 jobDate: 2019
 Work: [testing, automation, programming]
 techs: [appium, python, behave]
-thumbnail: android-testing-stack/android-testing-stack.svg
+# thumbnail: android-testing-stack/android-testing-stack.svg
+WorkingListThumbnail: https://images.unsplash.com/photo-1603732551681-2e91159b9dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
 projectUrl: https://www.sampleorganization.org
 draft: true
 layout: works

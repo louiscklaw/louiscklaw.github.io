@@ -11,7 +11,7 @@ designs: [Photoshop]
 thumbnail: sample-project/sample.jpg
 
 projectUrl: https://www.sampleorganization.org
-
+WorkingListThumbnail: https://images.unsplash.com/photo-1603732551681-2e91159b9dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
 testimonial:
   name: John Doe
   role: CEO @Example

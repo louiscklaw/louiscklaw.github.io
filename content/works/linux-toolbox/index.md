@@ -6,6 +6,7 @@ jobDate: 2019
 
 techs: [opencv, python, docker]
 designs: [Photoshop]
+WorkingListThumbnail: https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
 thumbnail: linux-toolbox/Linux-Server-Toolbox-min.png
 projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 ---

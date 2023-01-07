@@ -1,43 +1,72 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 {{- if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
-<meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow">
 {{- else }}
-<meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noindex, nofollow">
 {{- end }}
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
-
+<title>
+  {{ if .IsHome }}
+  {{ else }}
+    {{ if .Title }}
+      {{ .Title }} | 
+    {{ end }}
+  {{ end }}
+  {{ site.Title }}
+</title>
 
 <link rel="manifest" href="/manifest.json">
 
+<link rel="preconnect" href="//code.jquery.com">
+<link rel="preconnect" href="//cdnjs.cloudflare.com">
+<link rel="preconnect" href="//cdn.jsdelivr.net">
+<link rel="preconnect" href="//unpkg.com">
+<link rel="preconnect" href="//images.unsplash.com">
+
 {{- /* Meta */}}
 {{- if .IsHome }}
-{{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
+  {{ with site.Params.keywords -}}
+    <meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">
+  {{ end }}
 {{- else }}
 <meta name="keywords" content="{{ if .Params.keywords -}}
     {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
     {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}">
 {{- end }}
+
 <meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
     {{- .Summary | default (printf "%s - %s" .Title  site.Title) }}{{- else }}
     {{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
+
 <meta name="author" content="{{ (partial "author.html" . ) }}">
-<link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
+
+<link rel="canonical" href="
+  {{ if .Params.canonicalURL -}} 
+    {{ trim .Params.canonicalURL " " }} 
+  {{- else -}} 
+    {{ .Permalink }} 
+  {{- end }}
+  ">
 {{- if site.Params.analytics.google.SiteVerificationTag }}
-<meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
+  <meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
 {{- end }}
+
 {{- if site.Params.analytics.yandex.SiteVerificationTag }}
-<meta name="yandex-verification" content="{{ site.Params.analytics.yandex.SiteVerificationTag }}">
+  <meta name="yandex-verification" content="{{ site.Params.analytics.yandex.SiteVerificationTag }}">
 {{- end }}
+
 {{- if site.Params.analytics.bing.SiteVerificationTag }}
-<meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}">
+  <meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}">
 {{- end }}
+
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
-<meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
+  <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
+
 
 {{- /* Styles */}}
 
@@ -80,7 +109,6 @@
 {{ $sass_redirect_page := resources.Get "sass/redirect_page.scss" }}
 {{ $scss_redirect_page_style := $sass_redirect_page | resources.ToCSS }}
 
-
 {{ $sass_footer := resources.Get "sass/footer.scss" }}
 {{ $scss_footer_style := $sass_footer | resources.ToCSS }}
 
@@ -95,6 +123,9 @@
 
 {{ $sass_index_profile := resources.Get "sass/index_profile.scss" }}
 {{ $scss_index_profile_style := $sass_index_profile | resources.ToCSS }}
+
+{{ $sass_work_listing := resources.Get "sass/work_listing.scss" }}
+{{ $scss_work_listing_style := $sass_work_listing | resources.ToCSS }}
 
 {{- /* include `an-old-hope` if hljs is on */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default false) }}
@@ -119,6 +150,7 @@
   $scss_baseof_style
   $scss_header_style
   $scss_index_profile_style
+  $scss_work_listing_style
   $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 
@@ -168,24 +200,23 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.assets.favicon32x32 | default "favicon-32x32.png" | absURL }}">
 <link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | absURL }}">
 <link rel="mask-icon" href="{{ site.Params.assets.safari_pinned_tab | default "safari-pinned-tab.svg" | absURL }}">
+
 <meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#2e2e33" }}">
 <meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#2e2e33" }}">
 
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
-<link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}">
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}
+
 {{- range .AllTranslations -}}
-<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
 {{ end -}}
 
 <noscript>
     <style>
       #theme-toggle,
-      .top-link {
-        display: none;
-      }
-
+      .top-link { display: none; }
     </style>
 
     {{- if (and (ne site.Params.defaultTheme "light") (ne site.Params.defaultTheme "dark")) }}

@@ -7,7 +7,7 @@ tags: ['opencv', 'python', 'docker']
 designs: [Photoshop]
 thumbnail: allwinner-v3s-tryout/IMG_20181226_162800.jpg
 projectUrl: https://github.com/louiscklaw/car_tracking_tryout
-
+WorkingListThumbnail: https://images.unsplash.com/photo-1603732551681-2e91159b9dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
 layout: works
 ---
 

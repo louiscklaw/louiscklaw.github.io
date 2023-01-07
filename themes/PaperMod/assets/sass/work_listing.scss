@@ -1,0 +1,27 @@
+.work-listing-item {
+  border-radius: 1rem;
+}
+
+.work-listing-item .test {
+  border-radius: 1rem 1rem 0 0;
+
+  border: 1px solid var(--border);
+  border-bottom: 0;
+}
+
+.work-listing-item .thumbnail-backdrop {
+  width: 100%;
+  height: 12rem;
+}
+
+.work-listing-item .thumbnail {
+
+  width: 100%;
+  height: 12rem;
+  
+}
+
+.post-entry {
+  border-radius: 0 0 1rem 1rem;
+  border-top: 0;
+}

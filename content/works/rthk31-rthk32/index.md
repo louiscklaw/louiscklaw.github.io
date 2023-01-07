@@ -8,6 +8,7 @@ techs: [linux, python, mpv, curl]
 thumbnail: rthk31-rthk32/rthk31_rthk32.png
 # projectUrl: https://github.com/louiscklaw/car_tracking_tryout
 images: ['rthk31-rthk32/rthk31_rthk32.png']
+WorkingListThumbnail: https://images.unsplash.com/photo-1603732551681-2e91159b9dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
 ---
 
 to watch rthk31, rthk32 from linux desktop

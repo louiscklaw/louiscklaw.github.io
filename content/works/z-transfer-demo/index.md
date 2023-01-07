@@ -8,7 +8,7 @@ techs: [android, appium, behave, python]
 designs: [Photoshop]
 thumbnail: z-transfer-demo/transfer_sh_banner.png
 projectUrl: https://github.com/louiscklaw/car_tracking_tryout
-
+WorkingListThumbnail: https://images.unsplash.com/photo-1603732551681-2e91159b9dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
 plugins: ['viz']
 
 keywords: ['testing', 'android']

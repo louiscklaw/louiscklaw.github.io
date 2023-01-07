@@ -7,6 +7,7 @@ techs: [python, libxdo, slic3r]
 designs: [Photoshop]
 thumbnail: slic3r-batch-export/slic3r_batch_2019-02-07_23-49.png
 projectUrl: https://github.com/louiscklaw/slic3r_batch_export
+WorkingListThumbnail: https://images.unsplash.com/photo-1603732551681-2e91159b9dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
 ---
 
 An easy tool to export gcode from slic3r
