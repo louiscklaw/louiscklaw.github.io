@@ -1,0 +1,10 @@
+.tag-card {
+  background-color: rgba(44, 62, 80, 0.1);
+}
+
+[data-theme=dracula] .tag-card {
+  border: solid 1px rgba(236, 240, 241, 0.2);
+  background-color: rgb(44, 62, 80);
+}
+
+/*# sourceMappingURL=cust_theme.css.map */

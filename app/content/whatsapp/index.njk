@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+permalink: /whatsapp/
+---
+
+<div class="grid items-center" style="height: 50vh">
+  <div class="prose prose-a:no-underline max-w-none text-2xl">
+    <p class="flex flex-row flex-wrap gap-12 justify-center items-center">
+      <i class="fa-solid fa-chevron-right"></i>
+      <span> forwarding whatsapp page .. 正在轉發到whatsapp ... </span>
+    </p>
+  </div>
+</div>
+
+{% if myProject.environment == "production" %}
+<pre>
+    document.addEventListener('DOMContentLoaded',() =>{
+      window.location.replace("https://wa.me/"+'{{ myProject.whatsapp_number }}'+"?text=你好%20有冇咩野我幫到你？%20anything%20help?");
+    })
+  </pre
+>
+{% else %}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    window.location.replace(
+      'https://wa.me/' + '{{ myProject.whatsapp_number }}' + '?text=你好%20有冇咩野我幫到你？%20anything%20help?',
+    );
+  });
+</script>
+{% endif %}

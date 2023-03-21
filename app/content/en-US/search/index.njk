@@ -1,0 +1,64 @@
+---
+layout: layouts/base.njk
+---
+
+<div id="noResultsFound" style="display: none">
+  <p>No results found.</p>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"
+></script>
+
+<script type="text/javascript" src="/js/search.js"></script>
+
+<div
+  class="
+    flex flex-col m-auto
+    w-full lg:w-6/12
+    pt-0 lg:pt-8
+    "
+  style="min-height: calc(100vh - 60px - 100px - 100px)">
+  <div class="prose max-w-none">
+    <h1>{{ 'Search' | i18n }}:</h1>
+    <input
+      id="searchField"
+      placeholder="Want to search something..."
+      class="
+        w-full lg:max-w-md
+        input input-bordered
+        "
+      />
+
+  </div>
+
+  <div id="typeSomethingToSearch">
+    <div class="w-full h-[33vh] flex items-center" >
+      <div class="
+        py-12 w-full
+        flex flex-row justify-center
+        font-bold
+        ">
+        <p>Type something above to start search ?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="
+    my-8
+    prose max-w-none
+  ">
+    <div id="result-title" style="display: none">
+      <h2>Result:</h2>
+    </div>
+    <ul
+      class="
+        pl-0
+        list-none list-outside
+        flex flex-row flex-wrap"
+      id="searchResults" >
+    </ul>
+  </div>
+</div>

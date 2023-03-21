@@ -1,0 +1,15 @@
+.nav-buttons {
+  background-color: rgb(236, 240, 241);
+}
+
+[data-theme=dracula] .nav-buttons {
+  background-color: rgba(236, 240, 241, 0.1);
+}
+[data-theme=dracula] .nav-buttons .nav-button-text {
+  color: rgb(236, 240, 241);
+}
+[data-theme=dracula] .nav-buttons .nav-button-icon {
+  color: rgb(236, 240, 241);
+}
+
+/*# sourceMappingURL=bottom_nav.css.map */

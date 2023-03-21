@@ -1,0 +1,9 @@
+.palette {
+  color: hsla(var(--bc)/var(--tw-text-opacity,1));
+  background-color: hsla(var(--b1)/var(--tw-bg-opacity,1));
+}
+
+[data-theme="dracula"] .palette {
+  color: hsla(var(--bc)/var(--tw-text-opacity,1));
+  background-color: hsla(var(--b1)/var(--tw-bg-opacity,1));
+}

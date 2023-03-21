@@ -1,0 +1,32 @@
+---
+layout: layouts/home.njk
+---
+
+<h1>Search</h1>
+
+<p>
+  The demo searches the title, excerpt and genres of the
+  <a href="https://www.themoviedb.org/movie/top-rated" target="_blank">The Movie Database Top 100</a>.
+</p>
+
+<p>
+  <a href="https://github.com/duncanmcdougall/eleventy-search-demo">GitHub repo</a>
+</p>
+
+<div class="field">
+  <label for="searchField">Search</label>
+  <input type="search" placeholder="Search..." id="searchField" />
+</div>
+
+<ol id="searchResults"></ol>
+
+<div id="noResultsFound" style="display: none">
+  <p>No results found.</p>
+</div>
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"
+></script>
+
+<script type="text/javascript" src="/js/search.js"></script>

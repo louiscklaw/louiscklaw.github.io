@@ -1,0 +1,59 @@
+ol {
+  // background-color: gold;
+
+  li {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    list-style-type: disc;
+    // background-color: pink;
+    margin-bottom: 1rem;
+
+    ol {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+
+      li {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        list-style-type: disc;
+        // background-color: tomato;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+.toc{
+  ol {
+    // background-color: gold;
+
+    li {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-left: 1rem;
+      list-style-type: disc;
+      // background-color: pink;
+      margin-bottom: 1rem;
+
+      ol {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+        li {
+          font-size: 1rem;
+          font-weight: 500;
+          margin-left: 1rem;
+          list-style-type: disc;
+          // background-color: tomato;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+[data-theme="dracula"] .toc {
+  background-color: rgba(127, 140, 141,1);
+}

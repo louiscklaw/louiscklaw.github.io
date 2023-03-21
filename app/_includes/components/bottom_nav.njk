@@ -1,0 +1,43 @@
+{%- if collections.posts %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+  {%- set nextPost = collections.posts | getNextCollectionItem %}
+
+  {%- if nextPost or previousPost %}
+    <div class="
+      nav-buttons
+      p-4 lg:px-8 mt-2
+      rounded-xl
+      prose prose-p:mb-0 prose-h2:mb-2 max-w-none
+      ">
+      <ul class="not-prose pl-0 list-none list-outside flex gap-4 lg:gap-8 justify-between">
+        {%- if previousPost %}
+        <li class="list-outside">
+          <a href="{{ previousPost.url }}" class="font-bold">
+            <div class="text-slate-500 flex gap-2 items-center justify-start">
+              <i class="nav-button-icon fa-solid fa-angles-left fa-xs"></i>
+              <span class="nav-button-text text-sm uppercase">Previous</span>
+            </div>
+            <div class="nav-text-title pt-2 lg:pt-4">{{ previousPost.data.title }}</div>
+          </a>
+        </li>
+        {% else %}
+          <div>
+            {# space holder for 1st post #}
+          </div>
+        {% endif %}
+
+        {%- if nextPost %}
+          <li class="list-outside flex end">
+            <a href="{{ nextPost.url }}" class="font-bold">
+              <div class="text-slate-500 flex gap-2 items-center justify-end">
+                <span class="nav-button-text text-sm uppercase">Next</span>
+                <i class="nav-button-icon fa-solid fa-angles-right fa-xs"></i>
+              </div>
+              <div class="nav-text-title pt-2 lg:pt-4">{{ nextPost.data.title }}</div>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  {%- endif %}
+{%- endif %}

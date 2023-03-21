@@ -1,0 +1,36 @@
+<header class="
+  w-full lg:w-9/12
+  m-auto
+  flex-none
+  ">
+  <div class="flex flex-row flex-wrap content-center">
+    <div class="basis-full lg:basis-1/2">
+      <div class="
+        mx-4 lg:mx-0
+        flex flex-row items-center gap-7
+        ">
+
+        <div class="" style="font-size: 24px; font-weight: 700">
+          <a href="/" class="home-link">
+            <h1>{{ metadata.title }}</h1>
+          </a>
+        </div>
+
+        <div class="block grow lg:hidden"></div>
+
+        <div class="flex flex-row items-center gap-2">
+          {% include 'components/theme_select.njk' %}
+          {% include 'components/language_select.njk' %}
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="basis-full lg:basis-1/2 items-center flex flex-row justify-start lg:justify-end">
+      {% include 'components/navbar.njk'%}
+    </div>
+  </div>
+
+  {% include 'components/navbar_hide.njk' %}
+</header>

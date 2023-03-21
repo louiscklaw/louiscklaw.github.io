@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+---
+
+{% css %}
+  {% include "public/css/works.css" %}
+{% endcss %}
+
+<div>
+  <div
+    class="
+    prose max-w-none
+    prose-h1:text-3xl
+    prose-h1:font-bold
+    prose-h1:no-underline
+    prose-a:no-underline
+    prose-h1:my-4
+    prose-img:rounded-xl
+    prose-headings:underline"
+  >
+    {{ content | safe }}
+  </div>
+</div>

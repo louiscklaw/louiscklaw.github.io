@@ -1,0 +1,12 @@
+.youtube {
+  width: calc(100vw - 2rem);
+  min-height: calc((100vw - 2rem) / 16 * 9);
+}
+@media screen and (min-width: 768px) {
+  .youtube {
+    width: 33vw;
+    min-height: 18.5625vw;
+  }
+}
+
+/*# sourceMappingURL=youtube.css.map */

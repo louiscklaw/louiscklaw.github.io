@@ -1,0 +1,15 @@
+.nav-buttons {
+  background-color: rgba(236, 240, 241, 1.0);
+}
+
+[data-theme="dracula"] .nav-buttons {
+  background-color: rgba(236, 240, 241, 0.1);
+
+  .nav-button-text {
+    color: rgba(236, 240, 241, 1.0);
+  }
+
+  .nav-button-icon {
+    color: rgba(236, 240, 241, 1.0);
+  }
+}

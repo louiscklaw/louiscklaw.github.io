@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="grid items-center" style="height: 50vh">
+  <div class="prose prose-a:no-underline max-w-none text-2xl">
+    <p class="flex flex-row flex-wrap gap-12 justify-center items-center">
+      <i class="fa-solid fa-chevron-right"></i>
+      <span> forwarding to upload page .. 正在轉發到上傳頁 ... </span>
+
+      若果轉發錯誤，
+      <button class="btn btn-active btn-ghost">
+        <a href="//share.louislabs.com/upload">請按此</a>
+      </button>
+    </p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    location.href = '//share.louislabs.com/upload';
+  });
+</script>

@@ -1,0 +1,130 @@
+---
+layout: layouts/base.njk
+---
+
+{%- css %}
+  /* Only include the syntax highlighter CSS on blog posts */
+  {% include "node_modules/prismjs/themes/prism-okaidia.css" %}
+  {% include "public/css/prism-diff.css" %}
+  {% include "public/css/youtube.css" %}
+{%- endcss %}
+
+<div class="
+  flex flex-col
+  w-full lg:w-9/12 lg:m-auto
+  pt-0 lg:pt-8"
+  style="min-height: calc(100vh - 60px - 100px - 100px)"
+  >
+
+  <article class="grow">
+    <div class="
+      flex flex-col lg:flex-row
+    ">
+
+      {% if show_toc==true %}
+        <div
+          class="
+            w-full lg:w-9/12
+            break-all
+            prose max-w-none
+            prose-code:bg-slate-200
+            prose-code:rounded
+            prose-h3:font-bold
+            prose-h3:leading-none
+
+            prose-img:my-0
+            prose-img:rounded
+            prose-li:pl-0
+            prose-p:before:content-['']
+            prose-a:no-underline
+            prose-a:hover:underline
+            mx-4 lg:mx-0 lg:pr-8
+            "
+        >
+          <div class="pt-4">
+            {% include 'components/title.njk' %}
+          </div>
+          <div class="pt-4">
+            {% include 'components/post_meta.njk' %}
+          </div>
+
+          <div class="pt-12 lg:pt-12 prose-ul:pl-4">
+            {% if lang=='zh' %}
+              {% css %}
+                {% include "public/css/chinese_spacing.css" %}
+              {% endcss %}
+
+              <div lang="zh">
+                {{ content | safe }}
+              </div>
+            {% else %}
+              <div>
+                {{ content | safe }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+
+        <div class="
+          w-full lg:basis-3/12
+          order-first
+          md:order-last
+          mx-4
+          ">
+          {% include 'components/toc.njk' %}
+        </div>
+
+      {% else %}
+        <div
+          class="
+            w-8/12 lg:max-w-screen-md
+            m-auto
+            prose max-w-none
+            prose-code:bg-slate-200
+            prose-code:rounded
+            prose-h3:font-bold
+            prose-h3:leading-none
+            prose-h3:mt-12
+            prose-img:my-0
+            prose-img:rounded
+            prose-li:pl-0
+            prose-p:before:content-['']
+            prose-a:no-underline
+            prose-a:hover:underline
+            break-all
+            "
+        >
+          <div class="pt-4">
+            {% include 'components/title.njk' %}
+          </div>
+          <div class="pt-4">
+            {% include 'components/post_meta.njk' %}
+          </div>
+
+          <div class="pt-12 lg:pt-12 prose-ul:pl-4">
+            {% if lang=='zh' %}
+              {% css %}
+                {% include "public/css/chinese_spacing.css" %}
+              {% endcss %}
+
+              <div lang="zh">
+                {{ content | safe }}
+              </div>
+            {% else %}
+              <div>
+                {{ content | safe }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </article>
+
+  <div class="my-8"></div>
+
+  {% include 'components/bottom_nav.njk' %}
+
+  <div class="my-8"></div>
+</div>

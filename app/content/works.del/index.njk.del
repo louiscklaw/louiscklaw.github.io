@@ -1,0 +1,65 @@
+---
+layout: layouts/work.njk
+eleventyNavigation:
+  key: Work
+  order: 1
+numberOfLatestPostsToShow: 8
+---
+
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+
+<div class="
+  mx-auto
+  w-full lg:w-10/12
+  flex flex-col lg:flex-row
+  gap-0 lg:gap-4
+  ">
+  <div class="w-full lg:w-4/12">
+    <h1>Hi, this is louis</h1>
+    <p>
+      Welcome to demo of hugo’s theme PaperMod.<br />
+      PaperMod is a simple but fast and responsive theme with useful feature-set that enhances UX.<br />
+      Do give a 🌟 on Github !<br />
+      PaperMod is based on theme Paper.<br />
+    </p>
+
+    <p class="hidden lg:block">
+      阪ハウワ応92勤常勉旋72依過らつ。門むば隊就メツヘ突長山テ碁人ゆッ
+      歳両ら止都トカハキ締素ぎぜつ索能経初臣こ党求ぼ担効カタハネ文会ヲツレ端作67神フ測相りち挑坂ぶ。
+      応ハシカ向2捜せぽけリ覧郷ユヤワサ準助7子群メソマ直林無ノヱク総九るね法
+      右み料生レソヱ犯2属スタリチ海新志合のみル。落国がどゅト備初
+    </p>
+
+    <div class="text-3xl flex flex-row flex-wrap gap-4">
+      <a href="//github.com/louiscklaw" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="//www.linkedin.com/in/louiscklaw" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="//t.me/louislabs" target="_blank">
+        <i class="fa-brands fa-telegram"></i>
+      </a>
+      <a href="//louislabs.slack.com/" target="_blank">
+        <i class="fa-brands fa-slack"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="w-full">
+    {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+    {% set postslistCounter = postsCount %}
+    {% include "worklist.njk" %}
+  </div>
+</div>
+
+{# List every content page in the project #} {#
+<ul>
+  {%- for entry in collections.all %}
+  <li
+    ><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li
+  >
+  {%- endfor %}
+</ul>
+#}

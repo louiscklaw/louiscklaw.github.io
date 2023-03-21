@@ -1,0 +1,23 @@
+{# https://docs.sentry.io/platforms/javascript/install/cdn/ #}
+{# Default Bundle #}
+<script
+  src="https://browser.sentry-cdn.com/7.43.0/bundle.tracing.min.js"
+  integrity="sha384-XrtsNPpOZ+ul39uZL5FBdv8ByR9EAoDxyx2pnT9+txkfvq1oqUSD6jWO+Qjj67LD"
+  crossorigin="anonymous"
+></script>
+
+<script>
+  Sentry.init({
+    dsn: "https://87f86bb1f70549aca9a36d7f63965ff7@o1234273.ingest.sentry.io/4504852838875136",
+    integrations: [new Sentry.BrowserTracing()],
+
+
+    // Set tracesSampleRate to 1.0 to capture 100%
+    // of transactions for performance monitoring.
+    // We recommend adjusting this value in production
+    tracesSampleRate: 1.0,
+  });
+
+  myUndefinedFunction();
+
+</script>

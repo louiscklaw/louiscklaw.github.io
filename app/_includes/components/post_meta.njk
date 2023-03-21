@@ -1,0 +1,38 @@
+<div class="text-sm flex flex-wrap gap-1 mt-2">
+  <ul class="m-0 list-inside list-none flex flex-wrap not-prose pl-0 gap-1">
+    <li>
+      <time datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | readableDate }}
+      </time>
+    </li>
+    <li> · {{ content | readingTime }} </li>
+    <li> · Louis </li>
+  </ul>
+  <div>|</div>
+  <div>
+    <a href="//github.com/louiscklaw/{{page.inputPath}}" class="font-bold">
+      source
+      <i class="text-xs fa-solid fa-link"></i>
+    </a>
+    <a href="{{permalink}}" class="font-bold">
+      permalink
+      <i class="text-xs fa-solid fa-link"></i>
+    </a>
+  </div>
+
+  <div>|</div>
+
+  <div>
+    <ul class="m-0 list-inside list-none flex flex-wrap not-prose pl-0 gap-1">
+      {%- for tag in tags | filterTagList %}
+        {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+        <li>
+          <a href="{{ tagUrl }}" class="badge flex flex-row gap-1 items-center font-bold">
+            <i class="fa-solid fa-hashtag"></i>{{ tag }}
+          </a>
+        </li>
+      {%- endfor %}
+    </ul>
+    {# {{ content | dump }} #}
+  </div>
+</div>

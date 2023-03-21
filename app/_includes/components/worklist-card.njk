@@ -1,0 +1,23 @@
+<a href="{{ post.url }}">
+  <div class="
+    worklist-card
+    p-2 lg:p-4
+    border border-slate-150 rounded-xl
+    prose prose-p:mb-0 prose-h2:text-base
+    ">
+    {% if post.data.title %}
+      <h2>{{ post.data.title }}</h2>
+    {% else %}
+      <code>{{ post.url }}</code>
+    {% endif %}
+
+    <p class="mt-4">{{ post.data.description }}</p>
+    <div>
+      <time datetime="{{ post.date | htmlDateString }}">
+        {{ post.data.date | readableDate("LLLL yyyy") }}
+      </time>
+      ·
+
+    </div>
+  </div>
+</a>

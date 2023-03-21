@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+---
+
+<div
+  class="
+    flex flex-col m-auto
+    w-full lg:w-6/12
+    pt-0 lg:pt-8
+    "
+  style="min-height: calc(100vh - 60px - 100px - 100px)">
+  <div class="prose max-w-none">
+    <h1>{{ 'Tags' | i18n }}</h1>
+
+    <ul class="list-none list-inside p-0 flex flex-row flex-wrap gap-4">
+      {% for tag in collections.all | getAllTags | filterTagList %}
+        {% set tagUrl %}
+          {{ "/tags" |locale_url }}/{{ tag | slugify }}/
+        {% endset %}
+
+        <li>
+          <a href="{{ tagUrl }}" class="no-underline">
+            <button class="btn btn-active btn-ghost">
+              <i class="fa-solid fa-hashtag"></i> {{ tag }}
+            </button>
+          </a>
+        </li>
+
+      {% endfor %}
+    </ul>
+  </div>
+</div>

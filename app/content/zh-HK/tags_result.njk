@@ -1,0 +1,60 @@
+---
+layout: layouts/base.njk
+
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+
+eleventyComputed:
+  title: Tagged “{{ tag }}”
+
+permalink: /zh-HK/tags/{{ tag | slugify }}/
+---
+
+{% css %}
+  {% include "public/css/chinese_spacing.css"%}
+{% endcss %}
+
+
+<div
+  class="
+    prose
+    max-w-none
+    flex flex-col m-auto
+    w-full lg:w-6/12
+    pt-0 lg:pt-8
+    "
+  style="min-height: calc(100vh - 60px - 100px - 100px)">
+
+
+  <div class="">
+    <h1 lang='zh'>標纖咗 "{{ tag }}"</h1>
+  </div>
+
+  {% set postslist = collections[ tag ] %}
+
+  <div class="my-8" >
+    <div>
+      {% include "postslist.njk" %}
+    </div>
+  </div>
+
+  <div class="w-full flex justify-center" lang="zh">
+    <a href="{{ "/tags/" | locale_url }}/" class="no-underline" >
+      <button class="
+        btn btn-active btn-ghost
+        w-fit m-auto my-8
+      ">
+        <span><i class="fa-solid fa-hashtag"></i> {{ "See all tags" | i18n }}</span>
+      </button>
+      </a>
+  </div>
+
+</div>

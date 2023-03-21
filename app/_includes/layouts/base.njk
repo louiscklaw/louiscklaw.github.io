@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ dir }}" data-theme="emerald">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}" />
+
+    {%include './preconnect.njk'%} {#- Atom and JSON feeds included by default #}
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}" />
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}" />
+
+    {% include 'components/sentry.njk' %}
+
+    {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site! #} {#-
+    <meta name="generator" content="{{ eleventy.generator }}" />
+    #} {#- CSS bundles are provided via the `eleventy-plugin-bundle` plugin: 1. You can add to them using `{% css %}` 2.
+    You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}` 3. You can do the same for JS:
+    {% js %}{% endjs %} and
+    <script>
+      {% getBundle "js" %}
+    </script>
+    4. Learn more: https://github.com/11ty/eleventy-plugin-bundle #}
+
+    {%include './google_web_font.njk'%}
+
+    {%- css %}
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+    {% endcss %}
+
+    {%- css %}
+      {% include "public/css/index.css" %}
+      {% include "public/css/custom.css" %}
+      {% include "public/css/cust_theme.css" %}
+      {% include "public/css/bottom_nav.css" %}
+      {% include "public/css/helloworld.css" %}
+      {% include "public/css/palette.css" %}
+    {% endcss %}
+
+    {%- css %}
+      {% include "node_modules/prismjs/themes/prism-okaidia.css" %}
+    {% endcss %}
+    {#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
+
+    <style>
+      {% getBundle "css" %}
+    </style>
+
+    <meta name="google-site-verification" content="go0904i1ILUz_g0MtA2-eR1Gxco9GfqVbyeTbik344E" />
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    {# https://tailwindcss.com/docs/installation/play-cdn #}
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    {% include './imports_head.njk' %}
+  </head>
+
+  <body class="antialiased">
+    <div class="palette" style="width:0px;height:0px;"></div>
+
+    <div class="p-4 flex flex-col" style="min-height: calc(100vh - 60px)">
+      <div class="grow">
+        {% include './header.njk' %}
+
+        <main id="skip" class="mt-8 lg:mt-20">
+          {{ content | safe }}
+        </main>
+
+      </div>
+
+      {% include './footer.njk' %}
+    </div>
+
+    {% include './imports_foot.njk' %}
+  </body>
+</html>

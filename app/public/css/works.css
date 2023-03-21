@@ -1,0 +1,24 @@
+.nav-buttons {
+  background-color: rgb(236, 240, 241);
+}
+
+.worklist-card {
+  background-color: rgb(236, 240, 241);
+}
+
+[data-theme=dracula] .worklist-card {
+  background-color: rgb(44, 62, 80);
+  border-color: rgb(127, 140, 141);
+}
+
+[data-theme=dracula] .nav-buttons {
+  background-color: rgba(236, 240, 241, 0.1);
+}
+[data-theme=dracula] .nav-buttons .nav-button-text {
+  color: rgb(236, 240, 241);
+}
+[data-theme=dracula] .nav-buttons .nav-button-icon {
+  color: rgb(236, 240, 241);
+}
+
+/*# sourceMappingURL=works.css.map */

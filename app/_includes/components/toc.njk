@@ -1,0 +1,42 @@
+{%- css %}
+  {% include "public/css/toc.css" %}
+{%- endcss %}
+
+{% if content | toc %}
+  <div class="
+    toc
+    sticky
+    top-0
+    rounded-xl
+    p-4
+    "
+    style="cursor: pointer">
+
+    {# for mobile #}
+    <details class="
+      block lg:hidden
+    ">
+      <summary accesskey="c" title="(Alt + C)">
+        <span class="details text-lg font-bold">Table of Contents</span>
+      </summary>
+
+      <div class="inner pt-4">
+        {{ content | toc | safe }}
+      </div>
+    </details>
+
+    {# for desktop #}
+    <details class="
+      hidden lg:block
+    " open>
+      <summary accesskey="c" title="(Alt + C)">
+        <span class="details text-lg font-bold">Table of Contents</span>
+      </summary>
+
+      <div class="inner pt-4">
+        {{ content | toc | safe }}
+      </div>
+    </details>
+
+  </div>
+{% endif %}

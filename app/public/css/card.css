@@ -1,0 +1,17 @@
+.helloworld {
+  background-color: tomato;
+}
+@media screen and (min-width: 1024px) {
+  .helloworld {
+    background-color: gold;
+  }
+}
+
+#site-qr-canvas canvas {
+  width: 25vw;
+  height: 25vw;
+  max-width: 160px;
+  max-height: 160px;
+}
+
+/*# sourceMappingURL=card.css.map */

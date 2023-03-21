@@ -1,0 +1,35 @@
+$small: 300px;
+$medium: 900px;
+
+.youtube {
+  width: calc(100vw - 2rem);
+  min-height: calc((100vw - 2rem) / 16 * 9);
+
+  // 'sm': '640px',
+  @media screen and (min-width: 640px) {
+    .youtube {
+      // background-color: tomato;
+    }
+  }
+
+  // 'md': '768px',
+  @media screen and (min-width: 768px) {
+    // background-color: pink;
+
+    width: calc(33vw);
+    min-height: calc(33vw / 16 * 9);
+  }
+
+  // 'lg': '1024px',
+  @media screen and (min-width: 1024px) {
+    // background-color: cyan;
+  }
+
+  // 'xl': '1280px',
+  @media screen and (min-width: 1280px) {
+  }
+
+  // '2xl': '1536px',
+  @media screen and (min-width: 1536px) {
+  }
+}

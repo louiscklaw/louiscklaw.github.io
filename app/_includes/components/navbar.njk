@@ -1,0 +1,53 @@
+<nav class="w-full lg:w-fit">
+  <h2 class="visually-hidden" style="display: none">Top navigation menu</h2>
+
+  <ul class="
+    w-full
+    flex flex-row flex-wrap
+    gap-12 lg:gap-6
+    justify-center lg:justify-end
+    pt-8 lg:pt-0
+    ">
+
+    <li class="text-base font-bold">
+      <a href="{{ "/works/" | locale_url }}">
+        {{ 'Works' | i18n }}
+      </a>
+    </li>
+
+    <li class="text-base font-bold">
+      <a href="{{ "/en-US/blog/" }}">
+        {{ 'Blog' | i18n }}
+      </a>
+    </li>
+
+    <li class="text-base font-bold">
+      <a href="{{ "/search/" | locale_url }}">
+        {{ 'Search' | i18n }}
+      </a>
+    </li>
+
+    <li class="text-base font-bold">
+      <a href="{{ "/tags/" | locale_url }}">
+        {{ 'Tags' | i18n }}
+      </a>
+    </li>
+
+    <li class="text-base font-bold">
+      <a href="{{ "//share.louislabs.com/upload" }}">
+        {{ 'Upload' | i18n }}
+      </a>
+    </li>
+
+    {#
+      <li class="text-base font-bold">
+        <a href="#" class="flex gap-2">
+          <div>Wiki</div>
+          <div>
+            <i class="fa-solid fa-up-right-from-square text-xs"></i>
+          </div>
+        </a>
+      </li>
+    #}
+  </ul>
+</nav>
