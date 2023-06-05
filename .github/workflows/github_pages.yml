@@ -23,7 +23,9 @@ jobs:
 
       - name: Build
         env: # Or as an environment variable
+          # https://share.louislabs.com/upload
           UPLOAD_LINK: ${{ secrets.UPLOAD_LINK }}
+          # +852 nnnn nnnn
           WHATSAPP_NUMBER: ${{ secrets.WHATSAPP_NUMBER }}
           TELEGRAM_LINK: ${{ secrets.TELEGRAM_LINK }}
           DISCORD_LINK: ${{ secrets.DISCORD_LINK }}
