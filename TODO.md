@@ -1,0 +1,3 @@
+beg-comment
+
+helloworld
