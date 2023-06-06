@@ -168,7 +168,7 @@ tags: ['carousell']
 
 <div class="please-leave-review-container">
   <h3 class="please-leave-review">
-    唔該你，留個 <b>review</b> 比我嗯～
+    對唔住阻阻你，留個 <b>review</b> 比我嗯～
   </h3>
 </div>
 
