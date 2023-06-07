@@ -282,7 +282,7 @@ tags: ['carousell']
   </div>
 
   <div>
-    <i class="next-step-arrow fa-solid fa-arrow-right fa-2x"></i>
+    <i class="next-step-arrow fa-solid fa-arrow-right fa-3x"></i>
   </div>
 
   <div style="display: none;">
@@ -305,7 +305,7 @@ tags: ['carousell']
   </div>
 
   <div style="display: none;">
-    <i class="next-step-arrow fa-solid fa-arrow-right fa-2x"></i>
+    <i class="next-step-arrow fa-solid fa-arrow-right fa-3x"></i>
   </div>
 
 
@@ -329,7 +329,7 @@ tags: ['carousell']
   </div>
 
   <div>
-    <i class="next-step-arrow fa-solid fa-arrow-right fa-2x"></i>
+    <i class="next-step-arrow fa-solid fa-arrow-right fa-3x"></i>
   </div>
 
 
