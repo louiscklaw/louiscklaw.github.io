@@ -285,7 +285,7 @@ tags: ['carousell']
     <i class="next-step-arrow fa-solid fa-arrow-right fa-2x"></i>
   </div>
 
-  <div>
+  <div style="display: none;">
     <div class="step-box">
       <div class="step-container">
         <div style="display: flex; flex-direction: row; justify-content:flex-start; width: 100%;">
@@ -304,7 +304,7 @@ tags: ['carousell']
     </div>
   </div>
 
-  <div>
+  <div style="display: none;">
     <i class="next-step-arrow fa-solid fa-arrow-right fa-2x"></i>
   </div>
 
@@ -313,7 +313,7 @@ tags: ['carousell']
     <div class="step-box">
       <div class="step-container">
         <div style="display: flex; flex-direction: row; justify-content:flex-start; width: 100%;">
-          <h3 class="step-label">Step 3</h3>
+          <h3 class="step-label">Step 2</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
           <p>跟住，你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，搵到 "Leave a review" 呢個掣，㩒落去...</p>
@@ -337,7 +337,7 @@ tags: ['carousell']
     <div class="step-box">
       <div class="step-container">
         <div style="display: flex; flex-direction: row; justify-content:flex-start; width: 100%;">
-          <h3 class="step-label">Step 4</h3>
+          <h3 class="step-label">Step 3</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
           <p>跟住，你就可以留 "Review" 喇。</p>
