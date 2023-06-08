@@ -179,7 +179,7 @@ tags: ['carousell']
     <h3 class="step-label">Step 1</h3>
     <div class="step-content">
       <div class="step-description">
-        <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">post</a>
+        <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">POST</a>
         </p>
         <p>見到 "Make Offer" 呢個掣，㩒落去 ... </p>
         </div>
@@ -267,7 +267,7 @@ tags: ['carousell']
           <h3 class="step-label">Step 1</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">post</a>
+          <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">POST</a>
           </p>
           <p>見到 "Make Offer" 呢個掣，㩒落去 ... </p>
         </div>
