@@ -181,7 +181,7 @@ tags: ['carousell']
       <div class="step-description">
         <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">post</a>
         </p>
-        <p>你㩒 "Make Offer" </p>
+        <p>見到 "Make Offer" 呢個掣，㩒落去 ... </p>
         </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -269,7 +269,7 @@ tags: ['carousell']
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
           <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">post</a>
           </p>
-          <p>你㩒 "Make Offer" </p>
+          <p>見到 "Make Offer" 呢個掣，㩒落去 ... </p>
         </div>
       </div>
       <div>
