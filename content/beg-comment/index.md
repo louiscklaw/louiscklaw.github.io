@@ -222,7 +222,8 @@ tags: ['carousell']
     <h3 class="step-label">Step 3</h3>
     <div class="step-content">
       <div class="step-description">
-        <p>跟住，你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，搵到 "Leave a review" 呢個掣，㩒落去...</p>
+        <p>跟住，</p>
+        <p>你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，搵到 "Leave a review" 呢個掣，㩒落去...</p>
         </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -316,7 +317,8 @@ tags: ['carousell']
           <h3 class="step-label">Step 2</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>跟住，你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，搵到 "Leave a review" 呢個掣，㩒落去...</p>
+          <p>跟住，</p>
+          <p>你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，搵到 "Leave a review" 呢個掣，㩒落去...</p>
         </div>
       </div>
       <div>
