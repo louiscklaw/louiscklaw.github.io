@@ -8,7 +8,6 @@ jobDate: 2019
 draft: false
 ---
 
-
 <div class="connection-list">
   <div>
     <a class="listing-item " href="/whatsapp">

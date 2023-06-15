@@ -1,6 +1,6 @@
 const frame_rate = 0.5;
 
-const img_length = 20 + (20 * getRandomInt(5));
+const img_length = 20 + 20 * getRandomInt(5);
 const unitLength = img_length + 10;
 
 let boxColor = 255;
@@ -17,25 +17,24 @@ let img_dice;
 
 function preload() {
   img_dice = [
-    loadImage("images/appium.png"),
-    loadImage("images/cypress.png"),
-    loadImage("images/docker.png"),
-    loadImage("images/github.png"),
-    loadImage("images/jenkins.png"),
-    loadImage("images/js.svg"),
-    loadImage("images/jupyter.png"),
-    loadImage("images/kicad.png"),
-    loadImage("images/nestjs.png"),
-    loadImage("images/nextjs.png"),
-    loadImage("images/nodejs.png"),
-    loadImage("images/preact.png"),
-    loadImage("images/python.jpg"),
-    loadImage("images/react.png"),
-    loadImage("images/voron.png"),
-    loadImage("images/vscode.png"),
-    loadImage("images/vue.png"),
-  ]
-  
+    loadImage('images/appium.png'),
+    loadImage('images/cypress.png'),
+    loadImage('images/docker.png'),
+    loadImage('images/github.png'),
+    loadImage('images/jenkins.png'),
+    loadImage('images/js.svg'),
+    loadImage('images/jupyter.png'),
+    loadImage('images/kicad.png'),
+    loadImage('images/nestjs.png'),
+    loadImage('images/nextjs.png'),
+    loadImage('images/nodejs.png'),
+    loadImage('images/preact.png'),
+    loadImage('images/python.jpg'),
+    loadImage('images/react.png'),
+    loadImage('images/voron.png'),
+    loadImage('images/vscode.png'),
+    loadImage('images/vue.png'),
+  ];
 }
 
 function getRandomInt(max) {
@@ -68,7 +67,10 @@ function generate() {
             continue;
           }
 
-          o_neighbors += parseInt(o_currentBoard[(x + i + columns) % columns][(y + j + rows) % rows].alive);
+          o_neighbors += parseInt(
+            o_currentBoard[(x + i + columns) % columns][(y + j + rows) % rows]
+              .alive,
+          );
 
           // Rules of Life
           if (o_currentBoard[x][y].alive == 1 && o_neighbors < 2) {
@@ -94,16 +96,16 @@ function generate() {
 }
 
 function setup() {
-  console.log("setup");
+  console.log('setup');
   frameRate(frame_rate);
 
   const canvas = createCanvas(windowWidth + 600, windowHeight + 600);
-  canvas.parent(document.querySelector("#canvas"));
+  canvas.parent(document.querySelector('#canvas'));
 
-  columns = floor((width ) / unitLength) + 90;
+  columns = floor(width / unitLength) + 90;
   rows = floor(height / unitLength) + 90;
 
-  console.log({setup:{columns, rows}})
+  console.log({ setup: { columns, rows } });
 
   o_currentBoard = [];
   o_nextBoard = [];
@@ -124,7 +126,7 @@ function draw() {
 
   generate();
 
-  console.log({draw:{columns, rows}})
+  console.log({ draw: { columns, rows } });
 
   for (let i = 0; i < columns; i++) {
     for (let j = 0; j < rows; j++) {
@@ -185,6 +187,6 @@ function windowResized() {
   setup();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  console.log('canvas init...')
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('canvas init...');
 });

@@ -22,7 +22,7 @@ context('Actions', () => {
 
   it('portfolio-mobile-render', () => {
     cy.viewport('iphone-x');
-     cy.wait(1 * 1000);
+    cy.wait(1 * 1000);
     cy.screenshot({ capture: 'viewport', overwrite: true });
   });
 });

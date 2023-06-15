@@ -13,7 +13,6 @@ services:
     # user: 1000:1000
     command: sleep infinity
 
-
   cypress:
     image: cypress/included:12.1.0
     restart: always
@@ -22,7 +21,7 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix
     working_dir: /e2e
     # ports:
-      # - 1313:1313
+    # - 1313:1313
     environment:
       DISPLAY: :1
     user: 1000:1000
@@ -31,4 +30,3 @@ services:
 
 volumes:
   node_modules:
-  

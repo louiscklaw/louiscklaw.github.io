@@ -1,8 +1,8 @@
-console.log('canvas_src.js helloworld')
+console.log('canvas_src.js helloworld');
 
 const frame_rate = 1;
 
-const img_length = 20 + (20 * getRandomInt(5));
+const img_length = 20 + 20 * getRandomInt(5);
 const unitLength = img_length + 10;
 
 let boxColor = 255;
@@ -38,7 +38,6 @@ function preload() {
     loadImage('canvas_img/vscode.png'),
     loadImage('canvas_img/vue.png'),
   ];
-  
 }
 
 function getRandomInt(max) {
@@ -71,7 +70,10 @@ function generate() {
             continue;
           }
 
-          o_neighbors += parseInt(o_currentBoard[(x + i + columns) % columns][(y + j + rows) % rows].alive);
+          o_neighbors += parseInt(
+            o_currentBoard[(x + i + columns) % columns][(y + j + rows) % rows]
+              .alive,
+          );
 
           // Rules of Life
           if (o_currentBoard[x][y].alive == 1 && o_neighbors < 2) {
@@ -126,7 +128,6 @@ function setup() {
     // assume mobile
     frameRate(1 / 999999);
   }
-
 }
 
 let skip = 0;
@@ -137,7 +138,7 @@ function draw() {
 
   generate();
 
-  console.log({draw:{columns, rows}})
+  console.log({ draw: { columns, rows } });
 
   for (let i = 0; i < columns; i++) {
     for (let j = 0; j < rows; j++) {
@@ -198,6 +199,6 @@ function windowResized() {
   setup();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  console.log('canvas init...')
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('canvas init...');
 });

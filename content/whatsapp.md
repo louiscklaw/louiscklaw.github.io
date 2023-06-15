@@ -8,6 +8,6 @@ jobDate: 2019
 draft: false
 ---
 
-redirecting you to whatsapp 
+redirecting you to whatsapp
 
 {{< redirWhatsapp  >}}

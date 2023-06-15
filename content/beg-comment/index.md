@@ -9,8 +9,6 @@ draft: false
 tags: ['carousell']
 ---
 
-
-
 <style>
   a {
     text-decoration: underline;
@@ -165,7 +163,6 @@ tags: ['carousell']
 
 </style>
 
-
 <div class="please-leave-review-container">
   <h3 class="please-leave-review">
     對唔住阻阻你，留個 <b>review</b> 比我嗯～
@@ -216,7 +213,6 @@ tags: ['carousell']
     <i class="next-step-arrow fa-solid fa-arrow-down fa-2x"></i>
   </div>
 
-
   <!-- step 3 -->
   <div class="step-box-mobile" style="">
     <h3 class="step-label">Step 3</h3>
@@ -255,7 +251,6 @@ tags: ['carousell']
         </div>
     </div>
   </div>
-
 
 </div>
 
@@ -309,7 +304,6 @@ tags: ['carousell']
     <i class="next-step-arrow fa-solid fa-arrow-right fa-3x"></i>
   </div>
 
-
   <div>
     <div class="step-box">
       <div class="step-container">
@@ -333,7 +327,6 @@ tags: ['carousell']
   <div>
     <i class="next-step-arrow fa-solid fa-arrow-right fa-3x"></i>
   </div>
-
 
   <div>
     <div class="step-box">
@@ -363,4 +356,3 @@ tags: ['carousell']
     承蒙惠顧，多謝支持
   </h3>
 </div>
-

@@ -8,6 +8,6 @@ jobDate: 2019
 draft: false
 ---
 
-redirecting you to discord 
+redirecting you to discord
 
 {{< redirDiscord  >}}

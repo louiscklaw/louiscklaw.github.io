@@ -7,19 +7,17 @@ date: '2019-05-02'
 draft: false
 ---
 
-
 {{< pay-work-three-columns >}}
 
 {{< show_desktop >}}
 
-  ## 真係非常多謝
+## 真係非常多謝
 
-  ## thank you very much
+## thank you very much
 
-  ## どうもありがとうございます
+## どうもありがとうございます
 
-  ## 非常感謝您
-
+## 非常感謝您
 
   <div style="
   padding: 1rem;
@@ -58,26 +56,26 @@ draft: false
     </div>
   </div>
 
-
 {{< /show_desktop >}}
 
 {{< show_mobile >}}
 
-  ## thank you very much
-  ## 真係非常多謝
+## thank you very much
+
+## 真係非常多謝
 
 {{< /show_mobile >}}
 
 <--->
 
 {{< show_desktop >}}
+
   <div 
     class="qr-img" 
     style="background-image: url('./paycode.jpg'); ">
   </div>
 
 {{< /show_desktop >}}
-
 
 {{< show_mobile >}}
 

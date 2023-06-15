@@ -11,7 +11,6 @@ tags: ['portfolio']
 
 {{< work-three-columns >}}
 
-
 ### Languages
 
 Cantonese, English, Mandarin, JavaScript
@@ -26,9 +25,7 @@ Cantonese, English, Mandarin, JavaScript
 - Web page scraping
 - github searching
 
-
 <---> <!-- magic separator, between columns -->
-
 
 ### Other skills
 

@@ -11,11 +11,13 @@
     "restart_cypress": "docker compose kill cypress && docker compose up -d cypress",
     "clean": "rm -rf public .hugo_build.lock resources",
     "prettier_file": "prettier --write ./content",
-    "goGithubRepo": "firefox https://github.com/louiscklaw/louiscklaw.github.io"
+    "goGithubRepo": "firefox https://github.com/louiscklaw/louiscklaw.github.io",
+    "watch:format": "onchange --await-write-finish 50 'content/**/*.md' 'tests/**/*.js' -- prettier --write './{{file}}'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "onchange": "^7.1.0"
   }
 }

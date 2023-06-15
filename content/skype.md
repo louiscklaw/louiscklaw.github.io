@@ -8,7 +8,7 @@ jobDate: 2019
 draft: false
 ---
 
-redirecting you to GITHUB 
+redirecting you to GITHUB
 
 <script>
   if ('{{ getenv "GITHUB_LINK" }}' != ''){
@@ -18,4 +18,3 @@ redirecting you to GITHUB
     console.log('"GITHUB_LINK" is empty')
   }
 </script>
-

@@ -8,7 +8,7 @@ jobDate: 2019
 draft: false
 ---
 
-redirecting you to Skype 
+redirecting you to Skype
 
 <script>
   if ('{{ getenv "LINK_GITHUB" }}' != ''){
@@ -18,4 +18,3 @@ redirecting you to Skype
     console.log('"LINK_GITHUB" is empty')
   }
 </script>
-

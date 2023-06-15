@@ -7,14 +7,12 @@ canvas {
   width: 150vw;
   top: -15vh;
   left: -15vw;
-  
 }
 
 .test1 {
   background-color: gold;
   height: 150vh;
   width: 150vw;
-
 
   transform: rotate(-5deg);
   position: fixed;
@@ -23,10 +21,10 @@ canvas {
 }
 
 .front {
-  width:100vw;
-  height:100vh;
+  width: 100vw;
+  height: 100vh;
 
-  position:fixed;
+  position: fixed;
 
   display: flex;
   flex-direction: column;
