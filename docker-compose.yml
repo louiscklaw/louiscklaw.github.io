@@ -3,7 +3,7 @@ services:
     # image: logickee/hugo_dev
     hostname: hugo_dev
     build: .
-    restart: always
+    restart: unless-stopped
     volumes:
       - .:/app
       - node_modules:/app/node_modules
@@ -15,7 +15,7 @@ services:
 
   cypress:
     image: cypress/included:12.1.0
-    restart: always
+    restart: unless-stopped
     volumes:
       - $PWD/tests/cypress:/e2e
       - /tmp/.X11-unix:/tmp/.X11-unix

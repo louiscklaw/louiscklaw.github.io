@@ -12,7 +12,7 @@
     "clean": "rm -rf public .hugo_build.lock resources",
     "prettier_file": "prettier --write ./content",
     "goGithubRepo": "firefox https://github.com/louiscklaw/louiscklaw.github.io",
-    "watch:format": "onchange --await-write-finish 50 'content/**/*.md' 'tests/**/*.js' -- prettier --write './{{file}}'"
+    "watch:format": "onchange --await-write-finish 50 'content/**/*.md' 'content/**/*.py' 'tests/**/*.js' -- prettier --write './{{file}}'"
   },
   "keywords": [],
   "author": "",

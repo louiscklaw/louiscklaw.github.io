@@ -1,6 +1,7 @@
 FROM debian:buster-slim
 
 ENV DEBIAN_FRONTEND noninteractive
+
 RUN ln -fs /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 
 RUN sed -i 's/http:\/\/archive\.ubuntu\.com/http:\/\/ftp\.cuhk\.edu\.hk\/pub\/Linux/g' /etc/apt/sources.list && \
