@@ -165,7 +165,7 @@ tags: ['carousell']
 
 <div class="please-leave-review-container">
   <h3 class="please-leave-review">
-    對唔住阻阻你，留個 <b>review</b> 比我嗯～
+    唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 <b>review</b> 比我呀？
   </h3>
 </div>
 
@@ -198,7 +198,8 @@ tags: ['carousell']
     <h3 class="step-label">Step 2</h3>
     <div class="step-content">
       <div class="step-description">
-        <p>之後我會 "Accept offer" ...</p>
+          <p>之後我就會九秒九 "Accept offer" ...</p>
+          <p>（呢步唔洗你做，只係用黎解釋我背後做緊乜 ... ）</p>
         </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -241,7 +242,7 @@ tags: ['carousell']
       <div class="step-description">
         <p>跟住，你就可以留 "Review" 喇。</p>
         <p>內容隨心就 OK</p>
-        <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝！</p>
+        <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！</p>
       </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -281,14 +282,15 @@ tags: ['carousell']
     <i class="next-step-arrow fa-solid fa-arrow-right fa-3x"></i>
   </div>
 
-  <div style="display: none;">
+  <div>
     <div class="step-box">
       <div class="step-container">
         <div style="display: flex; flex-direction: row; justify-content:flex-start; width: 100%;">
           <h3 class="step-label">Step 2</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>之後我會 "Accept offer" ...</p>
+          <p>之後我就會九秒九 "Accept offer" ...</p>
+          <p>（呢步唔洗你做，只係用黎解釋我背後做緊乜 ... ）</p>
         </div>
       </div>
       <div>
@@ -300,7 +302,7 @@ tags: ['carousell']
     </div>
   </div>
 
-  <div style="display: none;">
+  <div>
     <i class="next-step-arrow fa-solid fa-arrow-right fa-3x"></i>
   </div>
 
@@ -308,11 +310,10 @@ tags: ['carousell']
     <div class="step-box">
       <div class="step-container">
         <div style="display: flex; flex-direction: row; justify-content:flex-start; width: 100%;">
-          <h3 class="step-label">Step 2</h3>
+          <h3 class="step-label">Step 3</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>跟住，</p>
-          <p>你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，搵到 "Leave a review" 呢個掣，㩒落去...</p>
+          <p>跟住，你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，</p><p>搵到 "Leave a review" 呢個掣，㩒落去...</p>
         </div>
       </div>
       <div>
@@ -332,12 +333,12 @@ tags: ['carousell']
     <div class="step-box">
       <div class="step-container">
         <div style="display: flex; flex-direction: row; justify-content:flex-start; width: 100%;">
-          <h3 class="step-label">Step 3</h3>
+          <h3 class="step-label">Step 4</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
           <p>跟住，你就可以留 "Review" 喇。</p>
           <p>內容隨心就 OK</p>
-          <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝！</p>
+          <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！</p>
         </div>
       </div>
       <div>
@@ -353,6 +354,6 @@ tags: ['carousell']
 
 <div class="thanks-purchase-container">
   <h3 class="thanks-for-purchase-and-support">
-    承蒙惠顧，多謝支持
+    承蒙惠顧，多謝支持 ! !
   </h3>
 </div>
