@@ -56,7 +56,9 @@
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
       <li>
-        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        <a href="{{ .Permalink }}">
+          {{ .LinkTitle }}
+        </a>
       </li>
       {{- end }}
     </ul>
@@ -72,4 +74,5 @@
   {{- end }}
 </article>
 
-{{- end }}{{/* end main */}}
+{{- end }}
+{{/* end main */}}

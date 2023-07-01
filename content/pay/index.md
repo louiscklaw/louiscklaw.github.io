@@ -93,4 +93,8 @@ draft: false
 
 <div class="qr-img" style="background-image: url('./alipay.jpg'); "></div>
 
+<--->
+
+<div class="qr-img" style="background-image: url('./tap_n_go.jpg'); "></div>
+
 {{< /pay-work-three-columns >}}
