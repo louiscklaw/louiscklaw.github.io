@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
+wanted_weight = 2
+
 def select_items(weights):
     selected_items = []
     total_weight = 0
-    wanted_weight = 2.6
 
     for weight in sorted(weights, reverse=True):
         if total_weight + weight <= wanted_weight:
@@ -24,7 +25,7 @@ def select_items(weights):
 
     return selected_items
 
-weights = [0.02, 0.07, 0.14, 0.2, 0.4, 0.54, 1.76]
+weights = [0.16, 0.14, 0.5, 0.61, 0.19, 0.61]
 selected_items = select_items(weights)
 
 print(selected_items)
