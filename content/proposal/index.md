@@ -1,0 +1,3 @@
+Technical feasibility
+Commercial potential
+Novelty
