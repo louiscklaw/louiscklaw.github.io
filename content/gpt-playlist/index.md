@@ -11,4 +11,6 @@ tags: ['carousell']
 
 my gpt-playlist
 
-hang at GPU memory not enough
+[privateGPT](https://github.com/louiscklaw/privateGPT)
+
+stopped at the middle as GPU memory not enough
