@@ -242,7 +242,7 @@ tags: ['carousell']
       <div class="step-description">
         <p>跟住，你就可以留 "Review" 喇。</p>
         <p>內容隨心就 OK</p>
-        <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！</p>
+        <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！ 🙇‍♂️🙇‍♂️🙇‍♂️</p>
       </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -338,7 +338,7 @@ tags: ['carousell']
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
           <p>跟住，你就可以留 "Review" 喇。</p>
           <p>內容隨心就 OK</p>
-          <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！</p>
+          <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！ 🙇‍♂️🙇‍♂️🙇‍♂️</p>
         </div>
       </div>
       <div>
