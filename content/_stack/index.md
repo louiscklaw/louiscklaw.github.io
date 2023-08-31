@@ -31,7 +31,7 @@ tags: ['carousell']
 
 ### 大数据看板 github
 - [https://www.google.com/search?client=firefox-b-d&q=+%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9C%8B%E6%9D%BF+github](https://www.google.com/search?client=firefox-b-d&q=+%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9C%8B%E6%9D%BF+github)
-
+- https://github.com/datageartech/datagear
 
 
 ## MISC
