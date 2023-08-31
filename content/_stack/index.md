@@ -11,6 +11,9 @@ tags: ['carousell']
 
 ## stack
 
+### Awesome
+- https://github.com/LiLittleCat/awesome-free-chatgpt
+
 ### AI
 - [https://www.perplexity.ai/](https://www.perplexity.ai/)
 
