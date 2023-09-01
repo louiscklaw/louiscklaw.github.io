@@ -23,6 +23,7 @@ tags: ['carousell']
 ### QNASMINI
 - [https://www.youtube.com/watch?v=dUADMmR7Rww](https://www.youtube.com/watch?v=dUADMmR7Rww)
 - [https://cults3d.com/en/3d-model/gadget/3d-printed-sff-case-7-4l](https://cults3d.com/en/3d-model/gadget/3d-printed-sff-case-7-4l)
+- https://www.youtube.com/watch?v=gKJfjG4OIIQ
 
 
 
