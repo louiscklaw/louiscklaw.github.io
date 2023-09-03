@@ -37,3 +37,8 @@ tags: ['carousell']
 
 ## MISC
 - https://github.com/topics/langflow
+
+
+## file flow
+- https://github.com/revenz/FileFlows
+- https://github.com/luigi311/FileFlows-Personal/tree/main
