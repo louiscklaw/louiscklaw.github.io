@@ -1,7 +1,7 @@
 ---
 layout: 'hello'
 
-title: beg-comment
+title: beg-comment (english)
 date: '2019-05-02'
 jobDate: 2019
 
@@ -10,6 +10,7 @@ tags: ['carousell']
 ---
 
 <style>
+  
   a {
     text-decoration: underline;
   }
@@ -18,11 +19,15 @@ tags: ['carousell']
     margin: 1rem;
     color: #7f8c8d ;
     opacity: 0.9;
-    font-weight: 100;
-    letter-spacing: 0.1rem;
+    font-weight: 500;
   }
 
   .step-container  {
+  }
+
+  .bold_underline {
+    text-decoration: underline;
+    font-weight: bold;
   }
 
   .step-description {
@@ -37,8 +42,7 @@ tags: ['carousell']
 
   .thanks-for-purchase-and-support {
     color: #7f8c8d;
-    font-weight: 100;
-    letter-spacing: 0.1rem;
+    font-weight: 500;
     font-size: 2rem !important;
   }
 
@@ -52,7 +56,7 @@ tags: ['carousell']
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px; 
     border: 1px solid rgba(189, 195, 199, 0.5);
     border-radius: 1rem;
-    min-height: 55vh; max-width: 35vh;
+    min-height: 555px; max-width: 320px;
     padding: 2rem;
     margin: 1rem;
     display: flex;
@@ -165,7 +169,8 @@ tags: ['carousell']
 
 <div class="please-leave-review-container">
   <h3 class="please-leave-review">
-    唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 <b>review</b> 比我呀？
+    <div>Exceuse me, may i spent you a few minutes ? </div>
+    <div style="margin-top:0.5rem">Can you leave your comment to me ?</div>
   </h3>
 </div>
 
@@ -176,9 +181,12 @@ tags: ['carousell']
     <h3 class="step-label">Step 1</h3>
     <div class="step-content">
       <div class="step-description">
-        <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">POST</a>
+        <p>
+          Open the <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">POST</a> here.
         </p>
-        <p>見到 "Make Offer" 呢個掣，㩒落去 ... </p>
+        <p>
+          You can see the <span class="bold_underline">"Make Offer"</span> button, click it.
+        </p>
         </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -198,8 +206,8 @@ tags: ['carousell']
     <h3 class="step-label">Step 2</h3>
     <div class="step-content">
       <div class="step-description">
-          <p>之後我就會九秒九 "Accept offer" ...</p>
-          <p>（呢步唔洗你做，只係用黎解釋我背後做緊乜 ... ）</p>
+          <p>And then I will accept the offer A.S.A.P.</p>
+          <p style="font-size:0.8rem;">(You no need to care about this part and i just want to explain what i did behind the stage.)</p>
         </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -219,8 +227,10 @@ tags: ['carousell']
     <h3 class="step-label">Step 3</h3>
     <div class="step-content">
       <div class="step-description">
-        <p>跟住，</p>
-        <p>你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，搵到 "Leave a review" 呢個掣，㩒落去...</p>
+        <p>After that, </p>
+        <p>
+          you can see the "Leave a review" button available in your "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>", Press it...
+        </p>
         </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -240,9 +250,12 @@ tags: ['carousell']
     <h3 class="step-label">Step 4</h3>
     <div class="step-content">
       <div class="step-description">
-        <p>跟住，你就可以留 "Review" 喇。</p>
-        <p>內容隨心就 OK</p>
-        <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！ 🙇‍♂️🙇‍♂️🙇‍♂️</p>
+        <p>
+          You can leave comment now and the content is entirely up to you... 
+        </p>
+        <p>
+          Don't forget to press the "Submit Review" button after you finish and that all done !
+        </p>
       </div>
       <div class="step-image">
         <img width="auto" height="auto" 
@@ -264,9 +277,14 @@ tags: ['carousell']
           <h3 class="step-label">Step 1</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>首先打開個 <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">POST</a>
-          </p>
-          <p>見到 "Make Offer" 呢個掣，㩒落去 ... </p>
+          <ul>
+            <li>
+              Open the <a style="text-decoration: underline" href="https://www.carousell.com.hk/p/p-1192889425/" target="_blank">POST</a> here.
+            </li>
+            <li>
+              You can see the <span class="bold_underline">"Make Offer"</span> button, click it.
+            </li>
+          </ul>
         </div>
       </div>
       <div>
@@ -289,8 +307,14 @@ tags: ['carousell']
           <h3 class="step-label">Step 2</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>之後我就會九秒九 "Accept offer" ...</p>
-          <p>（呢步唔洗你做，只係用黎解釋我背後做緊乜 ... ）</p>
+          <ul>
+            <li>
+              And then I will accept the offer A.S.A.P.
+            </li>
+            <li style="font-size: 0.8rem;">
+              (You no need to care about this part and i just want to explain what i did behind the stage.)
+            </li>
+          </ul>
         </div>
       </div>
       <div>
@@ -313,7 +337,9 @@ tags: ['carousell']
           <h3 class="step-label">Step 3</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>跟住，你可以喺 "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>" 度，</p><p>搵到 "Leave a review" 呢個掣，㩒落去...</p>
+          <p>
+            And then you can see the "Leave a review" button available in your "<a href="https://www.carousell.com.hk/inbox/" target="_blank">Inbox</a>", Press it...
+          </p>
         </div>
       </div>
       <div>
@@ -336,9 +362,8 @@ tags: ['carousell']
           <h3 class="step-label">Step 4</h3>
         </div>
         <div class="step-description" style="display: flex; flex-direction: column; justify-content:flex-start; width: 100%; text-align: left;">
-          <p>跟住，你就可以留 "Review" 喇。</p>
-          <p>內容隨心就 OK</p>
-          <p>寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！ 🙇‍♂️🙇‍♂️🙇‍♂️</p>
+          <p>You can leave comment now and the content is entirely up to you... </p>
+          <p>Don't forget to press the "Submit Review" button after you finish and that all done !</p>
         </div>
       </div>
       <div>
@@ -354,6 +379,6 @@ tags: ['carousell']
 
 <div class="thanks-purchase-container">
   <h3 class="thanks-for-purchase-and-support">
-    承蒙惠顧，多謝支持 ! !
+    Thank you very much for your purchase !
   </h3>
 </div>
