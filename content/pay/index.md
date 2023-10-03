@@ -91,10 +91,12 @@ draft: false
 
 <--->
 
-<div class="qr-img" style="background-image: url('./alipay.jpg'); "></div>
+<div class="qr-img" style="
+background-image: url('./alipay.jpg'); 
+background-size: contain;"></div>
 
 <--->
 
-<div class="qr-img" style="background-image: url('./tap_n_go.jpg'); "></div>
+<div class="qr-img" style="background-image: url('./tap_n_go.jpg'); background-size: contain;"></div>
 
 {{< /pay-work-three-columns >}}
