@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "gitUpdate": "git add . && git commit -m\"upate louiscklaw.github.io,\"",
-    "dc_rebuild": "docker compose up -d",
+    "dc_up": "docker compose up -d",
     "publish":"git push",
-    "into_docker": "docker compose exec -it hugo_dev bash",
+    "dc_shell": "docker compose exec -it hugo_dev bash",
     "restart_cypress": "docker compose kill cypress && docker compose up -d cypress",
     "clean": "rm -rf public .hugo_build.lock resources",
     "prettier_file": "prettier --write ./content",
