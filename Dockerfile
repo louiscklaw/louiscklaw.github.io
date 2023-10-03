@@ -17,7 +17,7 @@ RUN apt update &&\
   apt-get install -qqy entr
 
 RUN cd ~ &&\
-  curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh &&\
+  curl -sL https://deb.nodesource.com/setup_18.x -o /tmp/nodesource_setup.sh &&\
   bash /tmp/nodesource_setup.sh &&\
   apt update &&\
   apt install -qqy nodejs &&\
