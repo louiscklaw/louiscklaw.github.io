@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gitUpdate": "git add . && git commit -m\"upate louiscklaw.github.io,\"",
+    "gitUpdate": "git add . && git commit -m\"update louiscklaw.github.io,\"",
     "dc_up": "docker compose up -d",
-    "publish":"git push",
+    "publish": "git push",
     "dc_shell": "docker compose exec -it hugo_dev bash",
     "restart_cypress": "docker compose kill cypress && docker compose up -d cypress",
     "clean": "rm -rf public .hugo_build.lock resources",
