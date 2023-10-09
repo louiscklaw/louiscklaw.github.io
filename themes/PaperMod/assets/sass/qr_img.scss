@@ -1,4 +1,4 @@
-@media (max-width: 2000px) {
+@media (min-width: 45px) {
   .qr-img {
     background-size: contain;
     background-position: center;
@@ -20,3 +20,13 @@
     
   }
 }
+
+// .qr-img {
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   width: auto;
+//   height: 80vh;
+//   max-width: 500px;
+//   max-height: calc(80vh - var(--header-height) - var(--footer-height));
+// }
