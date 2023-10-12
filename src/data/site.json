@@ -1,0 +1,63 @@
+{
+  "name": "Louislabs",
+  "description": "this is my little space store my stuff.",
+  "url": "https://eleventyduo.netlify.app",
+  "author": {
+    "name": "Author Name",
+    "email": "author@site.com",
+    "twitterHandle": "author_handle"
+  },
+  "defaultSocialImage": "/images/default-social-image.png",
+  "headerLinks": [
+    {
+      "text": "works",
+      "url": "/works",
+      "external": false
+    },
+    {
+      "text": "credits",
+      "url": "/credits",
+      "external": false
+    },
+    {
+      "text": "Blog",
+      "url": "/blog",
+      "external": false
+    },
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    }
+  ],
+  "socialLinks": [
+    {
+      "text": "telegram",
+      "url": "https://telegram.com/",
+      "external": true
+    },
+    {
+      "text": "discord",
+      "url": "https://discordapp.com/users/403184009125036033",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/louiscklaw",
+      "external": true
+    },
+    {
+      "text": "linkedin",
+      "url": "https://linkedin.com/",
+      "external": true
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": true
+    }
+  ],
+  "showFooterAttribution": true
+}

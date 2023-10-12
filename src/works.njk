@@ -1,0 +1,15 @@
+---
+layout: base.njk
+permalink: /works/
+---
+
+<h1>All Works/全部工作</h1>
+
+<div class="tags">
+  {% include "tags-list.njk" %}
+</div>
+
+{% set workslist = collections.works %} 
+
+{% include "works-list.njk" %}
+
