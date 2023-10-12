@@ -15,24 +15,6 @@ jobs:
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build
-        env: # Or as an environment variable
-          # https://share.louislabs.com/upload
-          UPLOAD_LINK: ${{ secrets.UPLOAD_LINK }}
-          # +852 nnnn nnnn
-          WHATSAPP_NUMBER: ${{ secrets.WHATSAPP_NUMBER }}
-          TELEGRAM_LINK: ${{ secrets.TELEGRAM_LINK }}
-          DISCORD_LINK: ${{ secrets.DISCORD_LINK }}
-          SKYPE_LINK: ${{ secrets.SKYPE_LINK }}
-          LINK_GITHUB: ${{ secrets.LINK_GITHUB }}
-        run: hugo --minify
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
