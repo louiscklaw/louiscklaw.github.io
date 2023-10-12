@@ -20,8 +20,8 @@ jobs:
 
       - name: Build
         run: |
-          yarn 
-          yarn build
+          npm i 
+          npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
