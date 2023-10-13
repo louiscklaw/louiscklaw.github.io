@@ -15,7 +15,7 @@
   margin-right: auto;
   max-width: calc(48.75rem * 1.2);
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
   border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
 
@@ -60,4 +60,21 @@
 
 .nav__list a:hover {
   color: rgb(41, 41, 41);
+}
+
+.header__avatar {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.header__site_name {
+  position: relative;
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 35.9375em) {
+  .header__content {
+    margin-top: 1rem;
+  }
 }

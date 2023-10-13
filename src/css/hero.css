@@ -18,11 +18,22 @@
   list-style-type: none;
   margin-top: 2rem;
   text-transform: uppercase;
+
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .hero__social-links > li {
   margin-right: 2rem;
   margin-top: 1rem;
+}
+
+.hero__social-links > li > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
 }
 
 .hero__skip-link {
@@ -44,4 +55,18 @@
   transition: opacity 0.2s ease-in-out;
   stroke: rgb(0, 0, 0, 0.4);
   /* color: rgb(41, 41, 41); */
+}
+
+.social_icon {
+  display: none;
+}
+
+@media (min-width: 35.9375em) {
+  .social_icon {
+    display: block;
+  }
+
+  .hero__social-links > li > a {
+    text-decoration: unset;
+  }
 }
