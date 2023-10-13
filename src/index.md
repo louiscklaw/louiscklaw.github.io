@@ -3,8 +3,8 @@ layout: home
 title: "Louis portfolio"
 ---
 
-# Hello, this is louis
+<h1 >Hello, this is louis</h1>
 
-<div style="margin-top: 1rem;">
+<div class="slogan">
   and this little space store my <a href="/works">work/hand drafts</a>.....
 </div>

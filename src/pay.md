@@ -4,10 +4,12 @@ layout: pay.njk
 name: Louis cklaw
 ---
 
-<div style="font-size: 1.5rem;"># 真係非常多謝</div>
-<div style="font-size: 1rem;"># thank you very much</div>
-<div style="font-size: 1rem;"># どうもありがとうございます</div>
-<div style="font-size: 1rem;"># 非常感謝您</div>
+<div class="thank-you-salutation">
+  <div style="font-size: 1.2rem;"># 真係非常多謝</div>
+  <div style="font-size: 1.2rem;"># thank you very much</div>
+  <div style="font-size: 1.2rem;"># どうもありがとうございます</div>
+  <div style="font-size: 1.2rem;"># 非常感謝您</div>
+</div>
 
 <div class="pay-qr-row">
   <div>
@@ -115,14 +117,21 @@ name: Louis cklaw
 </div>
 
 
-<div style="
+<div 
+  class="bottom-question"
+  style="
   text-align: center; 
   margin-top: 3rem;
   ">
-  有問題？可以經 <a href="www.google">telegram</a> 搵我喎
+  <div>
+    有問題？可以經 <a href="https://t.me/louislabs"> <i class="fab fa-telegram" target="_blank"></i> TELEGRAM</a> / <a href="https://t.me/louislabs"> <i class="fab fa-discord" target="_blank"></i> DISCORD</a> 搵我喎
+  </div>
+  <div>Got a questions? You can reach me through <a href="https://t.me/louislabs"> <i class="fab fa-telegram" target="_blank"></i> TELEGRAM</a> / <a href="https://t.me/louislabs"> <i class="fab fa-discord" target="_blank"></i> DISCORD</a></div>
 </div>
 
-<div style="
+<div 
+  class="bottom-thank-you"
+  style="
   color: gray; 
   margin-top: 3rem;
   font-size: 1.5rem;
