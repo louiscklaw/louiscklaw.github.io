@@ -6,24 +6,34 @@ layout: base
   <div class="hero-content">
     <div class="intro">{{ content | safe }}</div>
 
-    {% if site.socialLinks %}
-      <ul class="hero__social-links">
-        {% for item in site.socialLinks %} 
-          {% set externalAttribute = '' %} 
+    <ul class="hero__social-links">
+      <li>
+        <a href="https://t.me/louislabs" target="_blank" rel="noopener noreferrer">
+        <div><i class="fab fa-telegram"></i></div>
+        <div>telegram</div>
+        </a>
+      </li>
+      <li>
+        <a href="https://discordapp.com/users/403184009125036033" target="_blank" rel="noopener noreferrer">
+        <div><i class="fab fa-discord"></i></div>
+        <div>discord</div>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/louiscklaw" target="_blank" rel="noopener noreferrer">
+        <div><i class="fab fa-github"></i></div>
+        <div>GitHub</div>
+        </a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/louiscklaw" target="_blank" rel="noopener noreferrer">
+        <div><i class="fab fa-linkedin"></i></div>
+        <div>linkedin</div>
+        </a>
+      </li>
+    </ul>
 
-          {% if item.external %} 
-            {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %} 
-          {% endif %}
 
-          <li>
-            <a href="{{ item.url | url }}" {{ externalAttribute | safe }}
-              >{{ item.text }}</a
-            >
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-    
   </div>
 </header>
 
