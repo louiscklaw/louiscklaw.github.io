@@ -1,11 +1,11 @@
 {
   "name": "Louislabs",
   "description": "this is my little space store my stuff.",
-  "url": "https://eleventyduo.netlify.app",
+  "url": "https://louiscklaw.github.io",
   "author": {
-    "name": "Author Name",
-    "email": "author@site.com",
-    "twitterHandle": "author_handle"
+    "name": "louiscklaw",
+    "email": "logickee@gmail.com",
+    "twitterHandle": "louiscklaw"
   },
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
@@ -48,7 +48,7 @@
     },
     {
       "text": "linkedin",
-      "url": "https://linkedin.com/",
+      "url": "https://linkedin.com/louiscklaw",
       "external": true
     }
   ],
