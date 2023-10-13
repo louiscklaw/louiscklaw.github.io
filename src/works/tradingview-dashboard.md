@@ -4,7 +4,7 @@ description: A personal page to help search APIs provided by hk government. Also
 permalink: works/{{ title | slug }}/index.html
 date: "2020-11-18"
 updated: "2021-02-12"
-tags: [data, search, board, dashboard]
+tags: [javascript, react]
 ---
 
 ![](/images/works/tradingview-dashboard.png)
