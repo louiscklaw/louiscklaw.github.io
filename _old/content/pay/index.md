@@ -29,7 +29,7 @@ draft: false
   display: none;
   ">
     <div style="font-size: 1.3rem; padding-right: 2rem;">
-      Question/問題/質問があります ?
+      Question / 問題 / 質問があります ?
     </div>
     <div style="
       display: flex; 
