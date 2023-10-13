@@ -4,7 +4,10 @@ https://fontawesome.com/v5/search
 ```bash
 #to start dev
 
-yarn i
+./scripts/dc_up.sh
+
+# inside docker shell
+yarn
 yarn dev
 ```
 
