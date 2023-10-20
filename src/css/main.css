@@ -86,7 +86,7 @@
     gap: 1rem;
 
     width: 80rem;
-    left: calc((-80rem + 48.75rem) / 2);
+    left: calc( -1 * ( 80rem - 58.5rem) / 2);
     margin-top: 3rem;
     position: relative;
   }
