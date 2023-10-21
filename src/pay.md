@@ -8,7 +8,7 @@ name: Louis cklaw
   <div class="thank-you-text" style="font-size: 1.2rem;"># 真係非常多謝 </div>
   <div class="thank-you-text" style="font-size: 1.2rem;"># thank you very much</div>
   <div class="thank-you-text" style="font-size: 1.2rem;"># どうもありがとうございます</div>
-  <div class="thank-you-text" style="font-size: 1.2rem;"># 非常感謝您</div>
+  <div class="thank-you-text" style="font-size: 1.2rem;"># 非常感谢您</div>
 </div>
 
 <div class="pay-qr-row">
