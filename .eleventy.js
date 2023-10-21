@@ -2,19 +2,14 @@ const { DateTime } = require('luxon');
 const readingTime = require('eleventy-plugin-reading-time');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const htmlmin = require('html-minifier')
+const htmlmin = require('html-minifier');
 const fs = require('fs');
 const path = require('path');
 
 const isDev = process.env.ELEVENTY_ENV === 'development';
-const isProd = process.env.ELEVENTY_ENV === 'production'
+const isProd = process.env.ELEVENTY_ENV === 'production';
 
-const manifestPath = path.resolve(
-  __dirname,
-  'public',
-  'assets',
-  'manifest.json'
-);
+const manifestPath = path.resolve(__dirname, 'public', 'assets', 'manifest.json');
 
 const manifest = isDev
   ? {
@@ -42,34 +37,28 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
   eleventyConfig.addShortcode('bundledcss', function () {
-    return manifest['main.css']
-      ? `<link href="${manifest['main.css']}" rel="stylesheet" />`
-      : '';
+    return manifest['main.css'] ? `<link href="${manifest['main.css']}" rel="stylesheet" />` : '';
   });
 
   eleventyConfig.addShortcode('bundledjs', function () {
-    return manifest['main.js']
-      ? `<script src="${manifest['main.js']}"></script>`
-      : '';
+    return manifest['main.js'] ? `<script src="${manifest['main.js']}"></script>` : '';
   });
 
-  eleventyConfig.addFilter('excerpt', (post) => {
+  eleventyConfig.addFilter('excerpt', post => {
     const content = post.replace(/(<([^>]+)>)/gi, '');
     return content.substr(0, content.lastIndexOf(' ', 200)) + '...';
   });
 
-  eleventyConfig.addFilter('readableDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-      'dd LLL yyyy'
-    );
+  eleventyConfig.addFilter('readableDate', dateObj => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('dd LLL yyyy');
   });
 
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+  eleventyConfig.addFilter('htmlDateString', dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
-  eleventyConfig.addFilter('dateToIso', (dateString) => {
-    return new Date(dateString).toISOString()
+  eleventyConfig.addFilter('dateToIso', dateString => {
+    return new Date(dateString).toISOString();
   });
 
   eleventyConfig.addFilter('head', (array, n) => {
@@ -107,19 +96,19 @@ module.exports = function (eleventyConfig) {
     return [...tagSet];
   });
 
-  eleventyConfig.addFilter('pageTags', (tags) => {
+  eleventyConfig.addFilter('pageTags', tags => {
     const generalTags = ['all', 'nav', 'post', 'posts'];
 
     return tags
       .toString()
       .split(',')
-      .filter((tag) => {
+      .filter(tag => {
         return !generalTags.includes(tag);
       });
   });
 
-  eleventyConfig.addTransform('htmlmin', function(content, outputPath) {
-    if ( outputPath && outputPath.endsWith(".html") && isProd) {
+  eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
+    if (outputPath && outputPath.endsWith('.html') && isProd) {
       return htmlmin.minify(content, {
         removeComments: true,
         collapseWhitespace: true,
@@ -136,7 +125,7 @@ module.exports = function (eleventyConfig) {
       output: 'public',
       includes: 'includes',
       data: 'data',
-      layouts: 'layouts'
+      layouts: 'layouts',
     },
     passthroughFileCopy: true,
     templateFormats: ['html', 'njk', 'md'],

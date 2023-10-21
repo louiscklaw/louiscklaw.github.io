@@ -12,7 +12,7 @@ name: Louis cklaw
 </div>
 
 <div class="pay-qr-row">
-  <div>
+  <div class="qr-wrapper">
     <div style="
       background-color: #c0392b; 
       color: white; 
@@ -46,7 +46,7 @@ name: Louis cklaw
       </div>
   </div>
 
-  <div>
+  <div class="qr-wrapper">
     <div style="
       background-color: #2980b9; 
       color: white; 
@@ -79,7 +79,7 @@ name: Louis cklaw
       </div>
   </div>
 
-  <div>
+  <div class="qr-wrapper">
     <div style="
       background-color: #f39c12; 
       color: white; 

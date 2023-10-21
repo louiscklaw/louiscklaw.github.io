@@ -8,10 +8,7 @@ const isDev = process.env.ELEVENTY_ENV === 'development';
 const baseFilename = isDev ? 'main' : 'main.[contenthash]';
 
 module.exports = {
-  entry: [
-    path.resolve(__dirname, 'src', 'js', 'main.js'),
-    path.resolve(__dirname, 'src', 'css', 'main.css'),
-  ],
+  entry: [path.resolve(__dirname, 'src', 'js', 'main.js'), path.resolve(__dirname, 'src', 'css', 'main.css')],
   output: {
     path: path.resolve(__dirname, 'public', 'assets'),
     filename: `${baseFilename}.js`,
