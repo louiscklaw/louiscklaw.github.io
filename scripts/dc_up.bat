@@ -1,13 +1,11 @@
-#!/usr/bin/env bash
 
-set -ex
+rmdir node_modules
 
 docker run -it ^
-  -v .:/app ^
+  -v D:\_workspace\louiscklaw.github.io:/app ^
   -w /app ^
+  -v temp_node_modules:/app/node_modules ^
   -p 3001 ^
   -p 8080 ^
-  -v ~/.ssh/id_rsa:/root/.ssh/id_rsa:ro ^
-  -v ~/.ssh/known_host:/root/.ssh/known_hosts:ro ^
   --rm ^
-  node:16-buster bash
+  node:16-bullseye bash
