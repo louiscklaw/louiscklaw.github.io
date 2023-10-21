@@ -1,5 +1,5 @@
 ---
-title: qr linkes
+title: my contact points
 layout: contacts.njk
 name: louiscklaw
 ---
