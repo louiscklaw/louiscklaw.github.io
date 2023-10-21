@@ -12,6 +12,12 @@
 
 .thank-you-salutation {
   text-align: center;
+  
+}
+
+
+.thank-you-text {
+  width: 100%;
 }
 
 @media (min-width: 35.9375em) {
@@ -29,15 +35,17 @@
   }
 
   .thank-you-salutation {
+    /* background-color: red; */
+
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
+    row-gap: 0.1rem;
     align-items: center;
-    width: calc(48.75rem * 1.5);
-    position: relative;
-    left: calc((-48.75rem * 0.5) / 2);
+    flex-wrap: wrap;
   }
+
 }
 
 @media (min-width: 45.9375em) {
@@ -45,7 +53,13 @@
   .qr-wrapper {
   }
 
+  .thank-you-salutation {
+    /* background-color: cyan; */
+    flex-wrap: wrap;
+  }
   .pay-qr-row {
+    
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -58,10 +72,16 @@
     margin-top: 3rem;
   }
 
+  .thank-you-text {
+    width: unset;
+  }
+  
 }
 
 @media (min-width: 70em) {
-
+  .thank-you-salutation {
+    /* background-color: gold; */
+  }
   .pay-qr-row {
     display: flex;
     flex-direction: row;
@@ -76,4 +96,8 @@
     margin-top: 3rem;
   }
 
+  .thank-you-text {
+    width: unset;
+  }
+  
 }
