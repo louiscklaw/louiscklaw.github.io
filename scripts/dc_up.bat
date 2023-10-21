@@ -6,6 +6,6 @@ docker run -it ^
   -w /app ^
   -v temp_node_modules:/app/node_modules ^
   -p 3001 ^
-  -p 8080 ^
+  -p 8080:8080 ^
   --rm ^
   node:16-bullseye bash
