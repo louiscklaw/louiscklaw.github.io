@@ -80,4 +80,10 @@
   .intro .slogan {
     margin-top: 1rem;
   }
+
+  .post-list__item {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
 }
