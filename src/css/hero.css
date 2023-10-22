@@ -12,6 +12,31 @@
   margin-top: 1rem;
 }
 
+.top_hero__social-links {
+
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 2rem;
+  text-transform: uppercase;
+
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.top_hero__social-links > li {
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.top_hero__social-links > li > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
 .hero__social-links {
   display: flex;
   flex-wrap: wrap;
