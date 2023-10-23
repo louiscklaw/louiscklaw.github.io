@@ -54,3 +54,8 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+
+
+.post h3 {
+  text-transform: capitalize;
+}
