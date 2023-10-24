@@ -32,6 +32,10 @@
   /* background-color: gold; */
 }
 
+.post__content pre {
+  border-radius: 5px;
+}
+
 .post__content p img {
   border-radius: 0.25rem;
 }

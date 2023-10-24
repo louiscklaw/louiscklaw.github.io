@@ -119,6 +119,17 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addFilter('publicPostOnlyFilter', function (collection) {
+    const filtered = collection.filter(item => item.data.open_to_public == true);
+    return filtered;
+  });
+
+  eleventyConfig.addFilter('localeFilter', function (collection, locale) {
+    if (!locale) return collection;
+    const filtered = collection.filter(item => item.data.locale == locale);
+    return filtered;
+  });
+
   return {
     dir: {
       input: 'src',

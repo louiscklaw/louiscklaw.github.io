@@ -1,5 +1,5 @@
 <ul class="post-list">
-  {% for post in workslist | reverse %}
+  {% for post in workslist | reverse | publicPostOnlyFilter() %}
     <li class="post-list__item">
       <div>
         <div class="post-list__meta">
