@@ -55,7 +55,27 @@
   padding-right: 0.5rem;
 }
 
-
 .post h3 {
   text-transform: capitalize;
+}
+
+
+
+.post__content p:has(img) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.post__content p img {
+  width: 100%;
+}
+
+
+@media (min-width: 35.9375em) {
+  .post__content p img {
+    width: 80%;
+  }
 }
