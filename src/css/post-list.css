@@ -9,6 +9,11 @@
   margin-bottom: 1rem;
 }
 
+.post-tag { 
+  text-transform: capitalize;
+} 
+
+
 .tags a {
   text-decoration: none;
   color: rgb(117, 117, 117);
@@ -42,6 +47,8 @@
 .post-list__title {
   font-size: var(--text-2xl);
   margin-top: 0.5rem;
+
+  text-transform: capitalize;
 }
 
 .post-list__title a {

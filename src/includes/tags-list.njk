@@ -1,4 +1,4 @@
-{% for tag in collections.tagList | excludeDraftTags %}
+{% for tag in collections.tagList %}
   {% set tagUrl %}
     /tags/{{ tag }}/
   {% endset %}
