@@ -130,6 +130,10 @@ module.exports = function (eleventyConfig) {
     return filtered;
   });
 
+  eleventyConfig.addFilter('excludeDraftTags', function (tagList) {
+    return tagList.filter(tag => !tag.data.draft);
+  });
+
   return {
     dir: {
       input: 'src',

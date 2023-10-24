@@ -8,7 +8,7 @@
           </time>
           <span> | </span>
           <span>
-            {{ post | readingTime }} read
+            {{ post | readingTime }} read/閱讀
           </span>
         </div>
 
@@ -29,11 +29,11 @@
       </h3>
 
       <p class="post-list__excerpt">
-        blablabla
+        {{ post.data.description | excerpt | safe  }}
       </p>
 
       <a class="post-list__read-more" href="{{ post.url }}">
-        read article
+        read article / 閱讀文章
       </a>
     </li>
   {% endfor %}

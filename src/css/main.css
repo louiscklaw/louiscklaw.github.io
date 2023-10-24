@@ -71,6 +71,11 @@
   display: block;
 }
 
+.space-left {
+  margin-left: 0.1rem;
+  background-color: gold;
+}
+
 @media (min-width: 35.9375em) {
   .hide-mobile {
     display: unset;

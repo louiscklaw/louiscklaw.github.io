@@ -2,8 +2,8 @@
 title: poe-seat
 description: a cheatty way to use GPT services from poe.com
 permalink: works/{{ title | slug }}/index.html
-date: "2020-11-18"
-updated: "2021-02-12"
+date: "2023-10-24"
+updated: "2023-10-24"
 tags: [GPT, api, nodejs, javascript, expressjs]
 open_to_public: true
 ---
