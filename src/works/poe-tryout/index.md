@@ -20,7 +20,7 @@ A "cheatty" way to use GPT service from poe.com
 
 ### Repository:
 
-- to be filled
+  - to be filled
 
 
 ### prerequisite
