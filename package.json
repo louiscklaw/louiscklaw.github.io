@@ -44,6 +44,7 @@
   },
   "dependencies": {
     "gh-pages": "^6.0.0",
+    "nodemon": "^3.0.1",
     "remove": "^0.1.5"
   }
 }
