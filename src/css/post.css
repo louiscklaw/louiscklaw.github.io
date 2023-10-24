@@ -78,4 +78,12 @@
   .post__content p img {
     width: 80%;
   }
+
+  .post__content p:has(img) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
 }
