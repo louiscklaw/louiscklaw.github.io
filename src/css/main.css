@@ -73,7 +73,10 @@
 
 .space-left {
   margin-left: 0.1rem;
-  background-color: gold;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 35.9375em) {
