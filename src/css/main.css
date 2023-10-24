@@ -79,6 +79,10 @@
   text-decoration: underline;
 }
 
+.tags-list a:hover{
+  text-decoration: underline;
+}
+
 @media (min-width: 35.9375em) {
   .hide-mobile {
     display: unset;
