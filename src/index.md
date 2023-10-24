@@ -5,7 +5,7 @@ title: "Louis portfolio"
 
 <h1>
 <div>Hello, this is louis</div>
-<div class="hide-mobile">你好，我叫 louis</div>
+<div class="hide-mobile">你好, 我叫 louis</div>
 </h1>
 
 <div class="slogan">
