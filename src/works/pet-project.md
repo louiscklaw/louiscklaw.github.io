@@ -6,6 +6,7 @@ date: "2020-11-18"
 updated: "2021-02-12"
 tags: [javascript, python]
 open_to_public: true
+draft: false
 ---
 
 ![](/images/works/pet-project.avif)

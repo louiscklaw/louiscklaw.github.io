@@ -6,6 +6,7 @@ date: "2020-11-18"
 updated: "2021-02-12"
 tags: [docker, container, traefik, api routing]
 open_to_public: true
+draft: false
 ---
 
 ![](/images/works/traefik.avif)
