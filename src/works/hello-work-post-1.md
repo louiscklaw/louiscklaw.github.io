@@ -5,6 +5,7 @@ permalink: works/{{ title | slug }}/index.html
 date: "2020-11-18"
 updated: "2021-02-12"
 tags: [demo-content, code, 用户活跃度, 活跃用户]
+open_to_public: false
 ---
 
 ![](/images/works/helloworld.avif)

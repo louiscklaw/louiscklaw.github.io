@@ -5,6 +5,7 @@ permalink: works/{{ title | slug }}/index.html
 date: "2020-11-18"
 updated: "2021-02-12"
 tags: [javascript, python]
+open_to_public: true
 ---
 
 ![](/images/works/pet-project.avif)
