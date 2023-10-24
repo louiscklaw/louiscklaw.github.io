@@ -13,7 +13,7 @@ open_to_public: true
 A "cheatty" way to use GPT service from poe.com
 
 
-### system design
+### system design:
 
 ![](/images/works/poe-tryout/hand_draft.jpg)
 
@@ -23,7 +23,7 @@ A "cheatty" way to use GPT service from poe.com
   - to be filled
 
 
-### prerequisite
+### prerequisite:
 
 
 ### component introduction:
@@ -186,8 +186,12 @@ what is this person name ?
   1. review (HLD)
   1. send (HLD)
 
-### TODO:
+### Improvements/TODOs:
+
   - docker-compse.production.yml
+  - V2raya In The Middle, I Add The Proxy Function To Puppeteer Already.
+    - the remaining part should be integrate it into the main openbox-poe-seat program.
+
 
 ### update logs:
   - 2023-08-01: add expres database to store log
@@ -199,7 +203,7 @@ what is this person name ?
   - https://github.com/f/awesome-chatgpt-prompts
   - https://florianholzapfel.github.io/express-restify-mongoose
 
-### tags
+### tags:
 
   - ai training ( poe / chatGPT / googlePalm)
   - api testing ( expressjs )
