@@ -69,13 +69,16 @@
 
 
 .post__content p img {
+  background-color: tomato;
   width: 100%;
 }
 
 
 @media (min-width: 35.9375em) {
   .post__content p img {
-    width: 80%;
+    background-color: gold;
+    max-height: 500px;
+    width:auto;
   }
 
   .post__content p:has(img) {
