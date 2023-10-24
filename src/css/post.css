@@ -60,7 +60,6 @@
 }
 
 
-
 .post__content p:has(img) {
   display: flex;
   flex-direction: row;
