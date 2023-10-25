@@ -3,11 +3,11 @@
 set -ex
 
 docker run -it \
+  --cpus=1 \
   -v $PWD:/app \
   -w /app \
-  -p 3001 \
-  -p 8080 \
-  -v ~/.ssh/id_rsa:/root/.ssh/id_rsa:ro \
-  -v ~/.ssh/known_host:/root/.ssh/known_hosts:ro \
+  -p 3001:3001 \
+  -p 8080:8080 \
   --rm \
-  node:16-buster bash
+  node:16-bullseye bash
+  
