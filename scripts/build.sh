@@ -2,4 +2,8 @@
 
 set -ex
 
-yarn build
+rm -rf ./node_modules/*
+
+npm i -D
+npm run dev
+
