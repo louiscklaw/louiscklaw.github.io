@@ -2,6 +2,8 @@
 title: Credits
 layout: pay.njk
 name: Louis cklaw
+socialImage: /images/pay-social-image.png
+description: payment link to louiscklaw/louislabs
 ---
 
 <div class="thank-you-salutation">
