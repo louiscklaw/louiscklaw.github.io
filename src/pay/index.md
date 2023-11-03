@@ -1,5 +1,5 @@
 ---
-title: Credits
+title: payment link - louiscklaw/louislabs
 layout: pay.njk
 name: Louis cklaw
 socialImage: /images/pay-social-image.png
