@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
     <title>Document</title>
 
     <style>
@@ -28,38 +29,73 @@
   <body>
     <div style="width: 1000px; height: 1000px; background-color: #f5f7f8">
       <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%">
-        <div style="display: flex; flex-direction: row; justify-content: center; gap: 2rem">
-          <div
-            style="
-              height: 200px;
-              width: 200px;
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-image: url('./payme.svg');
-            "
-          ></div>
-          <div
-            style="
-              height: 200px;
-              width: 200px;
-              background-size: contain;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-image: url('./Alipay-HK.svg');
-            "
-          ></div>
-          <div
-            style="
-              height: 200px;
-              width: 200px;
-              background-size: contain;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-image: url('./tap_n_go.jpg');
-            "
-          ></div
-        ></div>
+        <div style="display: flex; flex-direction: row">
+          <div>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                row-gap: 3rem;
+                flex-wrap: wrap;
+                width: 300px;
+              "
+            >
+              <div
+                style="
+                  height: 120px;
+                  width: 120px;
+                  background-size: cover;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-image: url('./payme.svg');
+                "
+              ></div>
+              <div
+                style="
+                  height: 120px;
+                  width: 120px;
+                  background-size: contain;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-image: url('./Alipay-HK.svg');
+                "
+              ></div>
+              <div
+                style="
+                  height: 120px;
+                  width: 120px;
+                  background-size: contain;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-image: url('./tap_n_go.jpg');
+                "
+              ></div>
+              <div
+                style="
+                  height: 120px;
+                  width: 120px;
+                  background-size: contain;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-image: url('./fps.png');
+                "
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              id="canvas"
+              style="
+                border-radius: 0px;
+                border-left: 2px solid rgba(69, 71, 75, 0.25);
+                padding-left: 1.5rem;
+                margin-left: 1.5rem;
+              "
+            ></div>
+          </div>
+        </div>
         <div
           style="
             margin-top: 2rem;
@@ -80,5 +116,23 @@
         </div>
       </div>
     </div>
+
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        console.log('window.location', window.location);
+        const qrCode = new QRCodeStyling({
+          width: 300,
+          height: 300,
+          type: 'svg',
+          data: 'https://louiscklaw.github.io/pay',
+          image: 'https://avatars.githubusercontent.com/u/1376093?v=4',
+          dotsOptions: { color: '#45474B', type: 'rounded' },
+          backgroundOptions: { color: '#F5F7F8' },
+          imageOptions: { crossOrigin: 'anonymous', margin: 3 },
+        });
+
+        qrCode.append(document.getElementById('canvas'));
+      });
+    </script>
   </body>
 </html>
