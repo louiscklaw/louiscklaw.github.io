@@ -1,6 +1,8 @@
 ---
 title: upload to louis
 layout: upload.njk
+socialImage: /images/upload-social-image.png
+description: upload link to louiscklaw/louislabs
 ---
 
 <style>
