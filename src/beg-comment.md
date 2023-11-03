@@ -1,7 +1,9 @@
 ---
 title: beg-comment
 layout: credits.njk
-name: Louis cklaw
+name: louiscklaw
+socialImage: /images/comment-social-image.png
+description: 唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review 比我呀？
 ---
 
 唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review 比我呀？
