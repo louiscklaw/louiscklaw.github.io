@@ -1,5 +1,15 @@
 https://fontawesome.com/v5/search
 
+```bash
+# to deploy
+
+# inside docker
+yarn build
+
+# in host
+./deploy.sh
+
+```
 
 ```bash
 #to start dev
