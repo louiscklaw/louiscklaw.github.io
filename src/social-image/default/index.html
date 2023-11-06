@@ -27,8 +27,33 @@
     </style>
   </head>
   <body>
-    <div style="width: 1000px; height: 1000px; background-color: #f5f7f8">
-      <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%">
+    <div
+      style="
+        width: 1000px;
+        height: 1000px;
+        background-image: url('../backdrop.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    >
+      <div
+        style="
+          /* From https://css.glass */
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(100px);
+          -webkit-backdrop-filter: blur(100px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+        "
+      >
         <div style="display: flex; flex-direction: row; justify-content: center; align-items: center">
           <div
             style="
@@ -69,7 +94,7 @@
           data: 'https://louiscklaw.github.io',
           image: 'https://avatars.githubusercontent.com/u/1376093?v=4',
           dotsOptions: { color: '#45474B', type: 'rounded' },
-          backgroundOptions: { color: '#F5F7F8' },
+          backgroundOptions: { color: 'rgba(245,247,248,0.8)' },
           imageOptions: { crossOrigin: 'anonymous', margin: 3 },
         });
 
