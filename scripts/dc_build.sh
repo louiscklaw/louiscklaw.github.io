@@ -10,7 +10,4 @@ docker run -it \
   -p 8080:8080 \
   --rm \
   node:16-bullseye ./build.sh
-
-sudo chown 1000:1000 -R . public
-
-yarn deploy
+  

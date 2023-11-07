@@ -3,6 +3,9 @@ https://fontawesome.com/v5/search
 ```bash
 # to deploy
 
+# start docker
+./scripts/dc_up.sh
+
 # inside docker
 yarn build
 
