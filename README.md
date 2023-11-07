@@ -1,19 +1,13 @@
 https://fontawesome.com/v5/search
 
-```bash
 # to deploy
-
-# start docker
-./scripts/dc_up.sh
-
-# inside docker
-yarn build
-
+```bash
 # in host
 ./deploy.sh
 
 ```
 
+# to dev
 ```bash
 #to start dev
 
