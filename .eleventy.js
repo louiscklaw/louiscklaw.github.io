@@ -135,6 +135,8 @@ module.exports = function (eleventyConfig) {
     return tagList.filter(tag => !tag.data.draft);
   });
 
+  eleventyConfig.addPassthroughCopy('src/manifest.json');
+
   return {
     dir: {
       input: 'src',
