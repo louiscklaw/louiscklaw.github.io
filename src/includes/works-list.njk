@@ -6,32 +6,32 @@
           <time datetime="{{ post.date | htmlDateString }}">
             {{ post.date | readableDate }}
           </time>
-          <span> | </span>
+          <span>
+            |
+          </span>
           <span>
             {{ post | readingTime }} read/閱讀
           </span>
         </div>
-
         <div class="post-list__tags">
           {% for tag in post.data.tags %}
             {%- if collections.tagList.indexOf(tag) != -1 -%}
               {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-              <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+              <div>
+                <a href="{{ tagUrl | url }}">
+                  #{{ tag }}
+                </a>
+              </div>
             {%- endif -%}
           {% endfor %}
         </div>
       </div>
-
-
-
       <h3 class="post-list__title">
-        <a  href="{{ post.url }}">{{ post.data.title }}</a>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
       </h3>
-
       <p class="post-list__excerpt">
-        {{ post.data.description | excerpt | safe  }}
+        {{ post.data.description | excerpt | safe }}
       </p>
-
       <a class="post-list__read-more" href="{{ post.url }}">
         read article / 閱讀文章
       </a>

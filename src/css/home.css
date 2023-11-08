@@ -5,3 +5,37 @@
 
   margin-top: 3rem;
 }
+
+.top_hero__social-links li a {
+  justify-content: flex-start;
+}
+
+.social-link{
+  min-width: 30vw;
+}
+
+
+.post-list__tags>*+* {
+  margin-left: unset;
+}
+
+.post-list__tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+
+
+@media (min-width: 35.9375em) {
+
+  .top_hero__social-links li a {
+    justify-content: flex-start;
+  }
+  
+  .social-link{
+    min-width: unset;
+  }
+
+}

@@ -7,41 +7,41 @@ layout: base
     <div class="intro">{{ content | safe }}</div>
     <ul class="top_hero__social-links">
       <li>
-        <a href="https://t.me/louislabs" target="_blank" rel="noopener noreferrer">
-        <div><i class="fab fa-telegram"></i></div>
-        <div>telegram</div>
+        <a href="https://t.me/louislabs" target="_blank" rel="noopener noreferrer" class="social-link">
+          <div>
+            <i class="fab fa-telegram"></i>
+          </div>
+          <div style="margin-left: 0.5rem;">telegram</div>
         </a>
       </li>
       <li>
-        <a href="https://discordapp.com/users/403184009125036033" target="_blank" rel="noopener noreferrer">
-        <div><i class="fab fa-discord"></i></div>
-        <div>discord</div>
+        <a href="https://discordapp.com/users/403184009125036033" target="_blank" rel="noopener noreferrer" class="social-link">
+          <div>
+            <i class="fab fa-discord"></i>
+          </div>
+          <div style="margin-left: 0.5rem;">discord</div>
         </a>
       </li>
       <li>
-        <a href="https://github.com/louiscklaw" target="_blank" rel="noopener noreferrer">
-        <div><i class="fab fa-github"></i></div>
-        <div>GitHub</div>
+        <a href="https://github.com/louiscklaw" target="_blank" rel="noopener noreferrer" class="social-link">
+          <div>
+            <i class="fab fa-github"></i>
+          </div>
+          <div style="margin-left: 0.5rem;">GitHub</div>
         </a>
       </li>
       <li>
-        <a href="https://linkedin.com/louiscklaw" target="_blank" rel="noopener noreferrer">
-        <div><i class="fab fa-linkedin"></i></div>
-        <div>linkedin</div>
+        <a href="https://linkedin.com/louiscklaw" target="_blank" rel="noopener noreferrer" class="social-link">
+          <div>
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div style="margin-left: 0.5rem;">linkedin</div>
         </a>
       </li>
     </ul>
-
-
   </div>
 </header>
-
 <section class="post-list__wrapper">
   <h2 class="post-list__heading">Recent Works</h2>
-
-  {% set workslist = collections.works | head(-3) %} {% include "works-list.njk" %}
-</section>
-
-<a class="all-works-link" href="{{ '/blog/' | url }}">
-  View All Works
-</a>
+  {% set workslist = collections.works | head(-3) %}{% include "works-list.njk" %}</section>
+<a class="all-works-link" href="{{ '/blog/' | url }}">View All Works</a>
