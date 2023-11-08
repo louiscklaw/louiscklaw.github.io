@@ -11,6 +11,7 @@
 @import 'supermarket_qr.css';
 @import 'pay.css';
 @import 'home.css';
+@import 'namecard.css';
 
 .layout-wrapper {
   display: grid;

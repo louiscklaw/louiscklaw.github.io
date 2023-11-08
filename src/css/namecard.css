@@ -1,0 +1,59 @@
+.namecard-container{
+  padding: 1rem;
+  height: 100vh;
+  width: 100vw;
+
+  color: rgba(41,41,41,.8);
+}
+
+.namecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.namecard .left {
+  width: 50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.namecard .right {
+  width: 50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-content {
+  width:80%;
+}
+
+.name-row {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.stack-row {
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem 0.25rem;
+
+  font-size: 0.85rem;
+
+  color: rgba(82,82,82,.8);
+}
