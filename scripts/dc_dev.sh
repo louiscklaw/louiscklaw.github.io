@@ -9,7 +9,5 @@ docker run -it \
   -p 3001:3001 \
   -p 8080:8080 \
   --rm \
-  node:16-bullseye sh ./build.sh
+  node:16-bullseye ./dev.sh
   
-
-yarn deploy

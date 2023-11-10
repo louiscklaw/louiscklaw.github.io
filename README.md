@@ -3,19 +3,18 @@ https://fontawesome.com/v5/search
 # to deploy
 ```bash
 # in host
-./deploy.sh
+./scripts/dc_build.sh
+
+sudo chown 1000:1000 -R public
+
+yarn deploy
 
 ```
 
 # to dev
 ```bash
-#to start dev
+./scripts/dc_dev.sh
 
-./scripts/dc_up.sh
-
-# inside docker shell
-yarn
-yarn dev
 ```
 
 # Eleventy Duo
