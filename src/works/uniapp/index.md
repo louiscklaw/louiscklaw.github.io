@@ -4,7 +4,7 @@ description: stratch pad when i learn uniapp
 permalink: works/{{ title | slug }}/index.html
 date: "2020-11-18"
 updated: "2021-02-12"
-tags: [uniapp, vue, 跨端开发框架]
+tags: [uniapp, vue, 跨端开发框架, 電商系統]
 open_to_public: true
 draft: false
 ---
