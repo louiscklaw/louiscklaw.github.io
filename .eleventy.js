@@ -137,6 +137,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/manifest.json');
 
+  // TODO: add copy image of post here
+
   return {
     dir: {
       input: 'src',
