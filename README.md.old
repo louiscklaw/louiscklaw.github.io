@@ -1,0 +1,22 @@
+https://fontawesome.com/v5/search
+
+# to deploy
+```bash
+# in host
+./scripts/dc_build.sh
+
+sudo chown 1000:1000 -R public
+
+yarn deploy
+
+```
+
+# to dev
+```bash
+./scripts/dc_dev.sh
+
+```
+
+# TODO
+
+add image copy to `src/works/freelance`
