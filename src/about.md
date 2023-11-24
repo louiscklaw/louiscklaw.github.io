@@ -10,8 +10,9 @@ image: '/images/me.jpg'
 </div>
 
 ### Programming language
-  - <a href="https://github.com/louiscklaw/react-playlist">JavaScript (link to my react-playlist)</a>
-  - <a href="https://github.com/louiscklaw/python-playlist">Python (link to my python-playlist)</a>
+  - <a href="https://github.com/louiscklaw/react-playlist" target="_blank" rel="noreferrer" rel="noopener">JavaScript (link to my react-playlist)</a>
+  - <a href="https://github.com/louiscklaw/python-playlist" target="_blank" rel="noreferrer" rel="noopener">Python (link to my python-playlist)</a>
+  - <a href="https://github.com/louiscklaw/docker-playlist" target="_blank" rel="noreferrer" rel="noopener">Docker (link to my docker-playlist)</a>
 
 
 ### Languages
