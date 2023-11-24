@@ -1,3 +1,7 @@
+.about ul{
+  margin-top: 0.1rem;
+}
+
 .about h1 {
   margin-bottom: 2rem;
 }
@@ -31,5 +35,9 @@
 
   .h-center-mobile {
     text-align: left;
+  }
+
+  .about ul{
+    margin-top: 0.5rem;
   }
 }
