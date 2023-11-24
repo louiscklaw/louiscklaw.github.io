@@ -40,10 +40,10 @@
     "build:site": "env ELEVENTY_ENV=production eleventy",
     "clean": "rm -rf ./public",
     "gitUpdate": "git add . && git commit -m\"update,\"",
-    "deploy": "npx gh-pages -d ./public"
+    "deploy": "gh-pages -f -d ./public"
   },
   "dependencies": {
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.1.0",
     "nodemon": "^3.0.1",
     "remove": "^0.1.5"
   }

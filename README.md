@@ -2,6 +2,7 @@ https://fontawesome.com/v5/search
 
 # to deploy
 ```bash
+# ./deploy.sh
 # in host
 ./scripts/dc_build.sh
 
