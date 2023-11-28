@@ -1,7 +1,7 @@
 ---
 # draft: true
 # permalink: works/{{ title | slug }}/index.html
-title: 樹窿page
+title: 樹窿 page
 description: Health goth raw denim vaporware waistcoat, vegan neutra glossier. Cronut chartreuse tbh meh schlitz. Snackwave lumbersexual pinterest narwhal.
 date: "2020-11-18"
 updated: "2021-02-12"
