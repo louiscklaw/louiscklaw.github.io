@@ -1,5 +1,5 @@
 ---
-title: poe-seat
+title: poe-tryout
 description: a cheatty way to use GPT services from poe.com
 permalink: works/{{ title | slug }}/index.html
 date: "2023-10-24"
@@ -8,14 +8,19 @@ tags: [GPT, api, nodejs, javascript, expressjs]
 open_to_public: true
 ---
 
-![](/images/works/poe-tryout/hand_draft.jpg)
+<a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg"
+  data-lightbox="example-1">
+  <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" />
+</a>
+
+![](./block_diagram.svg)
 
 A "cheatty" way to use GPT service from poe.com
 
 
 ### system design:
 
-![](/images/works/poe-tryout/hand_draft.jpg)
+![](./hand_draft.jpg)
 
 
 ### Repository:

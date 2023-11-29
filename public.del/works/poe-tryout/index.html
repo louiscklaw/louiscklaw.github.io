@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href=https://louiscklaw.github.io/works/poe-tryout//> <link href="/assets/main.css" rel="stylesheet" /> <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>
+      poe-tryout
+      
+        | Louislabs
+      
+    </title>
+    <link rel="icon" type="“image/x-icon”" href="/images/favicon.ico">
+    <meta property="og:title" content="poe-tryout">
+    <meta property="og:site_name" content="Louislabs"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://louiscklaw.github.io/works/poe-tryout/"/>
+    <meta name="twitter:card" content="summary_large_image">
+    
+      <meta name="twitter:creator" content="@louiscklaw"/>
+    
+    
+    
+    
+      <meta name="description" content="a cheatty way to use GPT services from poe.com">
+      <meta property="og:description" content="a cheatty way to use GPT services from poe.com">
+      <meta name="description" content="a cheatty way to use GPT services from poe.com"/>
+    
+    
+      
+    
+    
+      <meta property="og:image" content="https://louiscklaw.github.io/images/social-image.png"/>
+      <meta name="twitter:image" content="https://louiscklaw.github.io/images/social-image.png"/>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({startOnLoad: true});
+    </script>
+    
+    <script>
+      * {
+        font - family: 'Noto Sans TC',
+        sans - serif;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="layout-wrapper">
+      <header class="header">
+        <div class="header__content">
+          <h1 class="site-title">
+            <a href=/>
+              Louislabs
+            </a>
+          </h1>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav-item">
+                <span class="hide-mobile">
+                  <i class="fas fa-tools"></i>
+                </span>
+                <span class="hide-mobile space-left"></span>
+                <a href="/works">
+                  works/<span class="show-mobile"></span>工作
+                </a>
+              </li>
+              <li class="nav-item">
+                <span class="hide-mobile">
+                  <i class="fas fa-trophy"></i>
+                </span>
+                <span class="hide-mobile space-left"></span>
+                <a href="/credits">
+                  credits/<span class="show-mobile"></span>支持
+                </a>
+              </li>
+              <li class="nav-item">
+                <span class="hide-mobile">
+                  <i class="far fa-copy"></i>
+                </span>
+                <span class="hide-mobile space-left"></span>
+                <a href="/blog">
+                  Blog/<span class="show-mobile"></span>記事
+                </a>
+              </li>
+              <li class="nav-item">
+                <span class="hide-mobile">
+                  <i class="fas fa-user"></i>
+                </span>
+                <span class="hide-mobile space-left"></span>
+                <a href="/about">
+                  About/<span class="show-mobile"></span>關於我
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        
+<article class="post">
+  <header class="post__header">
+    <h1>poe-tryout</h1>
+    <div class="post__details">
+      <time datetime="2023-10-24">
+        24 Oct 2023
+      </time>
+      <span> | </span>
+      <span>2 min read</span>
+    </div>
+  </header>
+
+  <main class="post__content"><p><img src="./block_diagram.svg" alt=""></p>
+<p>A &quot;cheatty&quot; way to use GPT service from poe.com</p>
+<h3>system design:</h3>
+<p><img src="./hand_draft.jpg" alt=""></p>
+<h3>Repository:</h3>
+<ul>
+<li>to be filled</li>
+</ul>
+<h3>prerequisite:</h3>
+<h3>component introduction:</h3>
+<ul>
+<li>TBD</li>
+</ul>
+<h3>directory introduction:</h3>
+<pre class="language-bash"><code class="language-bash">$ tree <span class="token parameter variable">-L</span> <span class="token number">3</span> <span class="token parameter variable">-d</span> <span class="token parameter variable">-a</span><br><span class="token builtin class-name">.</span><br>├── docs                          <span class="token punctuation">(</span> documentation <span class="token punctuation">)</span><br>├── _seeds                        <span class="token punctuation">(</span> seed <span class="token keyword">for</span> openbox-firefox <span class="token punctuation">)</span><br>│   └── chrome-user-data-seed                        <br>└── src                               <br>    ├── bait                      <span class="token punctuation">(</span> hosting self bait page <span class="token punctuation">)</span><br>    ├── changedetect              <span class="token punctuation">(</span> changedetect container home <span class="token punctuation">)</span><br>    ├── dbapi                     <span class="token punctuation">(</span> dbapi container home <span class="token punctuation">)</span><br>    ├── flow-handler              <span class="token punctuation">(</span> main entry point, workflow control <span class="token punctuation">)</span><br>    ├── jobsdb-link-extractor     <span class="token punctuation">(</span> jobsdb-link-extractor home <span class="token punctuation">)</span><br>    ├── openbox-seat              <span class="token punctuation">(</span> openbox-seat home <span class="token punctuation">)</span><br>    ├── poe-scheduler-api         <span class="token punctuation">(</span> poe-scheduler-api source/container home <span class="token punctuation">)</span><br>    ├── static-share              <span class="token punctuation">(</span> output hosting/container home <span class="token punctuation">)</span><br>    └── volumes                   <span class="token punctuation">(</span> <span class="token function">docker</span> persistance strage <span class="token punctuation">)</span></code></pre>
+<h3>development</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># in project root</span><br>$ <span class="token function">cp</span> .env.example .env<br><br><span class="token comment"># if not build openbox-poe-seat image</span><br>$ <span class="token builtin class-name">cd</span> src/openbox-poe-seat<br>$ ./build_image.sh<br>$ ./push.sh<br><span class="token comment"># openbox-poe-seat build done</span><br><br>$ <span class="token function">npm</span> run docker_dev </code></pre>
+<ul>
+<li>start firefox, import mitm certificate</li>
+<li>mitm is not used at the moment</li>
+<li>test poe login state by start_firefox.sh</li>
+<li>start ./test.sh at openbox-firefox container</li>
+<li>to ensuore you are good to go
+<ul>
+<li>run <code>/workspace/ai-playlist/poe-tryout/docker-poe-tryout/src/openbox-firefox/src/tests/ChatGPT/ask_helloworld/test.sh</code> -&gt; the simpleest helloworld question to poe chatgpt</li>
+</ul>
+</li>
+</ul>
+<h3>api endpoints:</h3>
+<ul>
+<li>poe-scheduler
+<ul>
+<li>/chatGPT/helloworld      ( poe chatGPT helloworld self-test )</li>
+<li>/chatGPT/ask             ( ask poe/chatGPT )</li>
+<li>/googlePalm/helloworld   ( poe/googlePalm helloworld self-test )</li>
+<li>/googlePalm/ask          ( ask poe/googlePalm )</li>
+</ul>
+</li>
+</ul>
+<h3>start redis</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">docker</span> compose <span class="token parameter variable">-f</span> ./docker-compose.gen.yml <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> redis <span class="token function">bash</span><br><br>redis-cli config <span class="token builtin class-name">set</span> <span class="token function">dir</span> /data</code></pre>
+<h3>production</h3>
+<h3>v2raya in the middle, i add the proxy function to puppeteer already.</h3>
+<ul>
+<li>the remaining part should be integrate it into the main openbox-poe-seat program.</li>
+</ul>
+<h3>considerations:</h3>
+<ul>
+<li>multithreaded
+<ul>
+<li>if using puppeteer + express solution, the scheduler possibility need to implement by myself aswell</li>
+<li>use browserless to avoid implementing scheduler</li>
+</ul>
+</li>
+</ul>
+<h3>reseed user profile for google chrome</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># 1. at projectroot</span><br>$ <span class="token builtin class-name">cd</span> _seeds<br>$ ./reseed.sh<br><span class="token comment"># will open a chrome browser, go through tutorial</span><br><br><span class="token comment"># stop openbox-poe-seat if running</span><br>$ <span class="token function">docker</span> compose <span class="token function">kill</span> openbox-poe-seat1<br><br><br><span class="token comment"># /workspace/ai-playlist/poe-tryout/docker-poe-tryout/src/volumes/openbox-poe-seat1</span><br>$ ./renew_user_data_.sh<br><br>$ <span class="token function">docker</span> compose restart openbox-poe-seat1<br></code></pre>
+<p><img src="/images/works/poe-tryout/process-flow/graph.png" alt=""></p>
+<h3>start:</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># build openbox-ubuntu image</span><br>$ ./build.sh<br>$ <span class="token function">docker</span> compose up <span class="token parameter variable">-d</span><br><br><span class="token comment"># mongo-express always cannot connect to mongo at start, manually restart</span><br>$ <span class="token function">docker</span> compose restart mongo-express</code></pre>
+<h3>tackle cloudflare bot-prevention :</h3>
+<ul>
+<li>so i change my path to using google-chrome</li>
+</ul>
+<p><img src="/images/works/poe-tryout/tackle_cloudflare.png" alt=""></p>
+<pre class="language-bash"><code class="language-bash">$ <span class="token function">npm</span> <span class="token function">install</span> puppeteer-extra puppeteer-extra-plugin-stealth</code></pre>
+<h3>build:</h3>
+<pre class="language-bash"><code class="language-bash">$ build.sh</code></pre>
+<h3>useful links:</h3>
+<ul>
+<li>TBD</li>
+</ul>
+<h2>flow (planning):</h2>
+<pre class="mermaid">  graph TD;
+      A[fetch jobs] -- jobs --> B[Query poe.com];
+      B[initialize louis background]-->D[draft email and CV];
+      C-->D;
+</pre>
+<h3>preprompt tryout:</h3>
+<h3>test 1 (testing on chatGPT):</h3>
+<p>preprompt
+start a fresh talk
+remember you a person live in hong kong named louis</p>
+<p>question
+what is this person name ?</p>
+<p><img src="/images/works/poe-tryout/test_preprompt.gif" alt=""></p>
+<h3>google-palm tryout:</h3>
+<p><img src="/images/works/poe-tryout/google-palm.gif" alt=""></p>
+<h3>high level design:</h3>
+<ol>
+<li>fetch (HLD)</li>
+<li>draft (HLD)</li>
+<li>review (HLD)</li>
+<li>send (HLD)</li>
+</ol>
+<h3>Improvements/TODOs:</h3>
+<ul>
+<li>docker-compse.production.yml</li>
+<li>V2raya In The Middle, I Add The Proxy Function To Puppeteer Already.
+<ul>
+<li>the remaining part should be integrate it into the main openbox-poe-seat program.</li>
+</ul>
+</li>
+</ul>
+<h3>update logs:</h3>
+<ul>
+<li>2023-08-01: add expres database to store log
+<ul>
+<li>draft google-palm support</li>
+<li>update pre-prompt</li>
+</ul>
+</li>
+</ul>
+<h3>References:</h3>
+<ul>
+<li>https://github.com/f/awesome-chatgpt-prompts</li>
+<li>https://florianholzapfel.github.io/express-restify-mongoose</li>
+</ul>
+<h3>tags:</h3>
+<ul>
+<li>ai training ( poe / chatGPT / googlePalm)</li>
+<li>api testing ( expressjs )</li>
+<li>stealthing / automation / puppeteer</li>
+<li>ui testing (google chrome / chromium / firefox )</li>
+<li>stealthing</li>
+<li>queueing / state machine</li>
+<li>changedetect / browserless</li>
+<li>jobsdb</li>
+</ul>
+</main>
+
+  <aside class="post__aside">
+    <div class="post__tags">
+
+       
+        
+        <a href="/tags/works/">#works</a>
+       
+        
+        <a href="/tags/GPT/">#GPT</a>
+       
+        
+        <a href="/tags/api/">#api</a>
+       
+        
+        <a href="/tags/nodejs/">#nodejs</a>
+       
+        
+        <a href="/tags/javascript/">#javascript</a>
+       
+        
+        <a href="/tags/expressjs/">#expressjs</a>
+      
+
+    </div>
+
+    <nav class="post__pagination">
+    </nav>
+  </aside>
+</article>
+
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          <ul class="hero__social-links">
+            <li>
+              <a href="https://t.me/louislabs" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <i class="fab fa-telegram"></i>
+                </div>
+                <div>telegram</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://discordapp.com/users/403184009125036033" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <i class="fab fa-discord"></i>
+                </div>
+                <div>discord</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/louiscklaw" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <i class="fab fa-github"></i>
+                </div>
+                <div>GitHub</div>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://gitee.com/louiscklaw" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <i class="fab fa-github"></i>
+                </div>
+                <div>Gitee</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/louiscklaw" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div>linkedin</div>
+              </a>
+            </li>
+          </ul>
+          <p class="footer__attribution">
+            Created by
+            <a href="https://github.com/louiscklaw" target="_blank" rel="noopener">louiscklaw,</a>
+            Powered by
+            <a href="https://www.11ty.dev" target="_blank" rel="noopener">11ty,</a>
+            Checkout&nbsp;<a href="https://github.com/louiscklaw/eleventy-duo" target="_blank" rel="noopener noreferrer">project src</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="/assets/main.js"></script>
+  </body>
+</html>

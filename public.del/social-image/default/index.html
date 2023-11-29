@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+    <title>Document</title>
+
+    <style>
+      * {
+        font-family: 'Noto Sans TC', sans-serif;
+        border-radius: 10px;
+        color: #45474b;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        width: 1000px;
+        height: 1000px;
+        background-image: url('../backdrop.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    >
+      <div
+        style="
+          /* From https://css.glass */
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(100px);
+          -webkit-backdrop-filter: blur(100px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+        "
+      >
+        <div style="display: flex; flex-direction: row; justify-content: center; align-items: center">
+          <div
+            style="
+              height: 300px;
+              width: 300px;
+              background-size: contain;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-image: url('./icon.png');
+            "
+          ></div>
+          <div
+            id="canvas"
+            style="
+              border-radius: 0px;
+              border-left: 2px solid rgba(69, 71, 75, 0.25);
+              padding-left: 1.5rem;
+              margin-left: 1.5rem;
+            "
+          ></div>
+        </div>
+        <div
+          style="margin-top: 2rem; display: flex; flex-direction: column; justify-content: center; align-items: center"
+        >
+          <div style="font-weight: 200; font-size: 4em"> louislabs </div>
+          <div style="font-weight: 200; font-size: 4em"> https://louiscklaw.github.io </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        console.log('window.location', window.location);
+        const qrCode = new QRCodeStyling({
+          width: 300,
+          height: 300,
+          type: 'svg',
+          data: 'https://louiscklaw.github.io',
+          image: 'https://avatars.githubusercontent.com/u/1376093?v=4',
+          dotsOptions: { color: '#45474B', type: 'rounded' },
+          backgroundOptions: { color: 'rgba(245,247,248,0.8)' },
+          imageOptions: { crossOrigin: 'anonymous', margin: 3 },
+        });
+
+        qrCode.append(document.getElementById('canvas'));
+      });
+    </script>
+  </body>
+</html>

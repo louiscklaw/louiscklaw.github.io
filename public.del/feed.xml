@@ -1,0 +1,221 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Louislabs</title>
+  <subtitle></subtitle>
+  <link href="https://louiscklaw.github.io/feed.xml" rel="self" />
+  <link href="https://louiscklaw.github.io/" />
+  
+  <updated>2023-10-24T00:00:00Z</updated>
+  
+  <id>https://louiscklaw.github.io</id>
+  <author>
+    <name>louiscklaw</name>
+    <email>logickee@gmail.com</email>
+  </author>
+   
+  <entry>
+    <title>my first post</title>
+    <link href="https://louiscklaw.github.io/posts/helloworld/" />
+    <updated>2021-06-28T00:00:00Z</updated>
+    <id>https://louiscklaw.github.io/posts/helloworld/</id>
+    <content type="html">
+      <![CDATA[ <p>my website re-re-re-up again</p>
+<p>helloworld</p>
+ ]]>
+    </content>
+  </entry>
+   
+  <entry>
+    <title>louis&#39;s carousell selling terms and conditions</title>
+    <link href="https://louiscklaw.github.io/carousell/flow.html" />
+    <updated>2023-10-24T00:00:00Z</updated>
+    <id>https://louiscklaw.github.io/carousell/flow.html</id>
+    <content type="html">
+      <![CDATA[ <p>Repetitive job in bulk volume is what | defined as BORING job. Imaging download one
+picture from web is an easy job. However, download 3,000 pictures from web is a
+boring job.</p>
+<p>With Coding, we can easily turn all these manual boring jobs to automatic, you can get
+all these jobs done by just one click, and let coding do them all in your behalf!</p>
+<h1>01 get quoted</h1>
+<h1>02 kick off payment</h1>
+<h1>03 video to show your final output</h1>
+<h1>04 final payment</h1>
+<h1>05 receive final source code</h1>
+<h1>Price comparison</h1>
+<ul>
+<li>enhance competitiveness by scraping timely competitor's pricing</li>
+</ul>
+<h1>contact mining</h1>
+<ul>
+<li>expand network and discover new potentials by mining contact, e.g. from an association or club</li>
+</ul>
+<h1>image merging</h1>
+<ul>
+<li>automatically merging multiple image to form different picture combinations</li>
+</ul>
+<h1>image downloading</h1>
+<ul>
+<li>easily download all images from a site</li>
+</ul>
+<h1>automated control</h1>
+<ul>
+<li>program control browser to do specific task or website testing</li>
+</ul>
+<h1>content scraping</h1>
+<ul>
+<li>extract specific contents from webpage, e.g. book list, property listing, customer's reviews...etc</li>
+</ul>
+<p>PRICING &amp; PROCESS FLOW</p>
+<p>Customized programming always gives people an impression of high cost. However, as
+a freelance programmer, | have no fixed cost, and can save the money back to your
+program!</p>
+<p>For example, for a price checking program to scrap all pricing from a specific website to
+an excel file, it costs only ~HKD $1500 (USD 200). It is a one time cost, you can use the
+program anytime to scrap the pricing.</p>
+<p>Of course, cost will be varied according to complexity. You may visit my recent job
+reference page for getting more ideas or reach me to obtain more information.</p>
+<p>Job Ref) 網站自動格價程式
+網店雖然沒有如實體店的租金和店員支出， 但網上世界競爭激烈，取勝之道主要在價錢。今時今日，顧客格價十分容易，只要一輸入型號，不同網店的售價便一覽無遺。萬一您的網店售價不及別人便宜，就沒生意做；可是, 長期賣最低價，又難以生存。</p>
+<p>為了制定最合適的售價, 很多網店都會自己將不同網店的價錢逐一手動 copy &amp; paste 至 excel 表格以作比較。但隨著產品數量不斷增加，市場變化速度又不斷加快，以往手動方式已經無法迎合今日需要。</p>
+<p>現在, 只要利用程式，一 click 便可將不同網店最新價格及資料自動輸入至 excel file 以助您分析和比較。省下來的時間，您便可以用來多了解市場和跟供應商/客戶溝通, 為市場提供更優質的服務。</p>
+<p>Although online stores do not have the rental and staff cost as brick-and-motor stores, the competition in online world is fierce. Consumers are easy to do price checking by just entering brand(s) / model(s) in search engine. If your price is not competitive enough, you are unable to get the order; However, if you keep selling at the lowest, you are hard to survive.</p>
+<p>For setting an appropriate pricing, many eShop owners will do price checking manually by copy &amp; paste from web to excel file. However, with the dramatic increase in the number of products and frequent change of the market. Traditional way is no longer fast enough to support the business.</p>
+<p>By coding, you can now compare with multiple eShops’ pricing by just a click. The time saved can be spent more on understanding the market and communicating with your suppliers / consumers, so to provide better services to the market.</p>
+ ]]>
+    </content>
+  </entry>
+   
+  <entry>
+    <title>tutorial price table</title>
+    <link href="https://louiscklaw.github.io/carousell/helloworld.html" />
+    <updated>2023-10-24T00:00:00Z</updated>
+    <id>https://louiscklaw.github.io/carousell/helloworld.html</id>
+    <content type="html">
+      <![CDATA[ <p>place holder of my tutorial post's price table...</p>
+ ]]>
+    </content>
+  </entry>
+   
+  <entry>
+    <title>louis&#39;s carousell selling terms and conditions</title>
+    <link href="https://louiscklaw.github.io/carousell/nda.html" />
+    <updated>2023-10-24T00:00:00Z</updated>
+    <id>https://louiscklaw.github.io/carousell/nda.html</id>
+    <content type="html">
+      <![CDATA[ <p>place holder of my selling post's terms and conditions...</p>
+<p>本製定 Portfolio 網站協議（’協議’）是由
+Will Will
+註冊地址為
+305, Fat Lee Industrial Building, 17 Hung To Road, Kwun Tong, Hong Kong.
+（下稱「提供方」「披露方」）；
+及
+註冊地址為</p>
+<hr>
+<p>（下稱「合作方」「接收方」） 共同訂立。
+（Will Will 及合作方合稱爲「雙方」，任何一方稱爲「一方」。）
+於協議日期年月日簽署並生效。
+鑑於：
+雙方正探討建立有關 Portfolio 網站的項目合作（下稱為「項目」）。根據項目需要，
+雙方同意合作以提供網站開發服務。
+現雙方協議如下：
+服務範圍
+接收方同意為客戶提供網站開發服務，詳見附件A，並透過引用併入本協議。
+付款
+為對本協議下接收方提供的服務進行考慮，客戶同意根據附件B中規定的付款計劃向接收方
+支付。
+所有權和版權
+完成項目並收到全額付款之後，網站及其內容的所有權同版權將轉讓予客戶。接收方同意不
+會未經許可而使用任何受版權保護的材料。
+保密
+接收方同意保守本項目由客戶獲得的所有信息的機密性，並同意在未經客戶的明確書面同意
+下，不會向任何第三方披露該等信息。
+修改
+除非雙方另外簽署書面協議，否則本協議不得修改或更改。
+通知
+任何一方就本協議向另一方發出的任何通知應以電郵傳送或以郵遞方式寄至下述地址。任何
+該等通知應視為已收妥及於正常傳送程序的傳送時間內送達至寄出之地址。
+Will Will: 305, Fat Lee Industrial Building, 17 Hung To Road, Hong Kong.
+電子郵件: info@amic.net
+電話: +852 9999 7352
+合作方:
+電子郵件:
+電話: +852
+終止
+任何一方可以隨時書面通知另一方終止本協議。終止緊的情況下，客戶同意支付接收方直至
+終止日的所有服務費用。
+適用法律
+本協議受中華人民共和國香港特別行政區（「香港」）法律的管轄並按其詮釋。雙方同意接受香
+港法院的專屬司法管轄權所管轄。
+本協議由雙方在上述日期共同簽訂。</p>
+ ]]>
+    </content>
+  </entry>
+   
+  <entry>
+    <title>tutorial price table</title>
+    <link href="https://louiscklaw.github.io/carousell/sales_notes.html" />
+    <updated>2023-10-24T00:00:00Z</updated>
+    <id>https://louiscklaw.github.io/carousell/sales_notes.html</id>
+    <content type="html">
+      <![CDATA[ <p>Stage 1
+啟動專案</p>
+<p>在此階段，我們的團隊將與您密切合作，深入了解您的業務目標和需求。透過初步諮詢，我們能夠洞悉您的期望，從而設計出最符合您的數位解決方案。這不僅幫助確定我們的方向，也確保我們為您提供的建議是切實可行且具有策略性的。</p>
+<p>這是一個關鍵的開始階段，為接下來的合作打下堅實的基礎。通過緊密的交流，我們希望建立雙方的信任，並確保整個專案的方向和策略都與您的期望一致。</p>
+<p>Stage 2
+設計和修訂</p>
+<p>在此階段，我們的團隊將為您呈現一個生動且專業的網站或軟體設計稿。我們相信好的設計可以有效地傳達品牌信息，同時也能為用戶提供卓越的使用體驗。</p>
+<p>設計稿完成後，我們將與您分享，期待您的反饋。我們認為客戶的反饋是整個設計過程中不可或缺的一部分，您的建議和改進意見將幫助我們更好地符合您的期望和需求。</p>
+<p>Stage 3
+開發與測試</p>
+<p>開發階段是實現所有構想的關鍵時刻。我們的軟體工程師將致力於將設計稿轉化為實際的網站或應用程式。他們將使用最先進的技術和最佳的編碼實踐，以確保軟體的性能、安全性和可擴展性。</p>
+<p>除了開發工作，我們還會進行綜合的測試，包括功能測試、性能測試和用戶體驗測試，以確保所交付的產品達到最高標準，且無重大錯誤或問題。</p>
+<p>Stage 4
+發佈及維護</p>
+<p>當一切都準備就緒，您的專案將正式發佈並面向公眾。但我們的工作還沒有結束。發佈後的反饋和用戶數據是我們繼續優化的關鍵。我們將密切關注並即時解決任何潛在問題。</p>
+<p>此外，為了確保您的網站或應用程式持續運行良好，我們將提供持續的技術支援和維護服務。從安全更新到性能優化，從內容更新到新功能的加入，我們始終與您並肩作戰，確保專案的長期成功。</p>
+<p>不過
+項目不同，
+規模不同，
+開發模式經常轉變，建議查詣以獲得最適合你的方式</p>
+<p>你是否經常遲收工？😔</p>
+<p>同事常入錯和打錯資料，我要幫他們執手尾!!!
+每個月/星期都有新的Excel資料檔要我將數據搬去自己經常用的Excel分析檔，超煩!!!
+之前製作這舊Excel檔的同事走了，唔識點改!!!
+個Excel檔VBA有執行錯誤，公司冇人幫，聽同事講用公式都攪得掂，但唔知點攪!!!</p>
+<h2>1. get full screen capture</h2>
+<p><a href="https://youtu.be/hD6gn4PEHK8">https://youtu.be/hD6gn4PEHK8</a></p>
+ ]]>
+    </content>
+  </entry>
+   
+  <entry>
+    <title>tutorial price table</title>
+    <link href="https://louiscklaw.github.io/carousell/price_table.html" />
+    <updated>2023-10-24T00:00:00Z</updated>
+    <id>https://louiscklaw.github.io/carousell/price_table.html</id>
+    <content type="html">
+      <![CDATA[ <p>place holder of my tutorial post's price table...</p>
+<h3>pricing strategy</h3>
+<p>收費方面，我會收 HKD80 ~ HKD140 浮動</p>
+<h3>FAQ</h3>
+<p>你可能會問點解係浮動?</p>
+<p>我意思指係 HKD80/hr ~ HKD 120/hr 浮動, 唔好意思上面打錯</p>
+<p>浮動係因為要你自己去諗，如果你諗得耐的話我會收返平D</p>
+<p>但係如果成粒鐘我 non-stop 講的話我會收返貴小小</p>
+ ]]>
+    </content>
+  </entry>
+   
+  <entry>
+    <title>louis&#39;s carousell selling terms and conditions</title>
+    <link href="https://louiscklaw.github.io/carousell/t_and_c.html" />
+    <updated>2023-10-24T00:00:00Z</updated>
+    <id>https://louiscklaw.github.io/carousell/t_and_c.html</id>
+    <content type="html">
+      <![CDATA[ <p>place holder of my selling post's terms and conditions...</p>
+ ]]>
+    </content>
+  </entry>
+  
+</feed>

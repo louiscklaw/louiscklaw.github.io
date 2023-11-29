@@ -13,9 +13,9 @@ const manifestPath = path.resolve(__dirname, 'public', 'assets', 'manifest.json'
 
 const manifest = isDev
   ? {
-      'main.js': '/assets/main.js',
-      'main.css': '/assets/main.css',
-    }
+    'main.js': '/assets/main.js',
+    'main.css': '/assets/main.css',
+  }
   : JSON.parse(fs.readFileSync(manifestPath, { encoding: 'utf8' }));
 
 module.exports = function (eleventyConfig) {
@@ -137,7 +137,14 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/manifest.json');
 
+  eleventyConfig.addPassthroughCopy("src/works/**/*.svg", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/works/**/*.jpg", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/works/**/*.gif", { debug: true });
+
   // TODO: add copy image of post here
+  // lightbox
+  eleventyConfig.addPassthroughCopy({ "src/lib/lightbox/*.css": 'assets' });
+  eleventyConfig.addPassthroughCopy({ "src/lib/lightbox/*.js": 'assets' });
 
   return {
     dir: {

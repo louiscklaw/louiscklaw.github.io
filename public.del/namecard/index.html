@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href=https://louiscklaw.github.io/namecard/> <link href="/assets/main.css" rel="stylesheet" /> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+    <title>
+      louiscklaw namecard
+      
+        | Louislabs
+      
+    </title>
+    <link rel="icon" type="“image/x-icon”" href="/images/favicon.ico">
+    <meta property="og:title" content="louiscklaw namecard">
+    <meta property="og:site_name" content="Louislabs"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://louiscklaw.github.io/namecard/"/>
+    <meta name="twitter:card" content="summary_large_image">
+    
+      <meta name="twitter:creator" content="@louiscklaw"/>
+    
+    
+    
+    
+      <meta name="description" content="louiscklaw/louislabs namecard">
+      <meta property="og:description" content="louiscklaw/louislabs namecard">
+      <meta name="description" content="louiscklaw/louislabs namecard"/>
+    
+    
+      
+    
+    
+      <meta property="og:image" content="https://louiscklaw.github.io/images/social-image.png"/>
+      <meta name="twitter:image" content="https://louiscklaw.github.io/images/social-image.png"/>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({startOnLoad: true});
+    </script>
+    
+    <script>
+      * {
+        font - family: 'Noto Sans TC',
+        sans - serif;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="layout-wrapper">
+      
+<div class="namecard-container" style="
+  background-image: url('../images/backdrop.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+">
+  <div class="namecard"
+  style="
+            background: rgba(255, 255, 255, 0.5);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(100px);
+          -webkit-backdrop-filter: blur(100px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+"
+  
+  >
+    <div class="left" style="border-right: 1px solid rgba(41,41,41,.25)">
+      <div id="canvas" style=""></div>
+    </div>
+    <div class="right">
+      <div class="right-content">
+        <div class="name-row">
+          <div>
+            <h1>Louis C.K. Law</h1>
+          </div>
+          <div>
+            https://louiscklaw.github.io
+          </div>
+          <div>
+            Validation engineer
+          </div>
+        </div>
+        <div class="stack-row">
+          <div>#javascript</div>
+          <div>#python</div>
+          <div>#appium</div>
+          <div>#puppeteer</div>
+          <div>#kicad</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div><script>
+window.addEventListener('DOMContentLoaded', () => {
+  console.log('window.location', window.location);
+  const qrCode = new QRCodeStyling({
+    width: 300,
+    height: 300,
+    type: 'svg',
+    data: 'https://louiscklaw.github.io',
+    image: 'https://avatars.githubusercontent.com/u/1376093?v=4',
+    dotsOptions: {
+      color: '#45474B',
+      type: 'rounded'
+    },
+    backgroundOptions: {},
+    imageOptions: {
+      crossOrigin: 'anonymous',
+      margin: 3
+    }
+  });
+  qrCode.append(document.getElementById('canvas'));
+});</script>
+      <script src="/assets/main.js"></script>
+    </div>
+  </body>
+</html>

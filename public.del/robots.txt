@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://louiscklaw.github.io/sitemap.xml
