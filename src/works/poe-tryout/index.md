@@ -4,32 +4,46 @@ description: a cheatty way to use GPT services from poe.com
 permalink: works/{{ title | slug }}/index.html
 date: "2023-10-24"
 updated: "2023-10-24"
-tags: [GPT, api, nodejs, javascript, expressjs]
+tags: [ POE, GPT, api, express, docker, browserless, nodejs, javascript, expressjs ]
 open_to_public: true
 ---
 
-<a class="example-image-link" href="./block_diagram.svg" data-lightbox="example-1">
-  <img class="example-image" src="./block_diagram.svg" alt="image-1" />
-</a>
+
+### Purpose:
 
 A "cheatty" way to use GPT service from poe.com
 
 
 ### system design:
 
-![](./hand_draft.jpg)
+<a  href="./block_diagram.svg" data-lightbox="example-1">
+  <img  src="./block_diagram.svg" alt="image-1" />
+</a>
+
+<div class="image-explain text-align-center" >
+  <a 
+    href="./hand_draft.jpg" 
+    data-lightbox="example-1">
+    (original hand-draft)
+  </a>
+</div>
+
 
 
 ### Repository:
 
-  - to be filled
+<a href="https://github.com/louiscklaw/ai-playlist/tree/master/poe-tryout" rel="noopener noreferrer" target="_blank">
+  poe-tryout(master)
+</a>
 
+### prerequisite / stack:
 
-### prerequisite:
+- linux(fedora), nodejs, express, docker, browserless
 
 
 ### component introduction:
-  - TBD
+
+- TBD
 
 
 ### directory introduction:
@@ -56,6 +70,7 @@ $ tree -L 3 -d -a
 
 ### development
 
+1. run these in the command prompt
 ```bash
 # in project root
 $ cp .env.example .env
@@ -69,12 +84,15 @@ $ ./push.sh
 $ npm run docker_dev 
 ```
 
+1. then on the host:
   - start firefox, import mitm certificate
   - mitm is not used at the moment
   - test poe login state by start_firefox.sh
   - start ./test.sh at openbox-firefox container
   - to ensuore you are good to go
     - run `/workspace/ai-playlist/poe-tryout/docker-poe-tryout/src/openbox-firefox/src/tests/ChatGPT/ask_helloworld/test.sh` -> the simpleest helloworld question to poe chatgpt
+
+
 
 ### api endpoints:
 
@@ -94,6 +112,8 @@ redis-cli config set dir /data
 ```
 
 ### production
+
+- TBD
 
 
 ### v2raya in the middle, i add the proxy function to puppeteer already. 
