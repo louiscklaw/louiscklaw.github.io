@@ -8,12 +8,9 @@ tags: [GPT, api, nodejs, javascript, expressjs]
 open_to_public: true
 ---
 
-<a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg"
-  data-lightbox="example-1">
-  <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" />
+<a class="example-image-link" href="./block_diagram.svg" data-lightbox="example-1">
+  <img class="example-image" src="./block_diagram.svg" alt="image-1" />
 </a>
-
-![](./block_diagram.svg)
 
 A "cheatty" way to use GPT service from poe.com
 
