@@ -19,7 +19,7 @@
         {{ site.name }}
       {% endif %}
     </title>
-    <link rel="icon" type="“image/x-icon”" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <meta property="og:title" content="{{ title or site.name | escape }}">
     <meta property="og:site_name" content="{{ site.name }}"/>
     <meta property="og:type" content="website"/>
@@ -56,6 +56,7 @@
         sans - serif;
       }
     </script>
+    <link rel="stylesheet" href="/assets/lightbox.min.css">
   </head>
   <body>
     <div class="layout-wrapper">
@@ -167,5 +168,6 @@
       </footer>
     </div>
     {% bundledjs %}
+    <script src="/assets/lightbox-plus-jquery.js"></script>
   </body>
 </html>
