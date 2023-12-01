@@ -4,6 +4,6 @@ set -ex
 
 rm -rf node_modules
 
-yarn
+yarn -d
 
 yarn dev
