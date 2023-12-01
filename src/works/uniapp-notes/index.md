@@ -11,6 +11,19 @@ draft: false
 
 ![](/images/works/linux-toolbox.avif)
 
+
+### Demo (not available yet)
+
+- admin panel
+  - http://localhost:8090
+    - username: admin
+    - password: macro123
+
+- frontend/emall (mall-app-web)
+    - username: kee
+    - password: 123456
+
+
 ### Some screenshot
 ![login screen](./screenshot/screenshot_005.png)
 ![login screen](./screenshot/screenshot_007.png)
