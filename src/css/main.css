@@ -84,6 +84,14 @@
   text-decoration: underline;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
+.image-explain {
+  font-size: 0.8rem;
+}
+
 @media (min-width: 35.9375em) {
   .hide-mobile {
     display: unset;
