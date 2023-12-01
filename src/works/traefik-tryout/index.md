@@ -9,7 +9,14 @@ open_to_public: true
 draft: false
 ---
 
-![main](./main.svg)
+
+<a  href="./main.svg" data-lightbox="example-1">
+  <img  src="./main.svg" alt="image-1" />
+</a>
+
+<div class="image-explain text-align-center" >
+  (general block diagram)
+</div>
 
 
 ### Purpose:

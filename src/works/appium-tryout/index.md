@@ -1,6 +1,6 @@
 ---
 title: appium tryout
-description: This page hold some appium project of me.
+description: This page hold some appium source code of louis.
 permalink: works/{{ title | slug }}/index.html
 date: "2020-11-18"
 updated: "2021-02-12"
@@ -9,8 +9,20 @@ open_to_public: true
 draft: false
 ---
 
-![test_stand](./test_stand.svg)
+<div style="display: flex; flex-direction: row; justify-content: center;">
+<a  href="./test_stand.svg" data-lightbox="example-1">
+  <img style="max-width: 500px;"  src="./test_stand.svg" alt="image-1" />
+</a>
+</div>
 
+<div class="image-explain text-align-center" >
+  (general block diagram)
+</div>
+
+
+### Purpose:
+
+This page hold some appium source code from me.
 
 ### Repository:
 

@@ -1,17 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram id="q9AueTliSKC_COEnN2KO" name="Page-1">
-        <mxGraphModel dx="517" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="554" dy="202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="8" value="computer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="290" width="400" height="250" as="geometry"/>
+                    <mxGeometry x="240" y="290" width="420" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="appium&lt;br&gt;(docker)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="380" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="docker host" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="450" width="380" height="60" as="geometry"/>
+                <mxCell id="3" value="docker host" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="370" width="400" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="appium&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(docker)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="390" y="380" width="120" height="60" as="geometry"/>
@@ -39,6 +36,9 @@
                             <mxPoint x="450" y="370"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="appium&lt;br&gt;(docker)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
