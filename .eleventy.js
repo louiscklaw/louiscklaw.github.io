@@ -140,6 +140,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/works/**/*.svg", { debug: true });
   eleventyConfig.addPassthroughCopy("src/works/**/*.jpg", { debug: true });
   eleventyConfig.addPassthroughCopy("src/works/**/*.gif", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/works/**/*.png", { debug: true });
 
   // TODO: add copy image of post here
   // lightbox
