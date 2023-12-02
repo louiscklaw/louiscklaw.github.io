@@ -12,17 +12,17 @@ draft: false
 
 <div class="head-image">
   <div class="image-tile">
-    <a  href="./screenshot/screenshot_005.png" data-lightbox="example-1">
+    <a  href="./screenshot/screenshot_002.png" data-lightbox="example-1">
       <img style="max-width: 500px;"  src="./screenshot/screenshot_002.png" alt="image-1" />
     </a>
   </div>
   <div class="image-tile hide-mobile">
-    <a  href="./screenshot/screenshot_005.png" data-lightbox="example-1">
+    <a  href="./screenshot/screenshot_002.png" data-lightbox="example-2">
       <img style="max-width: 500px;"  src="./screenshot/screenshot_002.png" alt="image-1" />
     </a>
   </div>
   <div class="image-tile hide-mobile">
-    <a  href="./screenshot/screenshot_005.png" data-lightbox="example-1">
+    <a  href="./screenshot/screenshot_002.png" data-lightbox="example-3">
       <img style="max-width: 500px;"  src="./screenshot/screenshot_002.png" alt="image-1" />
     </a>
   </div>
