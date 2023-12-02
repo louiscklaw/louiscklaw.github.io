@@ -24,6 +24,20 @@ draft: false
 
 This page hold some appium source code from me.
 
+### Practice:
+
+Usually I test apps with android in the following way:
+
+1. general app / WPA (HKO weather)
+
+- test with android emulator 
+
+1. with specific hardware (handy)
+
+- setup test stand
+
+But most of the time i keep the host part inside docker, just like the block diagram above.
+
 ### Repository:
 
 [https://github.com/louiscklaw/appium-playlist](https://github.com/louiscklaw/appium-playlist)
