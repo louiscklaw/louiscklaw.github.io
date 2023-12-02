@@ -30,13 +30,15 @@ Usually I test apps with android in the following way:
 
 1. general app / WPA (HKO weather)
 
-- test with android emulator 
+- test with android emulator (e.g. appium-android-12-tryout)
 
 1. with specific hardware (handy)
 
-- setup test stand
+- setup test stand 
+
 
 But most of the time i keep the host part inside docker, just like the block diagram above.
+
 
 ### Repository:
 
