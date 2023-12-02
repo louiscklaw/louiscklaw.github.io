@@ -32,7 +32,7 @@ Usually I test apps with android in the following way:
 
 - test with android emulator (e.g. appium-android-12-tryout)
 
-1. with specific hardware (handy)
+2. with specific hardware (handy)
 
 - setup test stand 
 
@@ -42,4 +42,8 @@ But most of the time i keep the host part inside docker, just like the block dia
 
 ### Repository:
 
-[https://github.com/louiscklaw/appium-playlist](https://github.com/louiscklaw/appium-playlist)
+for some sample works about appium, please refer to:
+
+<a href="https://github.com/louiscklaw/appium-playlist" target="_blank">
+  https://github.com/louiscklaw/appium-playlist
+</a>
