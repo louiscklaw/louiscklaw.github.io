@@ -15,14 +15,11 @@ yarn deploy
 # to dev
 ```bash
 # method 1(preferred), on linux machine
-# step1
+# step1 (= ./scripts/dev.sh)
 $ yarn dev
 
-# step2 (don't why the watch not working somehow...)
+# step2 (= ./scripts/watch.sh)
 $ find **/*.md |entr -c -s "touch src/layouts/home.njk"
-
-# or method 2, with docker
-./scripts/dc_dev.sh
 
 ```
 
