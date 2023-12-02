@@ -12,7 +12,7 @@ open_to_public: false
 
 > 有陣時好想喊
 > 好想喊好想喊，但係唔知為咩事喊
-> 講得野多就會講錯野
+> 好多時，講得野多就會講錯野
 > 乜都唔講會比人話成舊飯咁
 > 講 technical 野其他人 dead air
 > 講 non-technical 野我好冇乜野講...
