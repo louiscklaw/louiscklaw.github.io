@@ -1,14 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram id="q9AueTliSKC_COEnN2KO" name="Page-1">
-        <mxGraphModel dx="554" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="298" dy="168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8" value="computer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;imageWidth=8;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="290" width="420" height="390" as="geometry"/>
+                <mxCell id="8" value="computer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;imageWidth=8;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="280" width="420" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="docker host" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="370" width="400" height="190" as="geometry"/>
+                <mxCell id="3" value="docker host" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="290" width="400" height="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="appium-server&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(docker)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="390" y="380" width="120" height="60" as="geometry"/>
@@ -17,9 +17,9 @@
                     <mxGeometry x="520" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Android / Mobile&lt;br&gt;(hardware)&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="210" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="260" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;span style=&quot;background-color: rgb(218, 232, 252);&quot;&gt;USB&lt;/span&gt;" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=default;" parent="1" source="2" target="6" edge="1">
+                <mxCell id="7" value="USB" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=default;" parent="1" source="2" target="6" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="470" y="400" as="sourcePoint"/>
                         <mxPoint x="520" y="350" as="targetPoint"/>
@@ -40,40 +40,40 @@
                 <mxCell id="2" value="appium-server&lt;br&gt;(docker)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="selenium-grid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="12" value="selenium-grid&lt;br&gt;(docker)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="480" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="endArrow=classic;html=1;entryX=0.371;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.214;exitY=-0.049;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="12" target="2">
+                <mxCell id="13" value="" style="endArrow=classic;html=1;entryX=0.371;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.214;exitY=-0.049;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="12" target="2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="410" y="580" as="sourcePoint"/>
                         <mxPoint x="460" y="530" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=classic;html=1;entryX=0.464;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4">
+                <mxCell id="14" value="" style="endArrow=classic;html=1;entryX=0.464;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="4" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="330" y="480" as="sourcePoint"/>
                         <mxPoint x="314.52" y="451.79999999999995" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="" style="endArrow=classic;html=1;entryX=0.044;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="5">
+                <mxCell id="15" value="" style="endArrow=classic;html=1;entryX=0.044;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="12" target="5" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="340" y="490" as="sourcePoint"/>
                         <mxPoint x="455.67999999999984" y="451.08000000000004" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="19" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="250" y="580" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="selenium-grid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                <mxCell id="16" value="selenium-grid" style="rounded=1;whiteSpace=wrap;html=1;" parent="19" vertex="1">
                     <mxGeometry width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="selenium-grid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                <mxCell id="17" value="selenium-grid" style="rounded=1;whiteSpace=wrap;html=1;" parent="19" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="test script using&lt;br&gt;appiu," style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                <mxCell id="18" value="test script using&lt;br&gt;appiu," style="rounded=1;whiteSpace=wrap;html=1;" parent="19" vertex="1">
                     <mxGeometry x="20" y="20" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="20" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="320" y="580" as="sourcePoint"/>
                         <mxPoint x="320" y="540" as="targetPoint"/>
