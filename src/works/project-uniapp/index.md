@@ -1,5 +1,5 @@
 ---
-title: uniapp notes
+title: project-uniapp
 description: stratch pad when i learn uniapp
 permalink: works/{{ title | slug }}/index.html
 date: "2020-11-18"
@@ -9,10 +9,28 @@ open_to_public: true
 draft: false
 ---
 
-![](/images/works/linux-toolbox.avif)
+
+<div class="head-image">
+  <div class="image-tile">
+    <a  href="./screenshot/screenshot_005.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_002.png" alt="image-1" />
+    </a>
+  </div>
+  <div class="image-tile hide-mobile">
+    <a  href="./screenshot/screenshot_005.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_002.png" alt="image-1" />
+    </a>
+  </div>
+  <div class="image-tile hide-mobile">
+    <a  href="./screenshot/screenshot_005.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_002.png" alt="image-1" />
+    </a>
+  </div>
+</div>
 
 
-### Demo (not available yet)
+
+### Demo (sorry, not available yet)
 
 - admin panel
   - http://localhost:8090
@@ -24,13 +42,49 @@ draft: false
     - password: 123456
 
 
-### Some screenshot
-![login screen](./screenshot/screenshot_005.png)
-![login screen](./screenshot/screenshot_007.png)
-![login screen](./screenshot/screenshot_001.png)
-![login screen](./screenshot/screenshot_002.png)
-![login screen](./screenshot/screenshot_003.png)
-![login screen](./screenshot/screenshot_004.png) 
+### Some screenshot (admin panel)
+
+<div style="display: flex; flex-direction: row;justify-content:space-between; flex-wrap: wrap;">
+  <div class="image-tile">
+    <a  href="./screenshot/screenshot_005.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_005.png" alt="image-1" />
+    </a>
+  </div>
+  <div class="image-tile">
+    <a  href="./screenshot/screenshot_007.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_007.png" alt="image-1" />
+    </a>
+  </div>
+  <div class="image-tile-spacer">
+  </div>
+ 
+</div>
+
+### Some screenshot (mobile)
+
+<div style="display: flex; flex-direction: row;justify-content:space-between; flex-wrap: wrap;">
+
+  <div class="image-tile">
+    <a  href="./screenshot/screenshot_001.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_001.png" alt="image-1" />
+    </a>
+  </div>
+  <div class="image-tile">
+    <a  href="./screenshot/screenshot_002.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_002.png" alt="image-1" />
+    </a>
+  </div>
+  <div class="image-tile">
+    <a  href="./screenshot/screenshot_003.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_003.png" alt="image-1" />
+    </a>
+  </div>
+  <div class="image-tile">
+    <a  href="./screenshot/screenshot_004.png" data-lightbox="example-1">
+      <img style="max-width: 500px;"  src="./screenshot/screenshot_004.png" alt="image-1" />
+    </a>
+  </div>
+</div>
 
 ### repository
 

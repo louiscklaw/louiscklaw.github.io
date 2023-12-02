@@ -96,6 +96,16 @@
   width: 30%;
 }
 
+.image-tile-spacer {
+  width: 30%;
+}
+
+.head-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @media (min-width: 35.9375em) {
   .hide-mobile {
     display: unset;
@@ -123,5 +133,13 @@
   .post-list__item {
     padding-bottom: 3rem;
     padding-top: 3rem;
+  }
+
+  .head-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
