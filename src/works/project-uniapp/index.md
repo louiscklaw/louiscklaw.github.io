@@ -4,11 +4,12 @@ description: stratch pad when i learn uniapp
 permalink: works/{{ title | slug }}/index.html
 date: "2020-11-18"
 updated: "2021-02-12"
-tags: [emall, 電商系統, uniapp, vue]
+tags: [e-mall, 電商系統, uniapp, uni-app, vue]
 open_to_public: true
 draft: false
 ---
 
+<!-- https://louiscklaw.github.io/works/project-uniapp -->
 
 <div class="head-image">
   <div class="image-tile">
