@@ -1,6 +1,6 @@
 ---
 permalink: /works/job-applications/{{ title | slug }}/index.html
-title: zhipin-test-engineer-cover-letter
+title: zhipin-test-engineer-application
 description: some preparation for zhipin interview.
 
 date: "2023-12-04"
