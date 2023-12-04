@@ -19,4 +19,25 @@
     padding-bottom: 1rem;
     padding-top: 2rem;
   }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .screencapture {
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .img-spacer {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 35.9375em) {
+  .job_applications {
+    .img-spacer {
+      display: none;
+    }
+  }
 }
