@@ -12,6 +12,7 @@
 @import 'pay.css';
 @import 'home.css';
 @import 'namecard.css';
+@import 'job_applications.css';
 
 .layout-wrapper {
   display: grid;

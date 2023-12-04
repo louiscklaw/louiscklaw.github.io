@@ -1,0 +1,22 @@
+.job_applications {
+
+  .letter-container {
+    /* background-color: var(--accent_grey_light); */
+    padding: 1rem 0rem;
+
+    .spacer {
+      padding-top: 2rem;
+    }
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+
+  h3 {
+    border-bottom: 1px solid var(--accent_grey);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+  }
+}
