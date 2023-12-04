@@ -48,7 +48,7 @@ Yours sincerely,
 
 Louis C.K. Law
 
-[https://louiscklaw.github.io]()
+[https://louiscklaw.github.io](https://louiscklaw.github.io)
 </div>
 
 ### Simple Application test demo
