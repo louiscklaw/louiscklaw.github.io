@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig) {
       if (item.data.hide_from_tags == undefined) {
         if ('tags' in item.data) {
           let tags = item.data.tags;
-  
+
           tags = tags.filter(function (item) {
             switch (item) {
               case 'all':
@@ -87,7 +87,7 @@ module.exports = function (eleventyConfig) {
             }
             return true;
           });
-  
+
           for (const tag of tags) {
             tagSet.add(tag);
           }
@@ -98,7 +98,7 @@ module.exports = function (eleventyConfig) {
         }else{
           if ('tags' in item.data) {
             let tags = item.data.tags;
-    
+
             tags = tags.filter(function (item) {
               switch (item) {
                 case 'all':
@@ -109,7 +109,7 @@ module.exports = function (eleventyConfig) {
               }
               return true;
             });
-    
+
             for (const tag of tags) {
               tagSet.add(tag);
             }
