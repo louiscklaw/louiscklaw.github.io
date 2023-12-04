@@ -2,11 +2,14 @@
 permalink: works/{{ title | slug }}/index.html
 title: zhipin-testing-interview
 description: some preparation for zhipin interview.
-date: "2020-11-18"
-updated: "2021-02-12"
-tags: [ appium, android, docker, python, javascript ]
 draft: false
 open_to_public: true
+
+date: "2020-11-18"
+updated: "2021-02-12"
+
+tags: [ appium, android, docker, python, javascript, zhipin ]
+hide_from_tags: true
 ---
 
 <iframe 

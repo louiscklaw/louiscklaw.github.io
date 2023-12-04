@@ -72,25 +72,51 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('tagList', function (collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {
-      if ('tags' in item.data) {
-        let tags = item.data.tags;
-
-        tags = tags.filter(function (item) {
-          switch (item) {
-            case 'all':
-            case 'nav':
-            case 'post':
-            case 'posts':
-              return false;
+      // hide_from_list default to false
+      if (item.data.hide_from_tags == undefined) {
+        if ('tags' in item.data) {
+          let tags = item.data.tags;
+  
+          tags = tags.filter(function (item) {
+            switch (item) {
+              case 'all':
+              case 'nav':
+              case 'post':
+              case 'posts':
+                return false;
+            }
+            return true;
+          });
+  
+          for (const tag of tags) {
+            tagSet.add(tag);
           }
-
-          return true;
-        });
-
-        for (const tag of tags) {
-          tagSet.add(tag);
+        }
+      }else{
+        if (item.data.hide_from_tags) {
+          console.log("not processed as item.data.hide_from_tags == true.")
+        }else{
+          if ('tags' in item.data) {
+            let tags = item.data.tags;
+    
+            tags = tags.filter(function (item) {
+              switch (item) {
+                case 'all':
+                case 'nav':
+                case 'post':
+                case 'posts':
+                  return false;
+              }
+              return true;
+            });
+    
+            for (const tag of tags) {
+              tagSet.add(tag);
+            }
+          }
         }
       }
+
     });
 
     return [...tagSet];
