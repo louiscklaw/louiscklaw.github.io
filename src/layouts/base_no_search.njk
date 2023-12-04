@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="robots" content="noindex" />
     <meta charset="UTF-8" />
     <link rel="manifest" href="manifest.json"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="canonical" href={{ page.url | url | absoluteUrl(site.url) }}/> 
-      {% bundledcss %} 
+    {% bundledcss %} 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
@@ -21,12 +22,12 @@
     </title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <meta property="og:title" content="{{ title or site.name | escape }}" />
-    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:site_name" content="{{ site.name }}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="{{ site.url + page.url }}" />
+    <meta property="og:url" content="{{ site.url + page.url }}"/>
     <meta name="twitter:card" content="summary_large_image" />
     {% if site.author.twitterHandle %}
-      <meta name="twitter:creator" content="@{{ site.author.twitterHandle | replace('@', '') }}" />
+      <meta name="twitter:creator" content="@{{ site.author.twitterHandle | replace('@', '') }}"/>
     {% endif %}
     {% set desc = description %}
     {% if not desc %}
