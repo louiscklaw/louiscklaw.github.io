@@ -17,6 +17,8 @@ layout: job_applications.njk
 
 ## Zhipin(直聘) test engineer application letter
 
+Please click <a href="https://www.zhipin.com/" target="_blank" > here </a> For company web page
+
 ### Cover letter
 
 <div class="letter-container">
@@ -67,4 +69,4 @@ This is a simple "helloworld" test script for testing zhipin(直聘) mobile appl
   allowfullscreen>
 </iframe>
 
-Please click <a href="https://www.zhipin.com/" target="_blank" > here </a> For company web page
+
