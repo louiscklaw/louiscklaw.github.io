@@ -1,23 +1,23 @@
 ### Requirements
 
 - 3+ years of experience in QA Automation Testing.
-- Proficiency in writing Selenium-based tests in C# or 
+- Proficiency in writing Selenium-based tests in C# or
   - JavaScript.
 - Exceptional problem-solving and analytical skills with a keen eye for detail.
 - Ability to read application logs and perform diagnostics.
 - Quick learner, capable of rapidly acquiring product knowledge.
-- Experience in source control tools (e.g., 
-  - git, 
+- Experience in source control tools (e.g.,
+  - git,
   - GitHub.
-- Experience in bug tracking and documentation tools (e.g., 
+- Experience in bug tracking and documentation tools (e.g.,
   - JIRA, YouTrack, Bugzilla, Notion.
   - markdown
-- Experience in API tools (e.g., 
+- Experience in API tools (e.g.,
   - curl, Postman, Thunder Client.
   - API interface testing
 - Knowledge of other automation tools apart from Selenium will be advantageous.
 - Additional programming language proficiency is a plus.
-- Experience with load testing frameworks and tools (e.g., 
+- Experience with load testing frameworks and tools (e.g.,
   - load testing
   - Locust, NBomber, JMeter) is a plus.
 - Adept at working in a fast-paced, ever-changing environment.
@@ -34,9 +34,9 @@
 
 Company Overview
 
-WATI is an early stage, fast growing 
-  SaaS platform 
-that is revolutionizing how companies communicate with their customers. 
+WATI is an early stage, fast growing
+  SaaS platform
+that is revolutionizing how companies communicate with their customers.
 Through our cutting-edge customer engagement software built on Whatsapp’s Business API, businesses are now able to have personalised conversations, be easily accessible and engage with their customers in-real time - at scale! We live in the on-demand economy, where customers expect fast, simple and easy service and that’s exactly what our platform empowers companies to do.
 
 
