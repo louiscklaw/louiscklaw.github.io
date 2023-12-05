@@ -59,9 +59,9 @@ Louis C.K. Law
 </div>
 
 
-### Simple Application
+### Simple Application showcase
 
-#### Purpose/Showcase:
+#### Purpose:
 
 This is a simple japanese restaurant project done in the past. 
 It consists React, Google Firebase and PWA.
