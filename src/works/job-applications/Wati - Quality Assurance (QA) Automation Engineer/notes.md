@@ -17,9 +17,9 @@
   - API interface testing
 - Knowledge of other automation tools apart from Selenium will be advantageous.
 - Additional programming language proficiency is a plus.
-- Experience with load testing frameworks and tools (e.g.,
+- Experience with load testing frameworks and tools ( e.g.,
   - load testing
-  - Locust, NBomber, JMeter) is a plus.
+  - Locust, NBomber, JMeter ) is a plus.
 - Adept at working in a fast-paced, ever-changing environment.
 - Exceptional written and verbal communication skills. All interviews will be conducted in English.
 - For non-Hong Kong resident applicants, willingness for occasional travel to the Hong Kong office.
