@@ -48,9 +48,6 @@
   width: 90vw !important;
   height: 90vh !important;
 
-  .img-spacer{
-  }
-
   img.lb-image {
     max-width: calc( 90vw - 2rem );
     max-height: calc( 90vh - 2rem );
