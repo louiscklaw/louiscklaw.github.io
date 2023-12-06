@@ -11,7 +11,7 @@ draft: false
 
 <div style="display: flex; flex-direction: row; justify-content: center;">
   <a  href="./test_stand.svg" data-lightbox="example-1">
-    <img style="max-width: 500px;"  src="./test_stand.svg" alt="image-1" />
+    <img style="max-width: 500px; background-color: gold;"  src="./test_stand.svg" alt="image-1" />
   </a>
 </div>
 
