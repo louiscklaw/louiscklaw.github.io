@@ -32,7 +32,31 @@
   .img-spacer {
     max-width: 500px;
   }
+
 }
+
+.lb-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.lb-outerContainer {
+  width: 90vw !important;
+  height: 90vh !important;
+
+  .img-spacer{
+  }
+
+  img.lb-image {
+    max-width: calc( 90vw - 2rem );
+    max-height: calc( 90vh - 2rem );
+  }
+}
+
 
 @media (min-width: 35.9375em) {
   .job_applications {
