@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-import os, sys
 import requests
 import json
-
-# from pprint import pprint
+from pprint import pprint
+import random
+import time
+import os, sys
 
 temp_preprompt = ""
 
@@ -38,7 +39,21 @@ headers = {
 
 data = {"prompt": temp_preprompt + "\n" + temp_question, "stream": False}
 
-response = requests.post(url, headers=headers, json=data)
+response = requests.get(url, headers=headers)
 
 y = json.loads(response.text)
-print(y["text"])
+conversationIds = list(map(lambda x: x["conversationId"], y))
+# pprint(y[0]['conversationId'])
+
+for c_id in conversationIds:
+    delay = random.uniform(1, 2)
+    time.sleep(delay)
+
+    delete_url = (
+        "https://gptapi.apoidea.ai/v1/conversation/conversations/{c_id}".format(
+            c_id=c_id
+        )
+    )
+    print("clearing {c_id} => {delete_url}".format(c_id=c_id, delete_url=delete_url))
+    response = requests.delete(delete_url, headers=headers)
+    print(response.status_code)
