@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 import requests
+import json
+# from pprint import pprint
 
 temp_preprompt = ''
-
 
 with open('./preprompt.md','r') as f_preprompt:
     temp_preprompt = ''.join(f_preprompt.readlines())
@@ -30,11 +31,11 @@ headers = {
 }
 
 data = {
-    "prompt": temp_question,
+    "prompt": temp_preprompt + '\n' + temp_question,
     "stream": False
 }
 
 response = requests.post(url, headers=headers, json=data)
 
-from pprint import pprint
-pprint(response.text)
+y = json.loads(response.text)
+print(y['text'])
