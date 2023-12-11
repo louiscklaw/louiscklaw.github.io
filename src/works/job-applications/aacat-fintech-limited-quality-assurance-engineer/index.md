@@ -27,15 +27,13 @@ Dear Hiring Manager,
 
 <div class="spacer"></div>
 
-I hope this email finds you well. I am writing to express my interest in the Quality Assurance Engineer position at AACAT Fintech Limited. With my strong background in telecom and software industry, along with my passion for research and development, I believe I would be a valuable addition to your team.
+I am writing to express my interest in the Quality Assurance Engineer position at AACAT Fintech Limited. With over 10 years of experience in the telecom and software industry, I am confident in my ability to contribute to your team.
 
-Over the past 10 years, I have gained extensive experience working in various roles within the telecom and software industry, including companies such as China Mobile Hong Kong, Sierra Wireless, and Tinklabs. My expertise lies in software testing, where I am confident in using JavaScript, Python, Docker, and conducting thorough quality assurance processes.
+Throughout my career, I have gained extensive experience in software testing, including manual and automation testing of both mobile and web-based applications. I have a strong understanding of the Front to Back Trading Cycle, particularly in stock trading. Additionally, I have knowledge of web service and backend testing, as well as programming skills in JavaScript and Python.
 
-In addition to my technical skills, I possess a deep understanding of the Front to Back Trading Cycle, particularly in stock trading. This knowledge would be advantageous in ensuring the quality and functionality of your applications. Furthermore, I have hands-on experience with both mobile and web-based applications and have worked closely with QA, Development, and Product teams to deliver high-quality products.
+I believe that my technical expertise and attention to detail make me a suitable candidate for this role. I am an active learner who is always willing to expand my knowledge and stay up-to-date with the latest industry trends. My GitHub page (https://louiscklaw.github.io) showcases some of my projects and contributions.
 
-I invite you to visit my GitHub page at [GitHub Link](https://louiscklaw.github.io) to explore some of my projects and see firsthand the work I have done. Additionally, you can find more information about me on my personal website.
-
-Thank you for considering my application. I am excited about the opportunity to contribute to AACAT Fintech Limited's success as a Quality Assurance Engineer. I look forward to discussing how my skills align with your requirements further.
+I would appreciate the opportunity to discuss how my skills align with the requirements of the Quality Assurance Engineer position at AACAT Fintech Limited. Thank you for considering my application.
 
 <div class="spacer"></div>
 
