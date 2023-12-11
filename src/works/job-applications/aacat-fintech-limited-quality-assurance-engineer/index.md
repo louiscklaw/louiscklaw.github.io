@@ -35,7 +35,7 @@ In my previous roles at China Mobile Hong Kong, SierraWireless, and Tinklabs, I 
 
 I am a dedicated learner who is always willing to expand my knowledge. I am confident in JavaScript, Python, Docker, and software testing methodologies. In my free time, I actively engage in research and development projects related to software development using various technologies such as React, GatsbyJS, PHP, C, Python, and Appium.
 
-I invite you to visit my GitHub page (https://louiscklaw.github.io) to explore some of my projects and code samples.
+I invite you to visit my GitHub page [https://louiscklaw.github.io](https://louiscklaw.github.io) to explore some of my projects and code samples.
 
 Thank you for considering my application. I look forward to the opportunity of discussing how my skills can contribute to your team at your opening.
 
