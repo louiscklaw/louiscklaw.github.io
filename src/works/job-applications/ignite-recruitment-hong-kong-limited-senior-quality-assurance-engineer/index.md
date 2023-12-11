@@ -28,17 +28,17 @@ Dear Hiring Manager,
 
 <div class="spacer"></div>
 
-I am writing to express my interest in the Senior Quality Assurance Engineer position at your opening. With over 10 years of experience in the telecom and software industry, I am confident that my skills and background align well with the requirements of the role.
+I am writing to express my interest in the Senior Quality Assurance Engineer position at your opening. With over 10 years of experience in the telecom and software industry, I believe I possess the skills and mindset necessary to contribute effectively to your team.
 
-Throughout my career, I have gained extensive experience in quality assurance engineering, working with JavaScript/TypeScript, Java, and automation testing tools such as Robot Framework and Selenium WebDriver. I have also successfully identified performance issues using Apache JMeter and have a strong understanding of databases like Postgres, Oracle, and MariaDB.
+Throughout my career, I have gained extensive experience in both manual and automation testing, working with JavaScript/TypeScript and Java. I have a strong Quality Assurance mindset and have successfully identified performance issues using tools such as Apache JMeter. Additionally, I am proficient in writing complex queries on databases like mySQL or MariaDB.
 
-In addition to my technical expertise, I have a thorough understanding of quality assurance concepts and tools such as Docker, CI/CD, and Jenkins. I have led and guided other quality assurance engineers through challenging situations in both project complexity and technical complexity. Furthermore, I have worked successfully in Agile teams following methodologies like Scrum, XP, Lean, or Kanban.
+In my previous roles at China Mobile Hong Kong, Sierra Wireless, and Tinklabs, I have demonstrated my ability to collaborate with cross-functional teams to deliver innovative solutions that exceed expectations. I have also coached and guided other Quality Assurance Engineers in developing their technical capabilities.
 
-Outside of work, I actively engage in research and development projects. My skills span across various technologies including JavaScript, Python, Docker, software testing, React, GatsbyJS, PHP, C++, and Appium. Additionally, I enjoy hardware/electronic projects using Arduino and Raspberry Pi.
+As an active learner and someone who loves research and development, I constantly strive to stay up-to-date with technology trends. My experience with Docker, CI/CD, Jenkins, and Agile methodologies makes me well-equipped for this role.
 
-I believe that my passion for learning new technologies combined with my experience in quality assurance make me an ideal candidate for this role. You can find more details about my work on my GitHub page: [louiscklaw.github.io](https://louiscklaw.github.io). I invite you to visit it to get a better understanding of my capabilities.
+I invite you to visit my GitHub page (https://louiscklaw.github.io) to explore some of the projects I have worked on. It would be a pleasure to discuss how my skills align with your requirements further.
 
-Thank you for considering my application. I look forward to the opportunity to discuss how my skills can contribute to your team's success.
+Thank you for considering my application.
 
 <div class="spacer"></div>
 
