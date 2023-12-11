@@ -1,6 +1,6 @@
 ---
-permalink: /works/job-applications/aacat-fintech-Limited-Quality-Assurance-Engineer/index.html
-title: aacat-fintech-Limited-Quality-Assurance-Engineer-application-page
+permalink: /works/job-applications/aacat-fintech-limited-quality-assurance-engineer/index.html
+title: aacat-fintech-limited-quality-assurance-engineer-application-page
 description: Application letter for the Quality Assurance Engineer position at aacat fintech Limited.
 
 date: "2023-12-10"
@@ -13,11 +13,12 @@ draft: false
 layout: job_applications.njk
 ---
 
-<!-- http://localhost:8080/works/job-applications/aacat-fintech-Limited-Quality-Assurance-Engineer/index.html -->
+<!-- http://localhost:8080/works/job-applications/aacat-fintech-limited-quality-assurance-engineer/index.html -->
 
 <div class="letter-header">
   <h2>aacat fintech Limited</h2>
   <h3>Quality Assurance Engineer - application letter</h3>
+  <p><a href="./post.png">original post</a></p>
 </div>
 
 ### Cover letter
