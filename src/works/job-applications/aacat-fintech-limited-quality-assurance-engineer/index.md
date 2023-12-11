@@ -27,17 +27,17 @@ Dear Hiring Manager,
 
 <div class="spacer"></div>
 
-I am writing to express my interest in the Quality Assurance Engineer position at your opening. With over 10 years of experience in the telecom and software industry, I believe I possess the skills and qualities necessary to contribute to your team.
+I am writing to express my interest in the Quality Assurance Engineer position at your opening. With over 10 years of experience in the telecom and software industry, I believe my skills and background align well with the job requirements.
 
-During my career, I have worked with renowned companies such as China Mobile Hong Kong, Sierra Wireless, and Tinklabs. My experience includes telecom operations, IoT manufacturing, and mobile app development. I am confident in JavaScript, Python, Docker, and software testing methodologies.
+Throughout my career, I have gained extensive experience in software testing, including manual and automation testing for both mobile and web-based applications. I have a strong understanding of the Front to Back Trading Cycle, particularly in stock trading. Additionally, I have knowledge in web service and backend testing, as well as programming languages like Java.
 
-As a proactive learner, I continuously explore new technologies and enjoy conducting research and development. In my free time, I work on various projects involving software development (React, GatsbyJS, PHP, C), hardware (Arduino, Raspberry Pi), PCB layout design, web scraping, and GitHub exploration.
+In my previous roles at China Mobile Hong Kong, SierraWireless, and Tinklabs, I have successfully coordinated test cases, executed QA tests on product delivery, and provided regular status reports to management. My attention to detail and problem-solving skills have allowed me to effectively track defects and investigate issues.
 
-With my strong background in both telecom and software industries along with my expertise in JavaScript and Python programming languages, I am well-equipped to understand user requirements and translate them into effective test cases. Additionally, my familiarity with automation tools such as Selenium and Appium would be an advantage for your organization.
+I am a dedicated learner who is always willing to expand my knowledge. I am confident in JavaScript, Python, Docker, and software testing methodologies. In my free time, I actively engage in research and development projects related to software development using various technologies such as React, GatsbyJS, PHP, C, Python, and Appium.
 
-I invite you to visit my GitHub page at https://louiscklaw.github.io to review some of my projects and code samples. It demonstrates my passion for technology and showcases the skills relevant to this role.
+I invite you to visit my GitHub page (https://louiscklaw.github.io) to explore some of my projects and code samples.
 
-Thank you for considering my application. I am excited about the opportunity to contribute to your team as a Quality Assurance Engineer. Please find attached my resume for your reference.
+Thank you for considering my application. I look forward to the opportunity of discussing how my skills can contribute to your team at your opening.
 
 <div class="spacer"></div>
 
