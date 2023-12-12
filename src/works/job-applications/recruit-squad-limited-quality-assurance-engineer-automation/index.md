@@ -27,15 +27,15 @@ Dear Hiring Manager,
 
 <div class="spacer"></div>
 
-I am writing to express my interest in the Quality Assurance Engineer (Automation) position at your esteemed company. With over 10 years of experience in the telecom and software industry, I believe that my skills and background make me a strong candidate for this role.
+I hope this email finds you well. I am writing to express my interest in the Quality Assurance Engineer (Automation) position at your company. With my strong background in telecom and software industry, along with my passion for research and development, I believe I would be a valuable addition to your team.
 
-Throughout my career, I have gained extensive knowledge in software testing methods and tools, including unit testing, interface testing, system testing, and performance testing. I have successfully coordinated with developers and project managers to ensure the quality of software products through functional testing. My experience also includes analyzing requirements, designing test cases, executing tests, tracking bugs, and providing feedback.
+Having accumulated around 10 years of working experience in the telecom and software industry, including roles at China Mobile Hong Kong, Sierra Wireless, and Tinklabs, I have gained extensive knowledge in software testing and quality assurance. My expertise includes functional testing, unit testing, interface testing, system testing, performance testing, and more. I am confident in using JavaScript, Python, Docker, and various software testing tools.
 
-In addition to my technical expertise, I am confident in JavaScript, Python, Docker, and have a passion for research and development. I hold a degree in Electronic And Communication Engineering from City University of Hong Kong. My previous roles at China Mobile Hong Kong, Sierra Wireless, and Tinklabs have provided me with valuable industry experience.
+Beyond my technical skills, I possess a proactive mindset and a strong commitment to delivering high-quality results. I am constantly seeking opportunities to learn and grow professionally. In my free time, I engage in various projects involving software development using React, GatsbyJS, PHP, C++, Python, and Appium. Additionally, I have experience with hardware/electronic projects using Arduino and Raspberry Pi.
 
-Outside of work, I actively engage in various software projects on platforms like GitHub and maintain my own website where I showcase my skills and projects. You can find more information about me on my GitHub page: [GitHub Page](https://louiscklaw.github.io).
+I invite you to visit my GitHub page at https://louiscklaw.github.io to explore some of the projects I have worked on. You can also find examples of my work on my YouTube channel [insert YouTube link here]. These platforms showcase my dedication to continuous learning and innovation.
 
-I would welcome the opportunity to contribute to your team's success by leveraging my skills and experience as a Quality Assurance Engineer (Automation). Thank you for considering my application.
+I would appreciate the opportunity to discuss how my skills align with your company's requirements further. Thank you for considering my application. Please find attached my resume for your reference.
 
 <div class="spacer"></div>
 
