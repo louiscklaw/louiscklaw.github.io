@@ -107,6 +107,14 @@
   justify-content: center;
 }
 
+iframe {
+  border-radius: 5px;
+}
+
+.shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 @media (min-width: 35.9375em) {
   .hide-mobile {
     display: unset;

@@ -1,8 +1,23 @@
 .job_applications {
+  div.letter-header{
+    h2 {
+      font-size: var(--text-2xl);
+      font-weight: unset;
 
+    }
+
+    h3 
+    {
+      margin-top: 0.25rem;
+      padding-top: 0rem;
+      font-size: var(--text-1xl);
+    }
+  }
+  
   .letter-container {
     /* background-color: var(--accent_grey_light); */
     padding: 1rem 0rem;
+    text-align: justify;
 
     .spacer {
       padding-top: 2rem;
@@ -55,10 +70,26 @@
 }
 
 
+
 @media (min-width: 35.9375em) {
   .job_applications {
     .img-spacer {
       display: none;
     }
+
+    div.letter-header{
+      h2 {
+        font-size: var(--text-3xl);
+        font-weight: unset;
+      }
+  
+      h3 {
+        margin-top: 0.5rem;
+        padding-top: unset;
+        font-size: var(--text-2xl);
+      }
+    }
   }
+
+
 }
