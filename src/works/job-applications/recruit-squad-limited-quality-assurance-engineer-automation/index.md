@@ -18,6 +18,7 @@ layout: job_applications.njk
 <div class="letter-header">
   <h2>Recruit Squad Limited</h2>
   <h3>Quality Assurance Engineer (Automation) application letter</h3>
+  <p><a href="./post.png">original post</a></p>
 </div>
 
 ### Cover letter
