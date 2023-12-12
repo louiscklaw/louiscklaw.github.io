@@ -34,7 +34,7 @@ Having accumulated around 10 years of working experience in the telecom and soft
 
 Beyond my technical skills, I possess a proactive mindset and a strong commitment to delivering high-quality results. I am constantly seeking opportunities to learn and grow professionally. In my free time, I engage in various projects involving software development using React, GatsbyJS, PHP, C++, Python, and Appium. Additionally, I have experience with hardware/electronic projects using Arduino and Raspberry Pi.
 
-I invite you to visit my GitHub page at https://louiscklaw.github.io to explore some of the projects I have worked on. You can also find examples of my work on my YouTube channel [insert YouTube link here]. These platforms showcase my dedication to continuous learning and innovation.
+I invite you to visit my GitHub page at [https://louiscklaw.github.io](https://louiscklaw.github.io) to explore some of the projects I have worked on. These platforms showcase my dedication to continuous learning and innovation.
 
 I would appreciate the opportunity to discuss how my skills align with your company's requirements further. Thank you for considering my application. Please find attached my resume for your reference.
 
