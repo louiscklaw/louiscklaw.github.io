@@ -13,6 +13,7 @@
 @import 'home.css';
 @import 'namecard.css';
 @import 'job_applications.css';
+@import 'beg-comment.css';
 
 .layout-wrapper {
   display: grid;

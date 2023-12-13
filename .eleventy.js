@@ -169,6 +169,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/works/**/*.png", { debug: true });
   eleventyConfig.addPassthroughCopy("src/works/**/*.avif", { debug: true });
 
+  eleventyConfig.addPassthroughCopy("src/beg-comment/**/*.svg", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/beg-comment/**/*.jpg", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/beg-comment/**/*.gif", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/beg-comment/**/*.png", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/beg-comment/**/*.avif", { debug: true });
+
   // TODO: add copy image of post here
   // lightbox
   eleventyConfig.addPassthroughCopy({ "src/lib/lightbox/*.css": 'assets' });

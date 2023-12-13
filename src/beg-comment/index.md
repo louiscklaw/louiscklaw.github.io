@@ -1,25 +1,30 @@
 ---
 title: beg-comment
-layout: credits.njk
+permalink: beg-comment/index.html
+layout: beg-comment.njk
 name: louiscklaw
 socialImage: /images/comment-social-image.png
 description: 唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review 比我呀？
 ---
 
-唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review 比我呀？
+## 唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review 比我呀？
 
-### Step 1
+<div class="plate">
+<h3>Step 1</h3>
 
 首先打開個 POST
 見到 "Make Offer" 呢個掣，㩒落去 ...
 
-![blabla](/images/beg-comment/step1.png)
+![blabla](./step1.png)
+
+</div>
 
 <div style="text-align: center;">
   <i class="fas fa-arrow-down"></i>
 </div>
 
-### Step 2
+<div class="plate">
+<h3>Step 2</h3>
 
 之後我就會九秒九 "Accept offer" ...
 
@@ -30,8 +35,10 @@ description: 唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review
 <div style="text-align: center;">
   <i class="fas fa-arrow-down"></i>
 </div>
+</div>
 
-### Step 3
+<div class="plate">
+<h3>Step 3</h3>
 
 跟住，你可以喺 "Inbox" 度，
 
@@ -41,14 +48,18 @@ description: 唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review
 <div style="text-align: center;">
   <i class="fas fa-arrow-down"></i>
 </div>
+</div>
 
-### Step 4
+<div class="plate">
+<h3>Step 4</h3>
 
 跟住，你就可以留 "Review" 喇。
 
 內容隨心就 OK
 
 ![blabla](/images/beg-comment/step4.png)
+
+</div>
 
 寫完之後記得㩒 "Submit Review" 呢個掣，多謝晒！ 🙇‍♂️🙇‍♂️🙇‍♂️
 
