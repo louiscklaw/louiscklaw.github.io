@@ -8,9 +8,6 @@
   margin-bottom: 2rem;
 }
 
-.beg-comment img::before {
-  width: 100%;
-}
 
 .beg-comment img {
   /* border: 4px solid rgba(0, 0, 0, 70%); */
@@ -18,6 +15,8 @@
   /* margin-left: auto; */
   /* margin-right: auto; */
   /* margin-top: 0; */
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .plate {
@@ -26,7 +25,6 @@
   border-radius: 1rem;
   /* background-color: gold; */
   border: 1px solid rgba(0, 0, 0, .33);
-
 }
 
 @media (min-width: 35.9375em) {
