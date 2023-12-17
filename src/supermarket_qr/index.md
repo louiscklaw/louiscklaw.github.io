@@ -12,7 +12,7 @@ image: '/images/me.jpg'
     <div class="title">易賞錢</div>
     <div 
       class="money_back_qr" 
-      style="background-image: url('/images/supermarket_qr/money_back.jpg');"
+      style="background-image: url('./money_back.jpg');"
     >
     </div>
   </div>
@@ -20,7 +20,7 @@ image: '/images/me.jpg'
       <div class="title">YUU</div>
       <div 
         class="yuu_qr" 
-        style="background-image: url('/images/supermarket_qr/yuu.jpg');"
+        style="background-image: url('./yuu.jpg');"
       >
       </div>
   </div>
