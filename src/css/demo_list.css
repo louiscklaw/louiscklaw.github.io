@@ -1,0 +1,16 @@
+.demo_list {
+    /* background-color: gold; */
+}
+
+.list-container {
+    /* background-color: pink; */
+}
+
+.list {
+    /* background-color: cyan; */
+    margin-top: 2rem;
+}
+
+.list div {
+    margin-top:0.5rem;
+}

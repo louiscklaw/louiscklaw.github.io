@@ -14,6 +14,7 @@
 @import 'namecard.css';
 @import 'job_applications.css';
 @import 'beg-comment.css';
+@import 'demo_list.css';
 
 .layout-wrapper {
   display: grid;
