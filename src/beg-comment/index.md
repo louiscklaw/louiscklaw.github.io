@@ -31,7 +31,6 @@ description: 唔好意思阻阻你幾分鐘，可唔可以幫個忙留個 review
 （呢步唔洗你做，只係用黎解釋我背後做緊乜 ... ）
 ![blabla](/images/beg-comment/step2.png)
 
-
 <div style="text-align: center;">
   <i class="fas fa-arrow-down"></i>
 </div>
