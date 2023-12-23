@@ -52,7 +52,6 @@ description: upload link to louiscklaw/louislabs
 
 <div class="lds-facebook"><div></div><div></div><div></div></div>
 
-
 Redirecting you to upload page
 of it doesn't, please click <a href="https://share.louislabs.com">here</a>
 
@@ -61,7 +60,6 @@ of it doesn't, please click <a href="https://share.louislabs.com">here</a>
 
 将您重定向到上传页面
 如果没有，请点击<a href="https://share.louislabs.com">此处</a>
-
 
 <script>
   window.location.replace("https://share.louislabs.com");

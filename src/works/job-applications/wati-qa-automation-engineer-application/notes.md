@@ -31,14 +31,12 @@
 - Proactive, energetic team player who can learn quickly
 - Love to code
 
-
 Company Overview
 
 WATI is an early stage, fast growing
-  SaaS platform
+SaaS platform
 that is revolutionizing how companies communicate with their customers.
 Through our cutting-edge customer engagement software built on Whatsapp’s Business API, businesses are now able to have personalised conversations, be easily accessible and engage with their customers in-real time - at scale! We live in the on-demand economy, where customers expect fast, simple and easy service and that’s exactly what our platform empowers companies to do.
-
 
 This is made possible through WATI’s easy-to-use platform that can be made up and running in no time. As a result, small and medium businesses have embraced the platform rapidly, and thousands of customers across 54 countries are now using WATI within just a year of launch.
 
@@ -56,8 +54,6 @@ What you’ll do:
 - Identifying quality issues and creating test reports
 - Perform root cause analysis to reproduce issues
 - Assist in analyzing the potential causes of defects, errors, and bugs based on observed test results
-
-
 
 ### Benefits
 

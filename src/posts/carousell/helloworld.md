@@ -8,4 +8,3 @@ public: false
 ---
 
 place holder of my tutorial post's price table...
-

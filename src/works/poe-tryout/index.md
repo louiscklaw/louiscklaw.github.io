@@ -2,17 +2,15 @@
 title: poe-tryout
 description: a cheatty way to use GPT services from poe.com
 permalink: works/{{ title | slug }}/index.html
-date: "2023-10-24"
-updated: "2023-10-24"
-tags: [ POE, GPT, api, express, docker, browserless, nodejs, javascript, expressjs ]
+date: '2023-10-24'
+updated: '2023-10-24'
+tags: [POE, GPT, api, express, docker, browserless, nodejs, javascript, expressjs]
 open_to_public: true
 ---
-
 
 ### Purpose:
 
 A "cheatty" way to use GPT service from poe.com
-
 
 ### system design:
 
@@ -28,8 +26,6 @@ A "cheatty" way to use GPT service from poe.com
   </a>
 </div>
 
-
-
 ### Repository:
 
 <a href="https://github.com/louiscklaw/ai-playlist/tree/master/poe-tryout" rel="noopener noreferrer" target="_blank">
@@ -40,11 +36,9 @@ A "cheatty" way to use GPT service from poe.com
 
 - linux(fedora), nodejs, express, docker, browserless
 
-
 ### component introduction:
 
 - TBD
-
 
 ### directory introduction:
 
@@ -53,8 +47,8 @@ $ tree -L 3 -d -a
 .
 ├── docs                          ( documentation )
 ├── _seeds                        ( seed for openbox-firefox )
-│   └── chrome-user-data-seed                        
-└── src                               
+│   └── chrome-user-data-seed
+└── src
     ├── bait                      ( hosting self bait page )
     ├── changedetect              ( changedetect container home )
     ├── dbapi                     ( dbapi container home )
@@ -66,11 +60,10 @@ $ tree -L 3 -d -a
     └── volumes                   ( docker persistance strage )
 ```
 
-
-
 ### development
 
 1. run these in the command prompt
+
 ```bash
 # in project root
 $ cp .env.example .env
@@ -81,27 +74,25 @@ $ ./build_image.sh
 $ ./push.sh
 # openbox-poe-seat build done
 
-$ npm run docker_dev 
+$ npm run docker_dev
 ```
 
 1. then on the host:
-  - start firefox, import mitm certificate
-  - mitm is not used at the moment
-  - test poe login state by start_firefox.sh
-  - start ./test.sh at openbox-firefox container
-  - to ensuore you are good to go
-    - run `/workspace/ai-playlist/poe-tryout/docker-poe-tryout/src/openbox-firefox/src/tests/ChatGPT/ask_helloworld/test.sh` -> the simpleest helloworld question to poe chatgpt
 
-
+- start firefox, import mitm certificate
+- mitm is not used at the moment
+- test poe login state by start_firefox.sh
+- start ./test.sh at openbox-firefox container
+- to ensuore you are good to go
+  - run `/workspace/ai-playlist/poe-tryout/docker-poe-tryout/src/openbox-firefox/src/tests/ChatGPT/ask_helloworld/test.sh` -> the simpleest helloworld question to poe chatgpt
 
 ### api endpoints:
 
-  - poe-scheduler
-    - /chatGPT/helloworld      ( poe chatGPT helloworld self-test )
-    - /chatGPT/ask             ( ask poe/chatGPT )
-    - /googlePalm/helloworld   ( poe/googlePalm helloworld self-test )
-    - /googlePalm/ask          ( ask poe/googlePalm )
-
+- poe-scheduler
+  - /chatGPT/helloworld ( poe chatGPT helloworld self-test )
+  - /chatGPT/ask ( ask poe/chatGPT )
+  - /googlePalm/helloworld ( poe/googlePalm helloworld self-test )
+  - /googlePalm/ask ( ask poe/googlePalm )
 
 ### start redis
 
@@ -115,16 +106,15 @@ redis-cli config set dir /data
 
 - TBD
 
+### v2raya in the middle, i add the proxy function to puppeteer already.
 
-### v2raya in the middle, i add the proxy function to puppeteer already. 
-  - the remaining part should be integrate it into the main openbox-poe-seat program.
-
+- the remaining part should be integrate it into the main openbox-poe-seat program.
 
 ### considerations:
-  - multithreaded
-    - if using puppeteer + express solution, the scheduler possibility need to implement by myself aswell
-    - use browserless to avoid implementing scheduler
 
+- multithreaded
+  - if using puppeteer + express solution, the scheduler possibility need to implement by myself aswell
+  - use browserless to avoid implementing scheduler
 
 ### reseed user profile for google chrome
 
@@ -147,7 +137,6 @@ $ docker compose restart openbox-poe-seat1
 
 ![](/images/works/poe-tryout/process-flow/graph.png)
 
-
 ### start:
 
 ```bash
@@ -160,7 +149,8 @@ $ docker compose restart mongo-express
 ```
 
 ### tackle cloudflare bot-prevention :
-  - so i change my path to using google-chrome
+
+- so i change my path to using google-chrome
 
 ![](/images/works/poe-tryout/tackle_cloudflare.png)
 
@@ -176,7 +166,7 @@ $ build.sh
 
 ### useful links:
 
-  - TBD
+- TBD
 
 ## flow (planning):
 
@@ -190,6 +180,7 @@ $ build.sh
 ### preprompt tryout:
 
 ### test 1 (testing on chatGPT):
+
 preprompt
 start a fresh talk
 remember you a person live in hong kong named louis
@@ -200,38 +191,40 @@ what is this person name ?
 ![](/images/works/poe-tryout/test_preprompt.gif)
 
 ### google-palm tryout:
+
 ![](/images/works/poe-tryout/google-palm.gif)
 
 ### high level design:
-  1. fetch (HLD)
-  1. draft (HLD)
-  1. review (HLD)
-  1. send (HLD)
+
+1. fetch (HLD)
+1. draft (HLD)
+1. review (HLD)
+1. send (HLD)
 
 ### Improvements/TODOs:
 
-  - docker-compse.production.yml
-  - V2raya In The Middle, I Add The Proxy Function To Puppeteer Already.
-    - the remaining part should be integrate it into the main openbox-poe-seat program.
-
+- docker-compse.production.yml
+- V2raya In The Middle, I Add The Proxy Function To Puppeteer Already.
+  - the remaining part should be integrate it into the main openbox-poe-seat program.
 
 ### update logs:
-  - 2023-08-01: add expres database to store log
-    - draft google-palm support
-    - update pre-prompt
 
+- 2023-08-01: add expres database to store log
+  - draft google-palm support
+  - update pre-prompt
 
 ### References:
-  - https://github.com/f/awesome-chatgpt-prompts
-  - https://florianholzapfel.github.io/express-restify-mongoose
+
+- https://github.com/f/awesome-chatgpt-prompts
+- https://florianholzapfel.github.io/express-restify-mongoose
 
 ### tags:
 
-  - ai training ( poe / chatGPT / googlePalm)
-  - api testing ( expressjs )
-  - stealthing / automation / puppeteer
-  - ui testing (google chrome / chromium / firefox )
-  - stealthing
-  - queueing / state machine
-  - changedetect / browserless
-  - jobsdb
+- ai training ( poe / chatGPT / googlePalm)
+- api testing ( expressjs )
+- stealthing / automation / puppeteer
+- ui testing (google chrome / chromium / firefox )
+- stealthing
+- queueing / state machine
+- changedetect / browserless
+- jobsdb

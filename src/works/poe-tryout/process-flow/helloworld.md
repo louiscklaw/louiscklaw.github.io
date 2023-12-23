@@ -28,5 +28,4 @@ sequenceDiagram
     flow_handler-->>-extractor: call-back!
 ```
 
-
 <!-- https://mermaid.js.org/syntax/sequenceDiagram.html -->

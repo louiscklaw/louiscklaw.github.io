@@ -3,10 +3,10 @@ permalink: /works/job-applications/{{ title | slug }}/index.html
 title: infotronic-software-engineer-application
 description: some preparation for zhipin interview.
 
-date: "2023-12-04"
-updated: "2023-12-04"
+date: '2023-12-04'
+updated: '2023-12-04'
 
-tags: [ appium, android, docker, python, javascript ]
+tags: [appium, android, docker, python, javascript]
 
 open_to_public: false
 draft: false
@@ -28,7 +28,7 @@ Dear Hiring Manager,
 <div class="spacer"></div>
 I am interested in applying for the <span class="bold">Software Engineer</span> at your post in 
 <a href="https://hk.jobsdb.com/hk/en/job/software-engineer-100003010752833" target="_blank">JobsDB</a>
-<a href="./post.png" target="_blank">(original post screencapture)</a>. 
+<a href="./post.png" target="_blank">(original post screencapture)</a>.
 
 Please find attached resume in the original jobsdb post for your consideration.
 
@@ -39,18 +39,19 @@ Should this post is hiring a software engineer, you may interested into this pos
 - [https://github.com/louiscklaw?tab=repositories&q=ionic](https://github.com/louiscklaw?tab=repositories&q=ionic)
 
 Besides I am experienced in software testing as well, you may take a look to these repository if interested:
+
 - [https://louiscklaw.github.io/works/appium-tryout/](https://louiscklaw.github.io/works/appium-tryout/)
 - [https://github.com/louiscklaw/cypress-playlist/](https://github.com/louiscklaw/cypress-playlist/)
 - [https://github.com/louiscklaw/js-playlist/](https://github.com/louiscklaw/js-playlist/)
 
 For resume and other stuff, please refer to the attachments in JobsDB.
 
-Thank you very much for reviewing my application. 
+Thank you very much for reviewing my application.
 I look forward to hearing from you regarding next steps.
 
 <div class="spacer"></div>
 
-Yours sincerely, 
+Yours sincerely,
 
 Louis C.K. Law
 
@@ -58,12 +59,11 @@ Louis C.K. Law
 
 </div>
 
-
 ### Simple Application showcase
 
 #### Purpose:
 
-This is a simple japanese restaurant project done in the past. 
+This is a simple japanese restaurant project done in the past.
 It consists React, Google Firebase and PWA.
 
 #### Demo (CMS/admin panel):
@@ -141,7 +141,6 @@ It consists React, Google Firebase and PWA.
   </div>
 
 </div>
-
 
 #### Demo (mobile client):
 

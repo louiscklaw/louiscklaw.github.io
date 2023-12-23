@@ -9,7 +9,6 @@ public: false
 
 place holder of my tutorial post's price table...
 
-
 ### pricing strategy
 
 收費方面，我會收 HKD80 ~ HKD140 浮動

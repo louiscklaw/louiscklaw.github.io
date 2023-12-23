@@ -2,8 +2,8 @@
 title: freelance / commissioning
 description: This page will hold the past task i done i think.
 permalink: works/{{ title | slug }}/index.html
-date: "2020-11-18"
-updated: "2021-02-12"
+date: '2020-11-18'
+updated: '2021-02-12'
 tags: [freelance, commissioning, javascript, vue, nodejs, expressjs, mongodb]
 open_to_public: true
 draft: false

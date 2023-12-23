@@ -1,7 +1,9 @@
 ## Job Post
+
 ### Job Highlights
 
 Create and maintain automated testing frameworks
+
 - 3 years' exerience in QA
 - Work at Mongkok commercial district
 
@@ -17,7 +19,8 @@ My client is market pioneer specialized in designing and developing top-notch el
 - Ensure testing deliverables meet project milestones and quality standards.
 
 ## Candidate information
-- name Louis 
+
+- name Louis
 - live in Hong Kong.
 - graduated in city university of hong kong with `Electronic And Communication Engineering`
 - have work in "China mobile Hong Kong" which is a Telecom and mobile company.

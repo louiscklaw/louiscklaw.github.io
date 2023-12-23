@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Louis portfolio"
+title: 'Louis portfolio'
 ---
 
 <h1>

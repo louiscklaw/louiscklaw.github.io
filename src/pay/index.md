@@ -118,7 +118,6 @@ description: payment link to louiscklaw/louislabs
 
 </div>
 
-
 <div 
   class="bottom-question"
   style="

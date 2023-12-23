@@ -11,21 +11,22 @@ name: louiscklaw
 ---
 
 <button class="accordion">Q: 演唱會 bot 做唔做？</button>
+
 <div class="panel">
   <p>A: 唔做</p>
 </div>
 
 <button class="accordion">Section 2</button>
+
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
 
 <button class="accordion">Section 3</button>
+
 <div class="panel">
   <p>Lorem ipsum...</p>
-</div> 
-
-
+</div>
 
 <style>
 /* Style the buttons that are used to open and close the accordion panel */
@@ -53,4 +54,3 @@ name: louiscklaw
   overflow: hidden;
 }
 </style>
-

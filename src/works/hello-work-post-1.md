@@ -3,8 +3,8 @@
 # permalink: works/{{ title | slug }}/index.html
 title: 用户活跃度是什么 user activity
 description: Health goth raw denim vaporware waistcoat, vegan neutra glossier. Cronut chartreuse tbh meh schlitz. Snackwave lumbersexual pinterest narwhal.
-date: "2020-11-18"
-updated: "2021-02-12"
+date: '2020-11-18'
+updated: '2021-02-12'
 tags: [demo-content, code, 用户活跃度, 活跃用户]
 draft: true
 open_to_public: false
@@ -19,6 +19,7 @@ open_to_public: false
 用户活跃度一般是指线上产品的用户在线时长以及登录、交互的频次，这里的交互是指在平台上进行互动，例如**关注**、**点赞**、**评论**、**收藏**、**置顶**、**留言**、**私信**等。用户活跃度可以真实反映出用户对产品的喜好和接受程度，活跃度高说明用户对产品的理解和接受程度较大，活跃度低则说明用户对产品的理解和接受程度较弱。
 
 不同的产品对用户的活跃度都有不同的计算规则，但通常：
+
 > 用户活跃度=日活跃用户/月活跃用户，
 
 > 计算公式：DAU/MAU（理论值不低于 0.2,0.2\*30 天=6 天，即用户登陆次数不少于 6 天）
@@ -26,11 +27,12 @@ open_to_public: false
 ## 2. 用户活跃度的常用指标
 
 衡量用户活跃度的常见指标主要有五个，分别是:
-  - 活跃用户数
-  - 活跃率
-  - 在线时长
-  - 启动次数
-  - 页面浏览量
+
+- 活跃用户数
+- 活跃率
+- 在线时长
+- 启动次数
+- 页面浏览量
 
 ---
 
@@ -69,7 +71,6 @@ open_to_public: false
 活跃用户用于衡量网站的运营现状，而流失用户则用于分析网站是否存在被淘汰的风险，以及网站是否有能力留住新用户。对于一个网站而言，真正有意义的是活跃用户数而非总用户数，因为只有这些用户在为网站创造着价值。
 
 事实上，很多公司对活跃用户定义有不同的标准。他们为了吸引眼球，为自己的运营方案服务，往往有意拉长统计时间段。一般来说，应以 15 日和 30 日流失率为依据。
-
 
 ### Credits:
 

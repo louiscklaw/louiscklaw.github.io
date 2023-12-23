@@ -2,16 +2,15 @@
 title: teamprompt-notes
 permalink: works/teamprompt-notes/index.html
 
-date: "2020-11-18"
-updated: "2021-02-12"
+date: '2020-11-18'
+updated: '2021-02-12'
 
 tags: [preprompt, teamprompt, gpt, ai, python, curl]
 open_to_public: false
 draft: true
 ---
 
-
-## API endpoints 
+## API endpoints
 
 ### `/conversation/conversations`
 
@@ -64,5 +63,3 @@ curl 'https://gptapi.apoidea.ai/v1/prompt/prompts/72e71444-ae98-4eb5-a578-7aa627
 ### Repository:
 
 - to be filled
-
-

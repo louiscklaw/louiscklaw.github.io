@@ -2,8 +2,8 @@
 title: youtube splitview tryout
 description: A personal page to help search APIs provided by hk government. Also trying using gatsby.
 permalink: works/{{ title | slug }}/index.html
-date: "2020-11-18"
-updated: "2021-02-12"
+date: '2020-11-18'
+updated: '2021-02-12'
 tags: [data, search, board, dashboard]
 ---
 
@@ -22,7 +22,6 @@ Currently revamping with gatsby
 </a>
 
 Demo:
-
 
 ### References / Repositories:
 

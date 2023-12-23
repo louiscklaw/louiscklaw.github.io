@@ -2,8 +2,8 @@
 title: hello work post 1
 description: Health goth raw denim vaporware waistcoat, vegan neutra glossier. Cronut chartreuse tbh meh schlitz. Snackwave lumbersexual pinterest narwhal.
 permalink: works/{{ title | slug }}/index.html
-date: "2020-11-18"
-updated: "2021-02-12"
+date: '2020-11-18'
+updated: '2021-02-12'
 tags: [demo-content, code]
 ---
 

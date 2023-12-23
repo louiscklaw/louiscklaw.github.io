@@ -2,8 +2,8 @@
 title: appium tryout
 description: This page hold some appium source code of louis.
 permalink: works/{{ title | slug }}/index.html
-date: "2020-11-18"
-updated: "2021-02-12"
+date: '2020-11-18'
+updated: '2021-02-12'
 tags: [android, appium, docker, javascript, appium-tests, appium-android, testing]
 open_to_public: true
 draft: false
@@ -19,7 +19,6 @@ draft: false
   (general block diagram)
 </div>
 
-
 ### Purpose:
 
 This page hold some appium source code from me.
@@ -34,11 +33,9 @@ Usually I test apps with android in the following way:
 
 2. with specific hardware (handy)
 
-- setup test stand 
-
+- setup test stand
 
 But most of the time i keep the host part inside docker, just like the block diagram above.
-
 
 ### Repository:
 

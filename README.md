@@ -1,6 +1,7 @@
 https://fontawesome.com/v5/search
 
 # to deploy
+
 ```bash
 # ./deploy.sh
 # in host
@@ -15,9 +16,12 @@ yarn deploy
 ```
 
 # to dev
+
 ```bash
 # method 1(preferred), on linux machine
 # step1 (= ./scripts/dev.sh)
+$ yarn -D
+
 $ yarn dev
 
 # step2 (= ./scripts/watch.sh)
