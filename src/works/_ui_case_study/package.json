@@ -1,11 +1,11 @@
 {
-  "name": "_case_study",
+  "name": "_ui_case_study",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gitUpdate":"git add . && git commit -m\"update _case_study,\""
+    "gitUpdate":"git add . && git commit -m\"update _ui_case_study,\""
   },
   "keywords": [],
   "author": "",
