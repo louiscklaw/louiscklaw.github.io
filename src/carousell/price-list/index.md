@@ -1,7 +1,7 @@
 ---
-title: Demo list
+permalink: carousell/price-list/index.html
 
-permalink: carousell/{{ title | slug }}/index.html
+title: price list
 
 layout: demo_list.njk
 
@@ -10,7 +10,7 @@ draft: false
 name: louiscklaw
 ---
 
-## Demo list
+## Price list
 
 笔记本维修厮收费
 
