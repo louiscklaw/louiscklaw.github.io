@@ -6,6 +6,10 @@ date: '2021-06-28'
 tags: []
 ---
 
+
+- 3d printing
+  - https://github.com/PrintersForAnts
+
 - electronics / projects
 
   - Kicad
