@@ -1,7 +1,7 @@
 ---
 title: Demo list
 
-permalink: carousell/{{ title | slug }}/index.html
+permalink: carousell/demo_list/index.html
 
 layout: demo_list.njk
 
