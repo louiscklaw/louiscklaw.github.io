@@ -5,9 +5,16 @@ https://www.carousell.com.hk/p/%E3%80%90%E5%AE%98%E6%96%B9%E8%AA%8D%E8%AD%89%E5%
 
 開發例子：
     - 公司網站
+        - company_web_demo.louislabs.com
     - 自由工作者
+        - freelancer_demo.louislabs.com
     - 攝影師
-    - 補習老師
+        - fotop_demo.louislabs.com
+    - 補習老師 / 補習班
+        - private_tutor_demo.louislabs.com
     - 裝修公司
+        - interior_design_demo.louislabs.com
     - 樓盤中介
+        - property_agency_demo.louislabs.com
     - 保險經紀
+        - insurence_agent_demo.louislabs.com
