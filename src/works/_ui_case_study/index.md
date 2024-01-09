@@ -18,3 +18,66 @@ https://www.carousell.com.hk/p/%E3%80%90%E5%AE%98%E6%96%B9%E8%AA%8D%E8%AD%89%E5%
         - property_agency_demo.louislabs.com
     - 保險經紀
         - insurence_agent_demo.louislabs.com
+
+http://wpwpro.com/
+
+瑜伽網站 https://wpwp1.sg-host.com/ 
+電子請帖/婚網 https://wpwp2.sg-host.com/ 
+https://wpwp3.sg-host.com/
+網上商店1 https://wpwp4.sg-host.com/ 
+https://wpwp5.sg-host.com/
+https://wpwp6.sg-host.com/
+網上商店2 https://wpwp7.sg-host.com/
+
+
+
+https://www.swaytheme.com/
+
+
+
+歡迎PM查詢
+
+網頁作品請查看本賬戶的簡介
+
+公司 / 個人網站方案包括 : $3000
+
+基本設置
+網頁設計（8頁嚮應式設計）
+網頁包括首頁、關於我們、產品介紹、聯繫我們、常見問題等 或其他頁面
+1年 網址 / 域名 / Domain
+1年 Hosting
+SSL網站安全認證
+SEO優化設定
+預約功能
+
+
+
+網店方案包括 : $4000
+
+基本設置
+網頁設計（12頁嚮應式設計）
+網頁包括首頁、關於我們、產品介紹、聯繫我們、常見問題、產品目錄和產品詳情等頁面
+網上付款系統(Woocommerce可自行添加商品）
+1年 網址 / 域名 / Domain
+1年 Hosting
+SSL網站安全認證
+SEO優化設定
+
+
+
+另加服務 ： +$500
+
+額外國家語言
+
+10年建站經驗
+不滿意保證退款
+
+流程： 
+查詢 >報價>付費>提供內容>製作>修改>完成
+
+
+---
+
+由零開設多功能網上商店，包括產品管理、付款及訂單管理、會員管理系統、 物流及運費管理及銷售報告，無需任何技術要求，完成後提供使用教學，有需要往後可自行更新及修改內容，免去不少煩惱。
+
+---

@@ -3,7 +3,7 @@ permalink: carousell/price-list/index.html
 
 title: price list
 
-layout: demo_list.njk
+layout: carousell/demo_list.njk
 
 open_to_public: false
 draft: false

@@ -3,7 +3,7 @@ title: faq
 
 permalink: carousell/{{ title | slug }}/index.html
 
-layout: carousell_faq.njk
+layout: carousell/faq.njk
 
 open_to_public: true
 draft: false

@@ -3,7 +3,7 @@ title: Demo list
 
 permalink: carousell/demo_list/index.html
 
-layout: demo_list.njk
+layout: carousell/demo_list.njk
 
 open_to_public: false
 draft: false
