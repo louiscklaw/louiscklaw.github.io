@@ -1,0 +1,19 @@
+.demo_list {
+  /* background-color: gold; */
+}
+
+.list-container {
+  /* background-color: pink; */
+}
+.list-container .list-item {
+  margin-top: 1rem;
+}
+.list-container .list-item div {
+  margin-top: 0.5rem;
+}
+
+.test_demo_list {
+  background-color: gold;
+}
+
+/*# sourceMappingURL=customize.css.map */
