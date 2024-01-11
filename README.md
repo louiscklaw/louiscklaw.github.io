@@ -9,7 +9,7 @@ $ yarn -D
 
 $ yarn dev
 
-# step2 (= ./scripts/watch.sh)
+# step2
 $ find **/*.md |entr -c -s "touch src/layouts/home.njk"
 
 ```
