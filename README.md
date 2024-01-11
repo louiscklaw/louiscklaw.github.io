@@ -1,5 +1,19 @@
 https://fontawesome.com/v5/search
 
+# to dev
+
+```bash
+# method 1(preferred), on linux machine
+# step1 (= ./scripts/dev.sh)
+$ yarn -D
+
+$ yarn dev
+
+# step2 (= ./scripts/watch.sh)
+$ find **/*.md |entr -c -s "touch src/layouts/home.njk"
+
+```
+
 # to deploy
 
 ```bash
@@ -15,19 +29,9 @@ yarn deploy
 
 ```
 
-# to dev
+---
 
-```bash
-# method 1(preferred), on linux machine
-# step1 (= ./scripts/dev.sh)
-$ yarn -D
-
-$ yarn dev
-
-# step2 (= ./scripts/watch.sh)
-$ find **/*.md |entr -c -s "touch src/layouts/home.njk"
-
-```
+# Origional
 
 # Eleventy Duo
 

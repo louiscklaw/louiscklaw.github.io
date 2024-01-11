@@ -1,0 +1,18 @@
+
+.redirect {
+    /* background-color: gold; */
+}
+
+.break-on-mobile {
+    display: block;
+}
+
+@media (min-width: 35.9375em) {
+    .redirect {
+        /* background-color: pink */
+    }
+
+    .break-on-mobile {
+        display: none;
+    }
+}
