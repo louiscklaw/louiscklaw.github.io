@@ -3,8 +3,7 @@ https://fontawesome.com/v5/search
 # to dev
 
 ```bash
-# method 1(preferred), on linux machine
-# step1 (= ./scripts/dev.sh)
+# method 1, on linux machine
 $ yarn -D
 
 $ yarn dev
