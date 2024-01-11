@@ -22,7 +22,7 @@ rm -rf ./public
 
 ./scripts/dc_build.sh
 
-sudo chown 1000:1000 -R .
+sudo chown 1000:1000 -R ./public
 
 yarn deploy
 
