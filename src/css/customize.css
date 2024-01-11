@@ -1,5 +1,15 @@
-.demo_list {
-  /* background-color: gold; */
+main.main {
+  width: 95%;
+  padding-left: 0;
+  padding-right: 0;
+}
+main.main .demo_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main.main .demo-list-test .hide-when-mobile {
+  display: none;
 }
 
 .list-container {
@@ -11,9 +21,84 @@
 .list-container .list-item div {
   margin-top: 0.5rem;
 }
+.list-container .list-item .item-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 312.5px;
+  width: 500px;
+  border-radius: 1rem;
+}
+.list-container .list-item .shadow {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 
-.test_demo_list {
-  background-color: gold;
+.list-container .demo-list-test {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.list-container .demo-list-test .demo-square {
+  margin-top: 2rem;
+  width: 100%;
+  height: 300px;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+.list-container .demo-list-test .demo-square .square-bg-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+@media (min-width: 35.9375em) {
+  main.main {
+    width: 100%;
+  }
+  main.main .demo-list-test .hide-when-mobile {
+    display: block;
+  }
+  .list-container .demo-list-test {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .list-container .demo-list-test .demo-square {
+    margin-top: 1rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+  }
+  .list-container .demo-list-test .demo-square .square-bg-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .list-container .demo-list-test .shadow {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+}
+.header__content {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 35.9375em) {
+  .header__content {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=customize.css.map */

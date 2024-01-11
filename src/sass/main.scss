@@ -1,5 +1,20 @@
 @import 'demo_list';
 
+.header__content {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .test_demo_list {
-    background-color: gold;
+}
+
+
+
+@media (min-width: 35.9375em) {
+    .header__content {
+        width: 100%;
+    }
 }

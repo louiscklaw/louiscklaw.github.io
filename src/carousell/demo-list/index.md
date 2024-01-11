@@ -10,42 +10,26 @@ draft: false
 name: louiscklaw
 ---
 
-## Demo list
+## Demo / 示範
 
 <div class="list-container">
-    <div class="demo-list">
-        <div class="list-item">
+    <div class="demo-list-test">
+        <div class="demo-square shadow">
             <a href="https://demo-nextjs.iamon99.com/" target="_blank" rel="noopener noreferrer" >
+                <div class="square-bg-img"
+                    style="background-image: url('image/demo-nextjs.png');">
+                </div>
                 <div>https://demo-nextjs.iamon99.com/</div>
             </a>
-            <div style="
-                background-image: url('image/demo-nextjs.png');
-                background-size: contain;
-                background-positin: center;
-                background-repeat:no-repeat;
-                height: calc(500px * 10 /16);
-                width: calc(500px);
-                "></div>
         </div>
-        <div class="list-item">
+        <div class="demo-square shadow">
             <a href="https://relocation_demo.louislabs.com/" target="_blank" rel="noopener noreferrer" >
+                <div class="square-bg-img"
+                    style="background-image: url('image/relocation_demo.png');">
+                </div>
                 <div>https://relocation_demo.louislabs.com/</div>
             </a>
-            <div style="
-                background-image: url('image/relocation_demo.png');
-                background-size: contain;
-                background-positin: center;
-                background-repeat:no-repeat;
-                height: calc(500px * 10 /16);
-                width: calc(500px);
-                "></div>
         </div>
-        <div style="display: none;">
-            <a href="https://demo-nextjs.iamon99.com/dashboard"
-                target="_blank" rel="noopener noreferrer"
-                >
-                <div>https://demo-nextjs.iamon99.com/dashboard</div>
-            </a>
-        </div>
+        <div class="demo-square hide-when-mobile"></div>
     </div>
 </div>
