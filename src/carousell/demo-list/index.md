@@ -19,7 +19,7 @@ name: louiscklaw
                 <div>https://demo-nextjs.iamon99.com/</div>
             </a>
             <div style="
-                background-image: url('demo-nextjs.png');
+                background-image: url('image/demo-nextjs.png');
                 background-size: contain;
                 background-positin: center;
                 background-repeat:no-repeat;
@@ -32,7 +32,7 @@ name: louiscklaw
                 <div>https://relocation_demo.louislabs.com/</div>
             </a>
             <div style="
-                background-image: url('relocation_demo.png');
+                background-image: url('image/relocation_demo.png');
                 background-size: contain;
                 background-positin: center;
                 background-repeat:no-repeat;
