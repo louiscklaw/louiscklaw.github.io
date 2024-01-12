@@ -30,7 +30,7 @@ main.main .demo-list-test .hide-when-mobile {
   border-radius: 1rem;
 }
 .list-container .list-item .shadow {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .list-container .demo-list-test {
@@ -78,7 +78,7 @@ main.main .demo-list-test .hide-when-mobile {
     gap: 1rem;
   }
   .list-container .demo-list-test .demo-square {
-    margin-top: 1rem;
+    margin-top: 3rem;
     width: 300px;
     height: 300px;
     border-radius: 1rem;
@@ -93,7 +93,7 @@ main.main .demo-list-test .hide-when-mobile {
     border-radius: 1rem;
   }
   .list-container .demo-list-test .shadow {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   }
 }
 .header__content {
