@@ -16,6 +16,8 @@ $ find **/*.md |entr -c -s "touch src/layouts/home.njk"
 # to deploy
 
 ```bash
+# stop dev server before deploy
+
 # should be same as ./deploy.sh
 # in host
 rm -rf ./public
