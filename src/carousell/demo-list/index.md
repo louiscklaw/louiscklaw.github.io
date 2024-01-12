@@ -18,8 +18,8 @@ name: louiscklaw
             <a href="https://demo-nextjs.iamon99.com/" target="_blank" rel="noopener noreferrer" >
                 <div class="square-bg-img"
                     style="background-image: url('image/demo-nextjs.png');">
-                </div>
-                <div>https://demo-nextjs.iamon99.com/</div>
+                </div>                
+                <div class="title">dashboard demo</div>
             </a>
         </div>
         <div class="demo-square shadow">
@@ -27,7 +27,15 @@ name: louiscklaw
                 <div class="square-bg-img"
                     style="background-image: url('image/relocation_demo.png');">
                 </div>
-                <div>https://relocation_demo.louislabs.com/</div>
+                <div class="title">relocation website demo</div>
+            </a>
+        </div>
+        <div class="demo-square shadow">
+            <a href="https://mobile_apps_demo.louislabs.com/" target="_blank" rel="noopener noreferrer" >
+                <div class="square-bg-img"
+                    style="background-image: url('image/relocation_demo.png');">
+                </div>
+                <div class="title">mobile apps website demo</div>
             </a>
         </div>
         <div class="demo-square hide-when-mobile"></div>
