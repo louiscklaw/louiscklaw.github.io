@@ -23,8 +23,10 @@ description: payment link to louiscklaw/louislabs
       margin-right: 1rem;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
       ">
-        # payme
-      </div>
+      <a href="https://payme.hsbc.com.hk">
+        # PayMe by HSBC
+      </a>
+    </div>
     <div style="
       padding: 1rem;
       margin-left: 1rem;
@@ -57,7 +59,9 @@ description: payment link to louiscklaw/louislabs
       margin-right: 1rem;
       border-radius: 5px;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
-      "># alipay / 支付寳</div>
+      ">
+      # AlipayHK / 支付寳香港
+    </div>
     <div style="
       padding: 1rem;
       margin-left: 1rem;
@@ -91,31 +95,41 @@ description: payment link to louiscklaw/louislabs
       border-radius: 5px;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
       ">
-        # tap & go / 拍住賞
+        # Tap & Go / 拍住賞
       </div>
     <div style="
-      padding: 1rem;
-      margin-left: 1rem;
-      margin-right: 1rem;
-      border-radius: 0rem 0rem 0.5rem 0.5rem;
-      border: 1px solid #f39c12;
       display: flex;
-      flex-direction: row;
-      justify-content:center;
+      flex-direction:column;
       align-items: center;
-      ">
-        <div style="
-          height: 300px; 
-          width: 300px;
-          background-image: url('/images/pay/tap_n_go.jpg');
-          background-position: center -180px;
-          background-size: 180%;
-          background-repeat: no-repeat;
-          ">
-        </div>
+    ">
+      <div style="
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+        border: 1px solid #f39c12;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        ">
+          <div style="
+            height: 300px; 
+            width: 300px;
+            background-image: url('/images/pay/tap_n_go.jpg');
+            background-position: center -180px;
+            background-size: 180%;
+            background-repeat: no-repeat;
+            ">
+          </div>
       </div>
+        <div>
+          <div>*請到 OK 或者 7-11 便利店，</div>
+          <div>同店員講增值，</div>
+          <div>然後出示呢個 QR code 就得嘞</div>
+        </div>
+    </div>
   </div>
-
 </div>
 
 <div 
