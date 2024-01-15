@@ -163,6 +163,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/manifest.json');
 
+  eleventyConfig.addPassthroughCopy("src/job-applications/**/*.svg", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/job-applications/**/*.jpg", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/job-applications/**/*.gif", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/job-applications/**/*.png", { debug: true });
+  eleventyConfig.addPassthroughCopy("src/job-applications/**/*.avif", { debug: true });
+
   eleventyConfig.addPassthroughCopy("src/works/**/*.svg", { debug: true });
   eleventyConfig.addPassthroughCopy("src/works/**/*.jpg", { debug: true });
   eleventyConfig.addPassthroughCopy("src/works/**/*.gif", { debug: true });
