@@ -6,7 +6,7 @@ description: Application letter for the Quality Assurance Engineer position at a
 date: '2023-12-10'
 updated: '2023-12-10'
 
-tags: [quality assurance, testing, software development]
+# tags: [quality assurance, testing, software development]
 
 open_to_public: true
 draft: false

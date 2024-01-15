@@ -6,7 +6,7 @@ description: Application letter for the Quality Assurance Engineer (Automation) 
 date: '2023-12-10'
 updated: '2023-12-10'
 
-tags: [quality assurance, automation, software testing, QA engineer]
+# tags: [quality assurance, automation, software testing, QA engineer]
 
 open_to_public: true
 draft: false

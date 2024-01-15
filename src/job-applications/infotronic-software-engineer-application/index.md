@@ -6,7 +6,7 @@ description: some preparation for zhipin interview.
 date: '2023-12-04'
 updated: '2023-12-04'
 
-tags: [appium, android, docker, python, javascript]
+# tags: [appium, android, docker, python, javascript]
 
 open_to_public: false
 draft: false

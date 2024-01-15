@@ -6,7 +6,7 @@ description: Application letter/page for the QA engineer/testing position at The
 date: '2023-12-11'
 updated: '2023-12-11'
 
-tags: [QA, testing, software development, automation, SDLC]
+# tags: [QA, testing, software development, automation, SDLC]
 
 open_to_public: true
 draft: false
