@@ -18,8 +18,16 @@ name: louiscklaw
             <a href="https://demo-nextjs.iamon99.com/" target="_blank" rel="noopener noreferrer" >
                 <div class="square-bg-img"
                     style="background-image: url('image/demo-nextjs.png');">
-                </div>                
+                </div>
                 <div class="title">dashboard demo</div>
+            </a>
+        </div>
+        <div class="demo-square shadow">
+            <a href="https://rest_cms.louislabs.com/dashboard/" target="_blank" rel="noopener noreferrer" >
+                <div class="square-bg-img"
+                    style="background-image: url('image/demo-nextjs.png');">
+                </div>
+                <div class="title">WMS admin panel demo</div>
             </a>
         </div>
         <div class="demo-square shadow">
@@ -35,7 +43,13 @@ name: louiscklaw
                 <div class="square-bg-img"
                     style="background-image: url('image/mobile_apps_demo.png');">
                 </div>
-                <div class="title">mobile apps website demo</div>
+                <div>
+                    <div class="title">
+                        mobile apps website demo
+                    </div>
+                    <div>multilingual</div>
+                    <div>admin dashboard</div>
+                </div>
             </a>
         </div>
         <div class="demo-square shadow">

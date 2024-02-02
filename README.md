@@ -3,6 +3,12 @@ https://fontawesome.com/v5/search
 # to dev
 
 ```bash
+# start docker container
+$ ./dc_up.sh
+
+# inside container
+$ ./dev.sh
+
 # method 1, on linux machine
 $ yarn -D
 

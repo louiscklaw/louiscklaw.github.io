@@ -1,0 +1,13 @@
+services:
+  app:
+    # image: node:20
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 8090:8080
+      - 3091:3001
+    working_dir: /usr/src/app
+    user: 1000:1000
+    command: ./dev.sh
+    # command: sleep infinity
